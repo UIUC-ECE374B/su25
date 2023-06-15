@@ -207,15 +207,6 @@ hamza:
       #   time-end: "12:00"
       #   day: Tuesday
       #   location: ECEB 2036  
-  
-avery:
-    display_name: "Avery Plote"
-    netid: averycp2
-    webpage: 
-    github: 
-    role: ugrad
-    image: /img/people/anon-male.jpg
-    bio: Undergraduate Course Assistant
 
 keerthana:
     display_name: "Keerthana Nallamotu"
