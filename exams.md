@@ -10,8 +10,8 @@ title: Exams
     <th>Date</th>
     <th>Skillset</th>
     <th>Cheat Sheet</th>
-    <th>Fodder</th>
-    <th>Sample</th>
+    <th>Sample 1</th>
+    <th>Sample 2</th>
     <th>Exam & Solutions</th>
   </tr>
   {% for iteml in site.data.exam %}  
@@ -44,22 +44,10 @@ title: Exams
             </a>
             {% endif %}
         </td>
-        <td>
-        <!-- Fodder  -->
-            {% if item.fodder %}
-            <a href="{{ site.base }}{{ item.fodder }}"
-                style="text-decoration: none">
-                <img class="homework-icon"
-                    alt="{{ iteml[0] }} fodder"
-                    title="{{ iteml[0] }} fodder"
-                    src="{{ site.base }}/img/icons/lab_questions.png" />
-            </a>
-            {% endif %}
-        </td>
         <td> 
-        <!-- Sample Exam  -->
-            {% if item.samp_exam %}
-            <a href="{{ site.base }}{{ item.samp_exam }}"
+        <!-- Sample Exam 1 -->
+            {% if item.samp_exam1 %}
+            <a href="{{ site.base }}{{ item.samp_exam1 }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} sample exam"
@@ -67,7 +55,37 @@ title: Exams
                     src="{{ site.base }}/img/icons/lab_questions.png" />
             </a>
             {% endif %}
+            {% if item.samp_exam2_sol %}
+            <a href="{{ site.base }}{{ item.samp_exam2_sol }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} exam solutions"
+                    title="{{ iteml[0] }} exam solutions"
+                    src="{{ site.base }}/img/icons/lab_solutions.png" />
+            </a>
+            {% endif %}              
         </td>
+        <td>
+        <!-- Sample Exam 2 -->
+            {% if item.samp_exam2 %}
+            <a href="{{ site.base }}{{ item.samp_exam2 }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} sample exam"
+                    title="{{ iteml[0] }} sample exam"
+                    src="{{ site.base }}/img/icons/lab_questions.png" />
+            </a>
+            {% endif %}
+            {% if item.samp_exam2_sol %}
+            <a href="{{ site.base }}{{ item.samp_exam2_sol }}"
+                style="text-decoration: none">
+                <img class="homework-icon"
+                    alt="{{ iteml[0] }} exam solutions"
+                    title="{{ iteml[0] }} exam solutions"
+                    src="{{ site.base }}/img/icons/lab_solutions.png" />
+            </a>
+            {% endif %}            
+        </td>        
         <td> 
             {% if item.exam_questions %}
             <a href="{{ site.base }}{{ item.exam_questions }}"
@@ -124,7 +142,7 @@ This lets me use problems that many of you have seen before but know that the pe
 
 #### Use pen
 
-The exams will be scanned and uploaded to Gradescope where they will be graded by the TAs. Unfortunately, last semester we had a problem with a number of individuals that used a pencil with a light touch causing the exam to be illegible. Therefore, we're banning pencils. I'm not going to go around confiscating pencils like some weird pen nazi, but if we see an exam that is difficult to read, we will take off points.  
+The exams will be scanned and uploaded to Gradescope where they will be graded by the TAs. Unfortunately, last semester we had a problem with a number of individuals that used a pencil with a light touch causing the exam to be illegible. Therefore, we're banning pencils. I'm not going to go around confiscating pencils like some weird pen nazi, but if we see an exam that is difficult to read, we will take off points. Just use pen, if you need to change something you can always cross out the previous answer and make a note for the grader to look at the scratch page.  
 
 
 ### Regrades
@@ -132,3 +150,8 @@ The exams will be scanned and uploaded to Gradescope where they will be graded b
 Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether or not the grading scale is fair.
 
 Unfortunately, certain students think that they can tire us into giving them point that they did not earn, by keep asking for unjustified regrade requests. As such, superfluous, argumentative and repetitive regrade requests, after an appropriate warning, would results in a zero on the relevant questions - please do not waste our time.
+
+### DRES
+- If you have a DRES accommodation, please email the course staff directly (not sure if sending documents over Piazza is compliant with EHR policies or not, but why risk it ). Make sure I respond that I've recorded your accommodation! If I don't respond email again.
+- Because of the limited staff, DRES students will take the exams at the [TAC](https://www.disability.illinois.edu/academic-accommodations-and-supports/academic-accommodations/testing-accommodations) synchronously with the rest of the class. We'll hammer out the details closer to MT1. 
+- Best thing you can do is **right now** schedule the exams with TAC. That way there is no chance on forgetting to schedule a slot and missing out on your accommodations.  
