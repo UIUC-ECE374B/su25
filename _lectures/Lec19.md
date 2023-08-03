@@ -1,162 +1,131 @@
 ---
-title: Lecture 19 - Minimum spanning trees (MSTs)
+title: Lecture 19 - Reductions
 placeholder: false
-back-color: fffffa
+back-color: fffaff
 card-link: LecLink19
 # subtitle: And a subtitle
-description: Lasting, we'll end the algorithms portion of the course with a discussion on minimum spanning tree algorithms. Will be a nice "cool-down" before the next midterm. 
+description: We'll begin this section of the course with a discussion of reductions, what various reductions imply and why they are useful. The SAT problem will be introduced as well.
 people:
-  - sandhya
+  - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-03-30
-link-slides: /materials/lecture_slides/lec19.pdf
-link-scribbles: /materials/lecture_slides/lec19_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_vo9hpi9z
+deliverydate: 2023-11-02
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
-<h3>Minimum Spanning Trees</h3>
 
-<h4>Definition</h4>
+<h5>Introduction</h5>
 
-- Input : Connected graph G = (V, E) with edge costs
-- Goal : Find T $\subseteq$ E such that (V, T) is connected and total cost of all edges in T is smallest. T is then the **minimum spanning tree (MST)** of G.
+In algorithms we reduce a new problem to known solved one!
 
-Example:
-<p align="center">
+<h6> Reductions for decision problems | languages </h6>
 
-<table border='0' align="center"> 
-  <tr>
-    <td>
-      <img src="/img/lectures/Lec19/mstb4.png" alt="text" style="width: 300px;">
-    </td>   
-    <td>
-    <img src="/img/lectures/Lec15/arrow.png" alt="text" style="width: 50px;">
-    </td> 
-    <td>
-    <img src="/img/lectures/Lec19/mstafter.png" alt="text" style="width: 300px;">
-    </td>  
-  </tr>
-</table>
-</p>
-<h4>Applications</h4>
+- R : Reduction X &rarr; Y
+- $A_Y$ : Algorithm for Y
+- $A_X$: New algorithm for X
+- $I_X$: Instance of X
+- $I_Y$: Instance of Y
 
-- Network Design
-- Designing networks with minimum cost but maximum connectivity
-- Approximation algorithms
-- Can be used to bound the optimality of algorithms to approximate Traveling Salesman Problem, Steiner Trees,etc.
-- Cluster Analysis
+<img src="/img/lectures/Lec20/R1.png" alt="Concatenation" style="width: 420px;"> 
 
-<h4>Basic Properties</h4>
+We can say that if R and $A_Y$ are polynomial-time algorithms, $A_X$ is also polynomial-time.
 
-- Tree = undirected graph in which any two vertices are connected by exactly one path.
-- Tree = a connected graph with no cycles.
-- Subgraph H of G is spanning for G, if G and H have same connected components.
-- A graph G is connected $\Longleftrightarrow$ it has a spanning tree.
-- Every tree has a leaf (i.e., vertex of degree one).
-- Every spanning tree of a graph on n nodes has n − 1 edges.
+- Reductions allow us to formalize the notion of “Problem X is no harder to solve than Problem Y”
+- If Problem X reduces to Problem Y (we write X $\leq$ Y), then X cannot be harder to solve than Y
+- More generally, if X $\leq$ Y, we can say that X is no harder than Y, or Y is at least as hard as X. X $\leq$ Y:
+    - X is no harder than Y, or
+    - Y is at least as hard as X
 
-<h4> Cuts </h4>
-Given a graph G = (V, E), a cut is a partition of the vertices of the graph into two sets (S, V \ S).
+<h5>Examples of Reduction</h5>
 
-- Edges having an endpoint on both sides are the edges of the cut.
-- A cut edge is crossing the cut.
-- (S, V \ S) = {uv $\in$ E | u $\in$ S, v $\in$ V \ S}.
+<h6>Independent Sets and Cliques</h6>
 
-<h4> Safe and Unsafe edges </h4>
+Given a graph G, a set of vertices V' is:
 
-<h5> Safe edge </h5>
+- **An Independent set**: if no two vertices of V' are connected by an edge of G.
+- **Clique** : if every pair of vertices in V' is connected by an edge of G.
 
-- Definition: An edge e = (u, v) is a safe edge if there is some partition of V into S and V \ S and e is the unique minimum cost edge crossing S (one end in S and the other in V \ S).
-- So, every cut identifies one safe edge, the cheapest edge in the cut.
-- Note that an edge e may be a safe edge for many cuts.
-- For example: In the below graph, the edge marked in red is a safe edge in the cut (S, V\S)
-<p align="center">
-<img src="/img/lectures/Lec19/safecut.jpg" alt="text" style="width: 450px;" >
-</p>
+We can reduce Independent Set to Clique. An instance of Independent Set is a graph G and an integer k. The reduction given $\langle G, k\rangle$ outputs $\langle G', k\rangle$  where G' is the complement of G. G' has an edge uv &harr; uv is not an edge of G.
+So,
 
-<h5> Unsafe edge </h5>
+G has an independent set of size k &harr; G' has a clique of size k.
 
-- Definition: An edge e = (u, v) is an unsafe edge if there is some cycle C such that e is the unique maximum cost edge in C.
-- So, every cycle identifies one unsafe edge, the most expensive edge in the cycle.
-- Example : 
+- Independent Set $\leq$$_P$ Clique.
+- Clique is at least as hard as Independent Set.
 
-<img src="/img/lectures/Lec19/unsafe.png" alt="text" style="width: 300px;" >
+To show Clique $\leq$$_P$ Independent Set :
 
-- If edge costs are distinct then every edge is either safe or unsafe
+Reduction figure:
 
-<h4> Spanning tree properties </h4>
+<img src="/img/lectures/Lec20/R1.png" alt="Concatenation" style="width: 420px;"> 
 
-- If e is a safe edge then every minimum spanning tree contains e.
-- Suppose e = (v,w) is not in MST T and e is min weight edge in cut (S, V \ S). Assume v ∈ S. Then, T' = (T \ {e'}) $\cup$ {e} is a spanning tree.
-- The safe edges form the MST 
-    - Let G be a connected graph with distinct edge costs, then the set of safe edges does not contain a cycle.
-    - Let G be a connected graph with distinct edge costs, then set of safe edges form the unique MST of G.
-- The unsafe edges are not in the MST
-    - If e is an unsafe edge then no MST of G contains e. 
+- $I_X$ = $\langle G' \rangle$ 
+- $A_X$ = Clique
+- $I_Y$ = $\langle G\rangle$ 
+- $A_Y$ = Independent Set
+- R : G' = {V, E'}
 
-<h4> Algorithms </h4>
+Clique and Independent Set are polynomial-time equivalent because:
 
-- Borůvka’s Algorithm
-```latex
-T is ∅ (* T will store edges of a MST *)
-while T is not spanning do
-    X ← ∅
-    for each connected component S of T do
-        add to X the cheapest edge between S and V \ S
-    Add edges in X to T
-return the set T
-```
-Running time: O(m log n) time
+- Independent Set $\leq$$_P$ Clique
+- Clique $\leq$$_P$ Independent Set
 
-- Kruskals Algorithm
-```latex
-Kruskal_ComputeMST
-    Initially E is the set of all edges in G
-    T is empty (* T will store edges of a MST *)
-    while E is not empty do
-        choose e ∈ E of minimum cost
-        if (T ∪ {e} does not have cycles)
-            add e to T
-    return the set T
-```
-Running time: O(m log m) + O(mn) = O(mn)
+<h6>Independent Set and Vertex Cover</h6>
 
-- Prim's Algorithm
-```latex
-Prim_ComputeMST
-    E is the set of all edges in G
-    S = {1}
-    T is empty (* T will store edges of a MST *)
-    while S 6= V do
-        pick e = (v,w) ∈ E such that
-            v ∈ S and w ∈ V \ S
-            e has minimum cost
-        T = T ∪ e
-        S = S ∪ w
-    return the set T
-```
-Running time: O(nm)
-- Prim's Algorithm using Priority Queues
-```latex
-Prim_ComputeMSTv3
-    T ← ∅, S ← ∅, s ← 1
-    ∀v ∈ V (G) : d(v) ← ∞, p(v) ← Nil
-    d(s) ← 0
-    while S 6= V do
-        v = arg min u∈ V\S d(u)
-        T = T ∪ {vp(v)}
-        S = S ∪ {v}
-        for each u in Adj(v) do
-            d(u) ← min {d(u), c(vu)}
-            if d(u) = c(vu) then
-                p(u) ← v
-    return T
-```
+Given a graph G = (V, E), a set of vertices S is:
+ - A **vertex cover** if every e $\in$ E has at least one endpoint in S
+
+Let G = (V, E) be a graph. S is an Independent Set &harr; V \ S is a vertex cover.
+
+To show Independent Set  $\leq$$_P$ Vertex Cover:
+- G : graph with n vertices, and an integer k be an instance of the Independent Set problem.
+- G has an independent set of size $\geq$ k  &harr; G has a vertex cover of size $\leq$ n-k
+
+Reduction figure:
+
+<img src="/img/lectures/Lec20/R1.png" alt="Concatenation" style="width: 420px;"> 
+
+- $I_X$ = $\langle G\rangle$
+- $A_X$ = Independent Set(G, k)
+- $I_Y$ = $\langle G\rangle$ 
+- $A_Y$ = Vertex Cover(G, n-k)
+- R : G' = G
+
+(G, k) is an instance of Independent Set, and (G, n - k) is an instance of Vertex Cover with the same answer.Therefore,
+
+- Independent Set  $\leq$$_P$ Vertex Cover
+- Vertex Cover $\leq$$_P$ Independent Set
+
+<h5>NFAs | DFAs and Universality</h5>
+
+A DFA M is universal if it accepts every string. That is, L(M) = $\Sigma^*$, the set of all strings.
+
+- To solve DFA Universality, we check if a DFA M has any reachable non-final state.
+
+A NFA N is said to be universal if it accepts every string. That is, L(N) = $\Sigma^*$, the set of all strings.
+ - To we solve NFA Universality, we reduce it to DFA Universality. 
+ - Given an NFA N, convert it to an equivalent DFA M, and use the DFA Universality Algorithm.
+- The above reduction takes exponential time.
+- NFA Universality is known to be PSPACE-Complete.
+
+<h5>Polynomial-time reductions</h5>
+
+We say that an algorithm is efficient if it runs in polynomial-time. A polynomial time reduction from a decision problem X to a decision problem Y is an algorithm A that has the following properties:
+- Given an instance $I_X$ of X, A produces an instance $I_Y$ of Y
+- A runs in time polynomial in  $\|I_X\|$.
+- Answer to $I_X$ YES &harr; answer to $I_Y$ is YES.
+
+ If X $\leq$$_P$ Y then a polynomial time algorithm for Y implies a polynomial time algorithm for X.
+
+Such a reduction is called a Karp reduction. Karp reductions are the same as mapping reductions when specialized to polynomial time for the reduction step.
 
 <h4>Additional Resources</h4>
-- [Jeff's Textbook - Minimum Spanning Trees](https://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)
-- [Sariel's Lecture 20](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+- [Sariel's Lecture 21](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/pdfs/21.pdf) 
+
+
 
 
 

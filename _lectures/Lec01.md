@@ -1,22 +1,22 @@
 ---
-title: Lecture 2 - Languages and regular expression
+title: Lecture 1 - Languages and regular expression
 placeholder: false
 back-color: faffff
-card-link: LecLink2
+card-link: LecLink01
 # subtitle: And a subtitle
 description: We'll discuss regular languages and representing them as regular expressions (the OG RegEx). 
 people:
   - kani
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-19
-link-slides: /materials/lecture_slides/lec2.pdf
-link-scribbles: /materials/lecture_slides/lec2_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_2f3yc8he/282723252
+deliverydate: 2023-08-24
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 #### Strings and Languages
-- Strings are the elements of the lenguauges. Each string represents a problem instance. 
+- Strings are the elements of the languages. Each string represents a problem instance. 
 - A alphabet($\Sigma$) is a finite set of symbols (example: $\Sigma = \\{0, 1\\}$).
 
 Some string and set facts: 
@@ -51,9 +51,9 @@ Some string and set facts:
 
 #### Regular Languages
 
-**Kleene's Theorem:** A language is regular if and only if it can be obtained from finite languages by applying the three operations: union ($\cup$), concatentation ($\cdot$), repetition($^*$) a finite numer of times. 
+**Kleene's Theorem:** A language is regular if and only if it can be obtained from finite languages by applying the three operations: union ($\cup$), concatenation ($\cdot$), repetition($^*$) a finite number of times. 
 
-**Base Case:**: $\emptyset$, $\\{ \varepsilon \\}$, $\\{a\\}$ (for each $a \in \Sigma$) are all regular langauges. 
+**Base Case:**: $\emptyset$, $\\{ \varepsilon \\}$, $\\{a\\}$ (for each $a \in \Sigma$) are all regular languages. 
 **Inductive Step**: If you can apply the above operations on the base language a 
 
 #### Regular expressions
@@ -94,15 +94,15 @@ $$r_{AND_N} = \underbrace{(0\cdot + 1\cdot)^* 0 (0\cdot + 1 \cdot)^* \vert 0"}_{
 
 ###### What is $\varepsilon^+$
 
-There was a question on what $\varepsilon^+$ (and $\varepsilon^\*$). My argument was that it should be $\\{\varepsilon\\}$ because you always get a set out of the kleene star and: 
+There was a question on what $\varepsilon^+$ (and $\varepsilon^\*$). My argument was that it should be $\\{\varepsilon\\}$ because you always get a set out of the Kleene star and: 
 
 $$\varepsilon^+ = \Sigma_{n=1}^{\infty}\varepsilon^n = \varepsilon^1 \cup \varepsilon^2 \cup \ldots$$
 
 where you have multiple strings that you can union together. However, some of you were confused because theres only strings in that equation and so shouldn't the output be a string ($\varepsilon$ (not a set))? 
 
-I went through a bunch of text and saw that kleene star is always applied to a set. The only time when it isn't applied to a set is when we're talking about regular expressions. 
+I went through a bunch of text and saw that Kleene star is always applied to a set. The only time when it isn't applied to a set is when we're talking about regular expressions. 
 
-So I think you guys are right, sort of. Union is supposed to be a set operation and unioning strings together means nothing. However, the issue is regular expressions are a permanent fixture of modern computability and so when someone writes $w^\*$, they don't literally mean union of $w$ with $ww$ and so on, *in the mathematical sense*, they mean $w^\*$ in the RegEx sense and regular expressions assume that when you write $w$, you mean $\\{w\\}$. So yeah, this is my bad. 
+So I think you guys are right, sort of. Union is supposed to be a set operation and union-ing strings together means nothing. However, the issue is regular expressions are a permanent fixture of modern computability and so when someone writes $w^\*$, they don't literally mean union of $w$ with $ww$ and so on, *in the mathematical sense*, they mean $w^\*$ in the RegEx sense and regular expressions assume that when you write $w$, you mean $\\{w\\}$. So yeah, this is my bad. 
 
 The correct answer would be $\\{\varepsilon\\}$ assuming a regular expression, or simply *undefined* in a strict mathematical interpretation. 
 

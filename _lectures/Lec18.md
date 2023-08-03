@@ -1,115 +1,166 @@
 ---
-title: Lecture 18 - Shortest paths II - Bellman-Ford and Floyd-Warshall
+title: Lecture 18 - Minimum spanning trees (MSTs)
 placeholder: false
 back-color: fffffa
 card-link: LecLink18
 # subtitle: And a subtitle
-description: We'll continue our discussion of shortest path algorithms with two algorithms which use DP principles as well.
+description: Lasting, we'll end the algorithms portion of the course with a discussion on minimum spanning tree algorithms. Will be a nice "cool-down" before the next midterm. 
 people:
-  - sungwoo
+  - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-03-28
-link-slides: /materials/lecture_slides/lec18.pdf
-link-scribbles:
-link-recording:
+deliverydate: 2023-10-26
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
-<h4>Dijkstra's Algorithm on Negative-weighted Graphs</h4>
+<h3>Minimum Spanning Trees</h3>
 
-As covered in the last lecture, **Dijkstra's algorithm** finds the shortest distance from a single source vertex to all other vertices. 
-However, when the graph contains edges with negative weights, Dijkstra's algorithm might fail to find the shortest distance. 
-Consider the following example. 
+<h4>Definition</h4>
 
-<img src="/img/lectures/Lec18/lec18_dijkneg.png" alt="dijkneg" style="width:800px;">
+- Input : Connected graph G = (V, E) with edge costs
+- Goal : Find T $\subseteq$ E such that (V, T) is connected and total cost of all edges in T is smallest. T is then the **minimum spanning tree (MST)** of G.
 
-Suppose we start from the vertex $s$. 
-Since the vertices $a$ and $b$ are both reachable from $s$, the distance to the two vertices would be updated to $3$ and $4$ respectively.
-Then we would visit vertex $a$, which is the closest unvisited vertex. There are no outgoing edges from $a$, so we do not update the distance at all.
-Lastly we visit vertex $b$. At this point, all other vertices are already marked as visited, so we do not update the distance table.
-Note that the actual shortest distance from $s$ to $a$ is $2$, which can be obtained by the path $s\rightarrow b \rightarrow a$.
-However, Dijkstra's algorithm visits $a$ before it visits $b$ and mark $a$ as visited, which would result in incorrect shortest distance. 
+Example:
+<p align="center">
 
-<h4>Bellman-Ford Algorithm</h4>
+<table border='0' align="center"> 
+  <tr>
+    <td>
+      <img src="/img/lectures/Lec19/mstb4.png" alt="text" style="width: 300px;">
+    </td>   
+    <td>
+    <img src="/img/lectures/Lec15/arrow.png" alt="text" style="width: 50px;">
+    </td> 
+    <td>
+    <img src="/img/lectures/Lec19/mstafter.png" alt="text" style="width: 300px;">
+    </td>  
+  </tr>
+</table>
+</p>
+<h4>Applications</h4>
 
-**Bellman-Ford algorithm** is an algorithm that finds the shortest path from a source vertex to all other vertices, like Dijkstra's algorithm.
-The algorithm is slower compared to Dijkstra's algorithm, but it can handle graphs with negative-weighted edges. 
-At a high level, the algorithm runs as follows:
+- Network Design
+- Designing networks with minimum cost but maximum connectivity
+- Approximation algorithms
+- Can be used to bound the optimality of algorithms to approximate Traveling Salesman Problem, Steiner Trees,etc.
+- Cluster Analysis
 
-1. Initialize the distance to the source vertex as $0$, and the distance to all other vertices as $\infty$
-2. For $|V|-1$ times:
-	Check every edge $(u,v)$ and update distance if $d[v] < d[u]+l(u,v)$
+<h4>Basic Properties</h4>
 
-Where $d[x]$ denotes the distance from the source vertex to the vertex $x$, and $l(u,v)$ denotes the length of the edge $(u,v)$. 
-Since the algorithm loops for $|V|-1$ times, and each iteration involves checking every edge once, the runtime of the algorithm is $O(|V||E|)$. 
+- Tree = undirected graph in which any two vertices are connected by exactly one path.
+- Tree = a connected graph with no cycles.
+- Subgraph H of G is spanning for G, if G and H have same connected components.
+- A graph G is connected $\Longleftrightarrow$ it has a spanning tree.
+- Every tree has a leaf (i.e., vertex of degree one).
+- Every spanning tree of a graph on n nodes has n − 1 edges.
 
-<img src="/img/lectures/Lec18/lec18_bf.png" alt="bf" style="width:800px;">
+<h4> Cuts </h4>
+Given a graph G = (V, E), a cut is a partition of the vertices of the graph into two sets (S, V \ S).
 
-<h4>Properties of Bellman-Ford Algorithm</h4>
+- Edges having an endpoint on both sides are the edges of the cut.
+- A cut edge is crossing the cut.
+- (S, V \ S) = {uv $\in$ E | u $\in$ S, v $\in$ V \ S}.
 
-As mentioned in the previous section, Bellman-Ford algorithm can handle graphs with negative edges. 
-This is because the algorithm scans over all edges on each iteration with excluding already visited vertices.
-Due to this behavior, Bellman-Ford Algorithm has a property that after $i$th iteration, the algorithm is guaranteed to discover the shortest distance to every other vertex that can be achieved by using at most $i$ edges. 
-That is, the distances in the table $d$ after $i$th iteration is at least as good as the distance of the actual shortest path with at most $i$ edges. 
+<h4> Safe and Unsafe edges </h4>
 
-One natural question we can ask is: Why do we iterate for $|V|-1$ times? 
-How do we know that $|V|-1$ iterations are sufficient to find the shortest path? 
-Suppose there is a path from the source $s$ to another vertex $v$ that uses $|V|$ edges. 
-By pigeonhole principle, there exists a vertex $u$ that appears more than once in the path.
-In other words, this path definitely contains a cycle. 
-Now suppose the cycle is a positive cycle(that is, the sum of the weights of the edges contained in the cycle is positive).
-In this case, taking the cycle can only increase the distance to $u$ and all the following vertices.
-Therefore, there is no point of considering a path containing the cycle when looking for the shortest distance. 
-On the other hand, suppose the cycle is negative cycle.
-In this case, finding the shortest distance is not possible in the first place, since by repeatedly taking the cycle we can infinitely reduce the distance to certain vertices. 
-Due to the above reasons, we are only interested in paths without cycles, which can only contain upto $|V|-1$ edges. 
+<h5> Safe edge </h5>
 
-One last thing to note about Bellman-Ford algorithm is that it can be used to detect negative cycles. 
-The idea comes from the properties of the algorithm described above. 
-After $|V|-1$ iterations, Bellman-Ford algorithm finds the shortest distances to all vertices that can be achieved with $|V|-1$ edges. 
-If the graph is free of negative cycles, then the distances in $d$ after $|V|-1$ iterations are the actual shortest distances that can possible be achieved.
-However, if the graph contains a negative cycle, then it would be possible to obtain shorter distance to certain vertices taking longer paths that contains the negative cycle.
-Therefore, by running $|V|$th iteration of Bellman-Ford algorithm and checking if the distance table is updated, we can check if the graph contains a negative cycle. 
+- Definition: An edge e = (u, v) is a safe edge if there is some partition of V into S and V \ S and e is the unique minimum cost edge crossing S (one end in S and the other in V \ S).
+- So, every cut identifies one safe edge, the cheapest edge in the cut.
+- Note that an edge e may be a safe edge for many cuts.
+- For example: In the below graph, the edge marked in red is a safe edge in the cut (S, V\S)
+<p align="center">
+<img src="/img/lectures/Lec19/safecut.jpg" alt="text" style="width: 450px;" >
+</p>
 
-<h4>Single Source Shortest Distance on DAGs</h4>
+<h5> Unsafe edge </h5>
 
-If the graph does not contain a cycle, then we can find the shortest distance from a single source to all other vertices in linear time. 
+- Definition: An edge e = (u, v) is an unsafe edge if there is some cycle C such that e is the unique maximum cost edge in C.
+- So, every cycle identifies one unsafe edge, the most expensive edge in the cycle.
+- Example : 
 
-1. Topologically sort the graph
-2. Initialize the distance to the source vertex as $0$, and the distance to all other vertices as $\infty$
-3. For vertex $u\in V$ in topological order:
-	Check every edge $(u,v)$ and update distance if $d[v]>d[u]+l(u,v)$
-	
-Once we have a topological sort of the graph, we know in which order the edges must be explored
- to get the shortest distance.
-Therefore, the DAG shortest distance algorithm only checks each edge once, which gives the overall time complexity of $O(|V|+|E|)$. 
-Note that the algorithm can be applied on graphs with negative edges as long as the graph is acyclic.
+<img src="/img/lectures/Lec19/unsafe.png" alt="text" style="width: 300px;" >
 
-<img src="/img/lectures/Lec18/lec18_dag.png" alt="dag" style="width:800px;">
+- If edge costs are distinct then every edge is either safe or unsafe
 
-The operation of the algorithm illustrated in the figure seems similar to that of Bellman-Ford algorithm. 
-However, Bellman-Ford algorithm had to iterate over all edges to find distances to update, whereas the DAG algorithm immediately knows which edges to check. 
+<h4> Spanning tree properties </h4>
 
-<h4>Floyd-Warshall Algorithm</h4>
+- If e is a safe edge then every minimum spanning tree contains e.
+- Suppose e = (v,w) is not in MST T and e is min weight edge in cut (S, V \ S). Assume v ∈ S. Then, T' = (T \ {e'}) $\cup$ {e} is a spanning tree.
+- The safe edges form the MST 
+    - Let G be a connected graph with distinct edge costs, then the set of safe edges does not contain a cycle.
+    - Let G be a connected graph with distinct edge costs, then set of safe edges form the unique MST of G.
+- The unsafe edges are not in the MST
+    - If e is an unsafe edge then no MST of G contains e. 
 
-**Floyd-Warshall algorithm** is another shortest distance algorithm for graphs with negative edges.
-However, instead of finding the distances from a single source, Floyd-Warshall algorithm finds the shortest distances between any pair of vertices. 
-Floyd-Warshall algorithm recursively fills out a 3D array which would eventually hold the shortest distances.
-Suppose we labeled all vertices arbitrarily with integers $1,2,...,|V|$. 
-Let $FW(i,j,k)$ denote the shortest distance from vertex $i$ to $j$ that can be achieved using only the intermediate vertices(excluding the source $i$ and the destination $j$) with labels less than or equal to $k$. 
-As the base case, $FW(i,j,0)$ would equal to the length of the edge $(i,j)$ if the edge exists, and $\infty$ otherwise, since we cannot use any intermediate vertices. 
-For $k>0$, there are two subcases to consider. 
-If it is possible to obtain shorter distance by including the vertex $k$, then $FW(i,j,k)$ would equal to $FW(i,k,k-1)$+$FW(k,j,k-1)$, which is the sum of distances from $i$ to $k$ and from $k$ to $j$ using intermediate vertices upto $k-1$. 
-On the other hand, if we can't construct a shorter path by including $k$, then $FW(i,j,k)$ would be the same as $FW(i,j,k-1)$.
-Finally, $FW(i,j,|V|)$ would be the shortest distance between $i$ and $j$. 
+<h4> Algorithms </h4>
 
-$$ FW(i,j,k)=
-\begin{cases} 
-l(i,j) &\text{if }k=0 \text{ and }(i,j)\in E\\
-\infty &\text{if }n=0 \text{ and }(i,j)\notin E\\
-\min(FW(i,j,k-1),FW(i,k,k-1)+FW(k,j,k-1)) &\text{otherwise} 
-\end{cases}
-$$
+- Borůvka’s Algorithm
+```latex
+T is ∅ (* T will store edges of a MST *)
+while T is not spanning do
+    X ← ∅
+    for each connected component S of T do
+        add to X the cheapest edge between S and V \ S
+    Add edges in X to T
+return the set T
+```
+Running time: O(m log n) time
 
-Filling out the 3D array takes $O(|V|^3)$. 
+- Kruskals Algorithm
+```latex
+Kruskal_ComputeMST
+    Initially E is the set of all edges in G
+    T is empty (* T will store edges of a MST *)
+    while E is not empty do
+        choose e ∈ E of minimum cost
+        if (T ∪ {e} does not have cycles)
+            add e to T
+    return the set T
+```
+Running time: O(m log m) + O(mn) = O(mn)
+
+- Prim's Algorithm
+```latex
+Prim_ComputeMST
+    E is the set of all edges in G
+    S = {1}
+    T is empty (* T will store edges of a MST *)
+    while S 6= V do
+        pick e = (v,w) ∈ E such that
+            v ∈ S and w ∈ V \ S
+            e has minimum cost
+        T = T ∪ e
+        S = S ∪ w
+    return the set T
+```
+Running time: O(nm)
+- Prim's Algorithm using Priority Queues
+```latex
+Prim_ComputeMSTv3
+    T ← ∅, S ← ∅, s ← 1
+    ∀v ∈ V (G) : d(v) ← ∞, p(v) ← Nil
+    d(s) ← 0
+    while S 6= V do
+        v = arg min u∈ V\S d(u)
+        T = T ∪ {vp(v)}
+        S = S ∪ {v}
+        for each u in Adj(v) do
+            d(u) ← min {d(u), c(vu)}
+            if d(u) = c(vu) then
+                p(u) ← v
+    return T
+```
+
 <h4>Additional Resources</h4>
+- [Jeff's Textbook - Minimum Spanning Trees](https://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)
+- [Sariel's Lecture 20](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+
+
+
+
+
+

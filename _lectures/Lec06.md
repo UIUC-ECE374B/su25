@@ -1,18 +1,18 @@
 ---
-title: Lecture 7 - Context-Free Languages and Push-down Automata
+title: Lecture 6 - Context-Free Languages and Push-down Automata
 placeholder: false
 back-color: faffff
-card-link: LecLink7
+card-link: LecLink06
 # subtitle: And a subtitle
 description: "Now that we know of many non-regular languages, it is time to investigate the next computability class - context-free languages." 
 people:
   - gautham
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-02-07
-link-slides: /materials/lecture_slides/lec7.pdf
-link-scribbles: /materials/lecture_slides/lec7_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_lgvpaork
+deliverydate: 2023-09-12
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 <!-- Gautham's content begin-->
@@ -42,7 +42,7 @@ Example: For generating a language with equal number of 0s and 1s of the form $0
 <br><br>
 
 ### Push-down Automata
-- A machine that genrates Context Free Grammar
+- A machine that generates Context Free Grammar
 - It is more powerful than a Finite State Machine and also has more memory
 - PDA = FSM +  **Stack**
 - Has 3 components:

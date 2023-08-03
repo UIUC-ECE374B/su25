@@ -1,81 +1,168 @@
 ---
-title: Lecture 11 - Divide and conquer and selection algorithms
+title: Lecture 11 - Backtracking
 placeholder: false
 back-color: fffffa
 card-link: LecLink11
 # subtitle: And a subtitle
-description: "The next step up from recursion are divide and conquer algorithms. Large objective is to understand linear time selection!"
+description: "It is time to optimize your recursive algorithms by storing previously computed instance outputs, a.k.a backtracking. We'll also introduce the longest increasing sub-sequence (LIS) problem."
 people:
-  - gautham
+  - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-02-23
-link-slides: /materials/lecture_slides/lec11.pdf
-link-scribbles: /materials/lecture_slides/lec11_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_n2pyjrx5
+deliverydate: 2023-10-03
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
-## Introduction to Divide and Conquer Algorithms
 
-Divide and Conquer is a popular algorithmic paradigm used in computer science and mathematics. It is a problem-solving technique that breaks a complex problem into smaller sub-problems, solves each sub-problem independently, and then combines their solutions to obtain the solution of the original problem. 
+<style>
+  table{
+    border-collapse:separate;
+    border-spacing: 40px 0px;
+  }
+</style>
 
-The "divide" step involves breaking the problem into smaller sub-problems, while the "conquer" step involves solving each sub-problem. Finally, the "combine" step involves merging the solutions of the sub-problems to obtain the solution of the original problem. 
+<h4> Recursion </h4>
 
-This approach is often used to solve problems that can be broken down into smaller, simpler sub-problems, and is frequently used in computer science for algorithm design. Divide and conquer algorithms have been used to solve a wide range of problems, including sorting, searching, matrix multiplication, and many more. The efficiency and effectiveness of divide and conquer algorithms have made them an important tool in the arsenal of computer scientists and mathematicians.
+Recursion is a special case of reduction.
+- A special case of reduction 
+- Reduce problem to a smaller instance of itself
+- Self-reduction
+- Problem instance of size n is reduced to one or more instances of size n 1 or less. 
+- For termination, problem instances of small size are solved by some other method as base cases. 
+
+<h4> Recursion in Algorithmic design </h4>
+
+- Tail Recursion: problem reduced to a single recursive call after some work. Easy to convert algorithm into iterative or greedy algorithms. 
+Examples: Interval scheduling, MST algorithms etc.
+- Divide and Conquer: Problem reduced to multiple independent sub-problems that are solved separately. Conquer step puts together solution for bigger problem. 
+Examples: Closest pair, median selection, quick sort. 
+- Backtracking: Refinement of brute force search. Build solution incrementally by invoking recursion to try all possibilities for the decision in each step. 
+- Dynamic Programming: problem reduced to multiple (typically) dependent or overlapping sub-problems. Use memorization to avoid re-computation of common solutions leading to iterative bottom-up algorithm
+
+<h4> Backtracking </h4>
+
+A backtracking algorithm tries to construct a solution to a computational problem
+incrementally, one small piece at a time. Whenever the algorithm needs to
+decide between multiple alternatives to the next component of the solution, it
+recursively evaluates every alternative and then chooses the best one.
+
+<h4> State Tree </h4>
+A state space tree is a tree constructed from all of the possible states of the problem as nodes, connected via state transitions from some initial state as root to some terminal state as a leaf.
+
+<h4> Example 1 - The Queens problem </h4>
+
+Problem - 
+1. How many queens can one place on the board?
+2. Can one place 8 queens on the board?
+
+Process:
+<table border='0'> 
+  <tr>
+    <td>
+      <img src="/img/lectures/Lec12/board_img.png" alt="text" style="width: 220px;">
+    </td>   
+    <td>
+    <img src="/img/lectures/Lec12/board_1.png" alt="text" style="width: 220px;">
+    </td>  
+    <td>
+    <img src="/img/lectures/Lec12/board_2.png" alt="text" style="width: 220px;">
+    </td> 
+    <td>
+    <img src="/img/lectures/Lec12/board_8.png" alt="text" style="width: 220px;">
+    </td>  
+  </tr>
+  <tr>
+    <td>
+    Initial board with Queen 1 placement.
+    </td>
+    <td>
+    All the possible places that the current queen can go to.
+    </td>  
+    <td>
+    Queen 2 placement.
+    </td>   
+    <td>
+    Final 8-Queen problem solved in 1850 (published in 1848)
+    </td> 
+  </tr>
+</table>
+
+Problem : 
+- How to solve problem for general n?
+
+Intuition:
+- Queens can’t be on the same row, column or diagonal
+- Can have n queens max.
 
 
-## Merge Sort Algorithm
-Merge Sort is a sorting algorithm that follows the Divide and Conquer paradigm. It works by recursively dividing the array into two halves until each sub-array contains only one element, and then merging the sorted sub-arrays to produce the final sorted array.
+Search tree for 5 queens:
+<img src="/img/lectures/Lec12/state_tree.png" alt="text" style="width: 1000px;">
 
-## Example:
-Breaking down the array into simple single element arrays:
+Each node in the state tree represents a board state. For eg. node 135 represents a board where the queens placed on column 1,3 and 5. The leaf nodes represent the final state of the board where either 5 queens are placed or it cannot proceed further.
 
-<img src="/img/lectures/Lec11/MS_1.png" alt="Merge Sort 1" style="width: 300px;">
+Hence, we recursively search over an implicit tree, where we “backtrack” if certain possibilities do not work.
 
-After combining the small arrays by arranging elements in proper order:
-
-<img src="/img/lectures/Lec11/MS_2.png" alt="Merge Sort 2" style="width: 300px;">
-
-### Time Complexity
-The time complexity of Merge Sort is O(n logn) in the average and worst cases, where n is the number of elements in the array. The space complexity of Merge Sort is O(n).
+<h4> Longest Increasing Subsequence (LIS) </h4>
 
 
+Definitions:
+- Sequence: an ordered list $a_1$, $a_{2}$,..., $a_{n}$. Length of a sequence is number of elements in the list.
+- Subsequence: $a_{i1}$ ,..., $a_{ik}$ is a subsequence of $a_{1}$,..., $a_{n}$ if 1 $\le$ $i_{1}$ < $i_{2}$ <...< $i_{k}$ $\le$ n.
+- Increasing sequence: A sequence is increasing if $a_{1}$ < $a_{2}$ <...< $a_{n}$. It is non-decreasing if $a_{1}$ $\le$ $a_{2}$ $\le$ ... $\le$ $a_{n}$. Similarly decreasing and non-increasing.
 
-## Quick Sort Algorithm
-Quick Sort is a sorting algorithm that follows the Divide and Conquer paradigm. It works by partitioning the array into three parts, based on a chosen pivot element, and recursively sorting the sub-arrays and concatenating them.
+Problem:
+- Input: A sequence of numbers $a_{1}$ , $a_{2}$,..., $a_{n}$
+- Goal: Find an increasing subsequence $a_{i1}$ , $a_{i2}$ ,..., $a_{ik}$ of maximum length
 
-### Time Complexity
-The time complexity of Quick Sort depends on the choice of pivot element. In the average case, the time complexity is O(nlogn), where n is the number of elements in the array. In the worst case, where the pivot element is always chosen to be the largest or smallest element, the time complexity is O(n^2).
-However, Quick Sort is usually faster than other sorting algorithms in practice, because it has good cache performance and can be easily parallelized. 
 
+1. Naive solution:
 <br>
-<br>
+```latex
+algLISNaive(A[1..n]):
+  max = 0
+  for each subsequence B of A do
+      if B is increasing and |B| > max then
+        max = |B|
+  Output max
+```
+Running time: O(n$2^n$) for $2^n$ subsequences of a sequence of length n and O(n) time to check
+if a given sequence is increasing.
 
-## Quick Select Algorithm
+2. Recursive solution for LIS(A[1..n]):
+- Case 1: Does not contain A[n] in which case LIS(A[1..n]) = LIS(A[1..(n − 1)])
+- Case 2: Contains A[n] in which case LIS(A[1..n]) is not so clear.
+- Note: For second case we want to find a subsequence in A[1..(n − 1)] that is restricted to numbers less than A[n]. This suggests that a more general problem is LIS_smaller(A[1..n], x) which gives the longest increasing subsequence in A where each number in the sequence is less than x.
 
-Quickselect is a simple and efficient algorithm for finding the k-th smallest element in an unsorted array. The basic idea behind the algorithm is to use the partitioning technique from quicksort to divide the array into smaller and larger subarrays around a pivot element, and then recursively search only the subarray containing the desired element.
+```latex
+LIS_smaller(A[1..n], x):
+  if (n = 0) then return 0
+  m = LIS_smaller(A[1..(n − 1)], x)
+  if (A[n] < x) then
+    m = max(m, 1 + LIS_smaller(A[1..(n − 1)], A[n]))
+  Output m
 
-The algorithm has an average time complexity of O(n), where n is the size of the input array. However, the worst-case time complexity can be O(n^2), if the pivot element chosen is always the largest or smallest element in the array. This can be avoided by choosing a random or median-of-three pivot element.
+LIS(A[1..n]):
+  return LIS_smaller(A[1..n], ∞)
+```
+Running time: O($2^n$)
 
-### Improving Worst-Case Time Complexity of Quickselect
+<h4> General pattern </h4>
 
-The worst-case time complexity of the quickselect algorithm can be improved from O(n^2) to O(n) by selecting a good pivot element.
-
-### Median-of-Medians Algorithm
-
-One way to select a good pivot element is to use the "median-of-medians" algorithm, which guarantees that the chosen pivot element is close to the true median of the subarray. The median-of-medians algorithm works by recursively dividing the subarray into groups of five elements, computing the median of each group, and then recursively computing the median of the medians until a single pivot element is found.
-
-
-
-
-
-
-
-
-
+Backtracking algorithms are commonly used to make a sequence of decisions, with
+the goal of building a recursively defined structure satisfying certain constraints.
+Often (but not always) this goal structure is itself a sequence. For example:
+- In the n-queens problem, the goal is a sequence of queen positions, one in
+each row, such that no two queens attack each other. For each row, the
+algorithm decides where to place the queen.
+- In the LIS problem, the goal is a sequence of input elements that
+have an increasing order of value. For each input element, the algorithm decides whether
+to include it in the output sequence or not.
 
 <h4>Additional Resources</h4>
-
+- [Jeff's Textbook - Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf)
+- [Sariel's Lecture 12](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 

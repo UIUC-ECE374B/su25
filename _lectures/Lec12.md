@@ -1,169 +1,99 @@
 ---
-title: Lecture 12 - Backtracking
+title: Lecture 12 - Dynamic programming I
 placeholder: false
 back-color: fffffa
 card-link: LecLink12
 # subtitle: And a subtitle
-description: "It is time to optimize your recursive algortihms by storing previously computed instance outputs, a.k.a backtracking. We'll also introduce the longest increasing sub-sequence (LIS) problem."
+description: "Important one ... even though you probably won't see many instances of dynamic programming in the real world, it is a favorite of FANNG interviews." 
 people:
-  - sandhya
+  - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-02-28
-link-slides: /materials/lecture_slides/lec12.pdf
-link-scribbles: /materials/lecture_slides/lec12_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_benw2x7d
+deliverydate: 2023-10-05
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
+<h4> Dynamic Programming </h4>
 
-<style>
-  table{
-    border-collapse:separate;
-    border-spacing: 40px 0px;
-  }
-</style>
+**Dynamic programming(DP)** is an algorithmic technique of recursively dividing the problem into smaller subproblems and solving the subproblems while memoizing the results to solve the original problem.
+If this sounds similar to divide and conquer, then you are right. The only thing that distinguishes DP from divide and conquer is the memoization of subproblems.
+DP approach can be applied when the following two conditions hold:
 
-<h4> Recursion </h4>
+1. The problem can be solved by combining the solutions to smaller subproblems. 
+2. The subproblems overlap. 
 
-Recursion is a special case of reduction.
-- A special case of reduction 
-- Reduce problem to a smaller instance of itself
-- Self-reduction
-- Problem instance of size n is reduced to one or more instances of size n 1 or less. 
-- For termination, problem instances of small size are solved by some other method as base cases. 
+The point of DP is to memoize the overlapping subproblems so that you don't have to solve the same subproblem multiple times, which can greatly reduce the time complexity.
 
-<h4> Recursion in Algorithmic design </h4>
+<h4>DP Example</h4>
 
-- Tail Recursion: problem reduced to a single recursive call after some work. Easy to convert algorithm into iterative or greedy algorithms. 
-Examples: Interval scheduling, MST algorithms etc.
-- Divide and Conquer: Problem reduced to multiple independent sub-problems that are solved separately. Conquer step puts together solution for bigger problem. 
-Examples: Closest pair, median selection, quick sort. 
-- Backtracking: Refinement of brute force search. Build solution incrementally by invoking recursion to try all possibilities for the decision in each step. 
-- Dynamic Programming: problem reduced to multiple (typically) dependent or overlapping sub-problems. Use memorization to avoid re-computation of common solutions leading to iterative bottom-up algorithm
+To get a sense, let's consider a classic example of Fibonacci sequence. The $n$th Fibonacci number is defined as the following. 
 
-<h4> Backtracking </h4>
+$$ Fibo(n)=
+\begin{cases} 
+0 &\text{if }n=0\\
+1 &\text{if }n=1\\
+Fibo(n-1)+Fibo(n-2) &\text{otherwise} 
+\end{cases}
+$$
 
-A backtracking algorithm tries to construct a solution to a computational problem
-incrementally, one small piece at a time. Whenever the algorithm needs to
-decide between multiple alternatives to the next component of the solution, it
-recursively evaluates every alternative and then chooses the best one.
+To find the $n$th Fibonacci number, we need to add the the $(n-1)$th and the $(n-2)$th Fibonacci number. 
+Then again, to get the $(n-1)$ Fibonacci number, we need $(n-2)$th and $(n-3)$th, for $(n-2)$th we need $(n-3)$th and $(n-4)$th, and so on. 
+The following figure is the recursion tree for $Fibo(5)$. 
 
-<h4> State Tree </h4>
-A state space tree is a tree constructed from all of the possible states of the problem as nodes, connected via state transitions from some initial state as root to some terminal state as a leaf.
+<img src="/img/lectures/Lec13/lec13_fibo.png" alt="Fibonacci" style="width: 700px;">
 
-<h4> Example 1 - The Queens problem </h4>
+As you can observe, solving $Fibo(5)$ involves solving the same subproblems multiple times; there are 2 occurrences of $Fibo(3)$ and 3 occurrences of $Fibo(2)$ in the recursion tree. 
+We can imagine that as as $n$ increases, we would have even more occurrences of overlapping subproblems.
+However, solving the subproblems from scratch - that is, expanding the whole recurence tree all the way down to the base cases - is inefficient. 
+After all, $Fibo(k)$ for a constant $k$ is a constant integer. 
+Therefore, once we compute $Fibo(k)$, we can memoize the corresponding constant and directly access the value without expanding the recursion everytime we need the value of $Fibo(k)$ in the future. 
+Based on this idea, we can solve $Fibo(n)$ in $O(n)$ time by filling a 1D array, as appears in the following figure. 
 
-Problem - 
-1. How many queens can one place on the board?
-2. Can one place 8 queens on the board?
+<img src="/img/lectures/Lec13/lec13_fibodp.png" alt="Fibonacci" style="width: 700px;">
 
-Process:
-<table border='0'> 
-  <tr>
-    <td>
-      <img src="/img/lectures/Lec12/board_img.png" alt="text" style="width: 220px;">
-    </td>   
-    <td>
-    <img src="/img/lectures/Lec12/board_1.png" alt="text" style="width: 220px;">
-    </td>  
-    <td>
-    <img src="/img/lectures/Lec12/board_2.png" alt="text" style="width: 220px;">
-    </td> 
-    <td>
-    <img src="/img/lectures/Lec12/board_8.png" alt="text" style="width: 220px;">
-    </td>  
-  </tr>
-  <tr>
-    <td>
-    Initial board with Queen 1 placement.
-    </td>
-    <td>
-    All the possible places that the current queen can go to.
-    </td>  
-    <td>
-    Queen 2 placement.
-    </td>   
-    <td>
-    Final 8-Queen problem solved in 1850 (published in 1848)
-    </td> 
-  </tr>
-</table>
+We start by filling out the first two cells which are the base cases, and then we simply add two consecutive cells to find the value for the next cell. 
+Since we memoize the computed value in the array, we can directly access the value without recomputing it, whenever we need the value. 
+We can simply repeat adding two cells and storing the value in the next cell until we reach the $n$th cell, which would contain the value of $Fibo(n)$.  
 
-Problem : 
-- How to solve problem for general n?
+<h4>Deriving DP from Recurrence</h4>
 
-Intuition:
-- Queens can’t be on the same row, column or diagonal
-- Can have n queens max.
+The key to writing a DP solution is finding an appropriate recurrence. 
+Once you have a recurrence, the rest - the memoization data structure, the order of evaluation, time complexity, return value, etc - often can be easily derived.
+As an example, consider the following recurrence named $SomeRandomRecurrence$, abbreviated as $SRR$.
+ 
+$$
+SRR(i, j)= 
+\begin{cases}
+0 &\text{if }i=0 \text{ or } j=0\\
+SRR(i-1, j-1)+1 &\text{if } SomeRandomCondition\\
+\max(SRR(i-1,j),SRR(i,j-1) )&\text{otherwise} 
+\end{cases}
+$$
+
+Let's suppose we want to return $SRR(n,n)$ at the end. 
+Since we do not have any description of the recurrence, we don't even know what problem we are solving. 
+However, we can still figure out an appropriate memoization data structure and the evaluation order.
+Observe that $SRR(i,j)$ only depends on $SRR(i-1,j)$, $SRR(i,j-1)$, and $SRR(i-1,j-1)$. 
+Since $SRR(n,n)$ would have no dependency on $SRR$ with indices greater than $n$, we are only interested in $SRR(i,j)$ where the parameters $i, j$ ranges from $0$ to $n$.
+We have $n^2$ different pairs of parameters, or in other words $n^2$ different subproblems, which means a 2D array would be appropriate as the data structure. 
+Also, it is obvious that the evaluation order would be from lower to higher index, since we need to know the values in lower indices to find the values for higher indices.
+
+<img src="/img/lectures/Lec13/lec13_2ddp.png" alt="SomeRandomRecurrence" style="width: 500px;">
+
+<h4>Longest increasing Subsequence</h4>
+
+Our very own Jeep Kaewla has created the following video explainer of the LIS problem: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/buB-VifgeNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-Search tree for 5 queens:
-<img src="/img/lectures/Lec12/state_tree.png" alt="text" style="width: 1000px;">
 
-Each node in the state tree represents a board state. For eg. node 135 represents a board where the queens placed on column 1,3 and 5. The leaf nodes represent the final state of the board where either 5 queens are placed or it cannot proceed further.
-
-Hence, we recursively search over an implicit tree, where we “backtrack” if certain possibilities do not work.
-
-<h4> Longest Increasing Subsequence (LIS) </h4>
-
-
-Definitions:
-- Sequence: an ordered list $a_1$, $a_{2}$,..., $a_{n}$. Length of a sequence is number of elements in the list.
-- Subsequence: $a_{i1}$ ,..., $a_{ik}$ is a subsequence of $a_{1}$,..., $a_{n}$ if 1 $\le$ $i_{1}$ < $i_{2}$ <...< $i_{k}$ $\le$ n.
-- Increasing sequence: A sequence is increasing if $a_{1}$ < $a_{2}$ <...< $a_{n}$. It is non-decreasing if $a_{1}$ $\le$ $a_{2}$ $\le$ ... $\le$ $a_{n}$. Similarly decreasing and non-increasing.
-
-Problem:
-- Input: A sequence of numbers $a_{1}$ , $a_{2}$,..., $a_{n}$
-- Goal: Find an increasing subsequence $a_{i1}$ , $a_{i2}$ ,..., $a_{ik}$ of maximum length
-
-
-1. Naive solution:
-<br>
-```latex
-algLISNaive(A[1..n]):
-  max = 0
-  for each subsequence B of A do
-      if B is increasing and |B| > max then
-        max = |B|
-  Output max
-```
-Running time: O(n$2^n$) for $2^n$ subsequences of a sequence of length n and O(n) time to check
-if a given sequence is increasing.
-
-2. Recursive solution for LIS(A[1..n]):
-- Case 1: Does not contain A[n] in which case LIS(A[1..n]) = LIS(A[1..(n − 1)])
-- Case 2: Contains A[n] in which case LIS(A[1..n]) is not so clear.
-- Note: For second case we want to find a subsequence in A[1..(n − 1)] that is restricted to numbers less than A[n]. This suggests that a more general problem is LIS_smaller(A[1..n], x) which gives the longest increasing subsequence in A where each number in the sequence is less than x.
-
-```latex
-LIS_smaller(A[1..n], x):
-  if (n = 0) then return 0
-  m = LIS_smaller(A[1..(n − 1)], x)
-  if (A[n] < x) then
-    m = max(m, 1 + LIS_smaller(A[1..(n − 1)], A[n]))
-  Output m
-
-LIS(A[1..n]):
-  return LIS_smaller(A[1..n], ∞)
-```
-Running time: O($2^n$)
-
-<h4> General pattern </h4>
-
-Backtracking algorithms are commonly used to make a sequence of decisions, with
-the goal of building a recursively defined structure satisfying certain constraints.
-Often (but not always) this goal structure is itself a sequence. For example:
-- In the n-queens problem, the goal is a sequence of queen positions, one in
-each row, such that no two queens attack each other. For each row, the
-algorithm decides where to place the queen.
-- In the LIS problem, the goal is a sequence of input elements that
-have an increasing order of value. For each input element, the algorithm decides whether
-to include it in the output sequence or not.
-
+&nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's Textbook - Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf)
-- [Sariel's Lecture 12](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
-
+- [Jeff's notes on dynamic programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+- [Sariel's Lecture 13](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
 
 

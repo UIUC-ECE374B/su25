@@ -1,31 +1,34 @@
 ---
-title: Lecture 22 - NP-complete problems and reductions II
+title: Lecture 22 - Decidability I
 placeholder: false
 back-color: fffaff
 card-link: LecLink22
 # subtitle: And a subtitle
-description: We'll discuss more NP-complete problems/reductions and specifically focus on reductions requiring gadgets. 
+description: Stepping away from algorithms, it is time to ask what problems are not decidable and cannot be solved by a Turing machine. We'll introduced the halting problem.  
 people:
+  - gautham
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-04-13
-link-slides: /materials/lecture_slides/lec22.pdf
-link-scribbles: /materials/lecture_slides/lec22_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_2iaj8d73
+deliverydate: 2023-11-14
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
+<h4>Decidability</h4>
+Decidability usually refers to the concept of whether a problem can be solved algorithmically or not. Specifically, decidability deals with the question of whether there exists an algorithm that can correctly determine whether a given input satisfies a particular property or not.
 
-<h4> Jigsaw Problem Reduction </h4>
+<br>
 
-I'm a huge fan of the youtube channel [StuffMadeHere](https://www.youtube.com/c/StuffMadeHere?app=desktop) where a professional machinist named Shane Wighton makes fun little objects/robots to perform complex tasks. Four months ago he dropped a video about making a robot that can solve a large jigsaw puzzle.
+<h4>Halting Problem</h4>
+The halting problem is a classic example of an undecidable problem in computer science. It asks whether there exists an algorithm that can determine, for any given program and input, whether the program will eventually halt (i.e., stop executing) or run forever.
 
-Super cool but not the point of this post. As many of you know (or will soon learn), building the robot is only half the battle! You need to give the robot a (hopefully fast) brain. In the [original video](https://www.youtube.com/watch?v=Gu_1S77XkiM), Mt. Wighton promised to post a follow-up video where he discusses all the algorithms he used to enable his robot to solve a multi-thousand piece video. That's the video he posted today:
+The halting problem has important implications in theoretical computer science and the foundations of computation. It is a fundamental result that shows that there are certain problems that are inherently undecidable, meaning that there is no algorithm that can solve them for all cases.
 
-[https://www.youtube.com/watch?v=WsPHBD5NsS0](https://www.youtube.com/watch?v=WsPHBD5NsS0)
+<h4>Reduction</h4>
+Problem X reduces to problem Y, if given a solution to Y, then it implies a solution for X. Namely, we can solve Y then we can solve X. We will done this by X => Y. This [youtube video](https://www.youtube.com/watch?v=U4yGQp5aCTM) makes it easier to understand how reduction works.
 
-My favorite part of this video is that it presents quite a few algorithmic concepts and how they relate to this cool fun application of building a jigsaw solving robot. Most of the stuff he presented are well-known heuristic and approximate algorithms which are a class of algorithms devoted to improving the average compute time (amortized analysis) of known NP problems (even if the worst-case running time is still exponential). Heuristic/approximate algorithms are why there are SAT solvers that can solve SAT formulas with tens of thousands of literals and clauses in minutes!
-
-One of your CAs, Mr. Sumedh Vemuganti decided that it might be fun to [prove if the JigSaw puzzle problem is NP-Complete](/materials/extra_content/Jigsaw_Sumedh.pdf) (spoiler: depends on how we define the problem)
+<img src="/img/lectures/Lec23/Reduction.png" alt="Reduction" style="width: 300px;">
 
 <h4>Additional Resources</h4>
 

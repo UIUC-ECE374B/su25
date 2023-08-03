@@ -1,18 +1,18 @@
 ---
-title: Lecture 5 - DFA/NFA/RegEx equivalence and grammars
+title: Lecture 4 - DFA/NFA/RegEx equivalence and grammars
 placeholder: false
 back-color: faffff
-card-link: LecLink5
+card-link: LecLink04
 # subtitle: And a subtitle
 description: DFA/NFA/RegEx's can be converted from one form to another using the simple methods discussed in this lecture. 
 people:
   - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-31
-link-slides: /materials/lecture_slides/lec5.pdf
-link-scribbles: /materials/lecture_slides/lec5_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_bsxrzna2
+deliverydate: 2023-09-05
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 <style>

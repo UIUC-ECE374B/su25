@@ -1,99 +1,115 @@
 ---
-title: Lecture 17 - Shortest paths I - BFS and Djikstra
+title: Lecture 17 - Shortest paths II - Bellman-Ford and Floyd-Warshall
 placeholder: false
 back-color: fffffa
 card-link: LecLink17
 # subtitle: And a subtitle
-description: Pretty my the de-facto graphing problem, we'll discuss simple shortest path algorithms including Djikstra's algorithm.
+description: We'll continue our discussion of shortest path algorithms with two algorithms which use DP principles as well.
 people:
-  - gautham
+  - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-03-23
-link-slides: /materials/lecture_slides/lec17.pdf
-link-scribbles: /materials/lecture_slides/lec17_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_t85q7ijk
+deliverydate: 2023-10-24
+link-slides: 
+link-scribbles:
+link-recording:
 ---
 
-## Breadth First Search Algorithm
+<h4>Dijkstra's Algorithm on Negative-weighted Graphs</h4>
 
-Breadth First Search (BFS) is a graph traversal algorithm that visits all the vertices of a graph in breadth-first order, i.e., it visits all the vertices at distance 1 from the starting vertex, then all the vertices at distance 2, and so on.
+As covered in the last lecture, **Dijkstra's algorithm** finds the shortest distance from a single source vertex to all other vertices. 
+However, when the graph contains edges with negative weights, Dijkstra's algorithm might fail to find the shortest distance. 
+Consider the following example. 
 
-BFS is implemented using a queue data structure, which stores the vertices in the order they are visited. The algorithm starts at a specified vertex, marks it as visited, and adds it to the queue. Then it dequeues the first vertex from the queue, visits all its unvisited neighbors, marks them as visited, and adds them to the queue. This process continues until the queue is empty.
+<img src="/img/lectures/Lec18/lec18_dijkneg.png" alt="dijkneg" style="width:800px;">
 
-<img src="/img/lectures/Lec17/BFS_Graph.png" alt="BFS Graph" style="width: 300px;">
+Suppose we start from the vertex $s$. 
+Since the vertices $a$ and $b$ are both reachable from $s$, the distance to the two vertices would be updated to $3$ and $4$ respectively.
+Then we would visit vertex $a$, which is the closest unvisited vertex. There are no outgoing edges from $a$, so we do not update the distance at all.
+Lastly we visit vertex $b$. At this point, all other vertices are already marked as visited, so we do not update the distance table.
+Note that the actual shortest distance from $s$ to $a$ is $2$, which can be obtained by the path $s\rightarrow b \rightarrow a$.
+However, Dijkstra's algorithm visits $a$ before it visits $b$ and mark $a$ as visited, which would result in incorrect shortest distance. 
 
-In the above graph, if we start at Node with value 2, the BFS would result in two traversals: (2, 3, 0, 1) or (2, 0, 3, 1).
+<h4>Bellman-Ford Algorithm</h4>
 
-### Time Complexity
+**Bellman-Ford algorithm** is an algorithm that finds the shortest path from a source vertex to all other vertices, like Dijkstra's algorithm.
+The algorithm is slower compared to Dijkstra's algorithm, but it can handle graphs with negative-weighted edges. 
+At a high level, the algorithm runs as follows:
 
-The time complexity of BFS is O(|V| + |E|), where |V| is the number of vertices and |E| is the number of edges in the graph. This is because each vertex and edge is visited at most once.
+1. Initialize the distance to the source vertex as $0$, and the distance to all other vertices as $\infty$
+2. For $|V|-1$ times:
+	Check every edge $(u,v)$ and update distance if $d[v] < d[u]+l(u,v)$
 
+Where $d[x]$ denotes the distance from the source vertex to the vertex $x$, and $l(u,v)$ denotes the length of the edge $(u,v)$. 
+Since the algorithm loops for $|V|-1$ times, and each iteration involves checking every edge once, the runtime of the algorithm is $O(|V||E|)$. 
 
-## Dijkstra's Algorithm for Shortest Path
+<img src="/img/lectures/Lec18/lec18_bf.png" alt="bf" style="width:800px;">
 
-Dijkstra's algorithm is a graph traversal algorithm that is used to find the shortest path between a starting vertex and all other vertices in a weighted graph. The algorithm maintains a set of visited vertices and a set of unvisited vertices, and it iteratively selects the unvisited vertex with the smallest distance from the starting vertex and visits all its neighboring vertices.
+<h4>Properties of Bellman-Ford Algorithm</h4>
 
-The algorithm works as follows:
+As mentioned in the previous section, Bellman-Ford algorithm can handle graphs with negative edges. 
+This is because the algorithm scans over all edges on each iteration with excluding already visited vertices.
+Due to this behavior, Bellman-Ford Algorithm has a property that after $i$th iteration, the algorithm is guaranteed to discover the shortest distance to every other vertex that can be achieved by using at most $i$ edges. 
+That is, the distances in the table $d$ after $i$th iteration is at least as good as the distance of the actual shortest path with at most $i$ edges. 
 
-1. Initialize the distance of the starting vertex to 0, and the distance of all other vertices to infinity. Mark all vertices as unvisited.
-2. Select the unvisited vertex with the smallest distance from the starting vertex, and mark it as visited.
-3. For each neighboring vertex that is still unvisited, calculate its tentative distance from the starting vertex by adding the weight of the edge between the two vertices to the distance of the current vertex. If this tentative distance is smaller than the current distance of the neighboring vertex, update its distance to the tentative distance.
-4. Repeat steps 2 and 3 until all vertices have been visited, or until the destination vertex (if specified) has been visited.
+One natural question we can ask is: Why do we iterate for $|V|-1$ times? 
+How do we know that $|V|-1$ iterations are sufficient to find the shortest path? 
+Suppose there is a path from the source $s$ to another vertex $v$ that uses $|V|$ edges. 
+By pigeonhole principle, there exists a vertex $u$ that appears more than once in the path.
+In other words, this path definitely contains a cycle. 
+Now suppose the cycle is a positive cycle(that is, the sum of the weights of the edges contained in the cycle is positive).
+In this case, taking the cycle can only increase the distance to $u$ and all the following vertices.
+Therefore, there is no point of considering a path containing the cycle when looking for the shortest distance. 
+On the other hand, suppose the cycle is negative cycle.
+In this case, finding the shortest distance is not possible in the first place, since by repeatedly taking the cycle we can infinitely reduce the distance to certain vertices. 
+Due to the above reasons, we are only interested in paths without cycles, which can only contain upto $|V|-1$ edges. 
 
-At the end of the algorithm, the shortest distance from the starting vertex to all other vertices in the graph will have been calculated.
+One last thing to note about Bellman-Ford algorithm is that it can be used to detect negative cycles. 
+The idea comes from the properties of the algorithm described above. 
+After $|V|-1$ iterations, Bellman-Ford algorithm finds the shortest distances to all vertices that can be achieved with $|V|-1$ edges. 
+If the graph is free of negative cycles, then the distances in $d$ after $|V|-1$ iterations are the actual shortest distances that can possible be achieved.
+However, if the graph contains a negative cycle, then it would be possible to obtain shorter distance to certain vertices taking longer paths that contains the negative cycle.
+Therefore, by running $|V|$th iteration of Bellman-Ford algorithm and checking if the distance table is updated, we can check if the graph contains a negative cycle. 
 
-### Example:
-<img src="/img/lectures/Lec17/DA_0.png" alt="Dij Alg 0" style="width: 300px;">
+<h4>Single Source Shortest Distance on DAGs</h4>
 
-We will find the min distance from A to all other nodes in the graph.
-Initially the distance will be mapped as Infinity (inf) for all nodes other than A and we will also maintain an unvisited Array at the bottom. First we will mark A as visited and then update the distance maps based on the nodes that A has edges to.
+If the graph does not contain a cycle, then we can find the shortest distance from a single source to all other vertices in linear time. 
 
-<img src="/img/lectures/Lec17/DA_1.png" alt="Dij Alg 1" style="width: 300px;">
+1. Topologically sort the graph
+2. Initialize the distance to the source vertex as $0$, and the distance to all other vertices as $\infty$
+3. For vertex $u\in V$ in topological order:
+	Check every edge $(u,v)$ and update distance if $d[v]>d[u]+l(u,v)$
+	
+Once we have a topological sort of the graph, we know in which order the edges must be explored
+ to get the shortest distance.
+Therefore, the DAG shortest distance algorithm only checks each edge once, which gives the overall time complexity of $O(|V|+|E|)$. 
+Note that the algorithm can be applied on graphs with negative edges as long as the graph is acyclic.
 
-We see that C is the next unvisited node with shortest distance, so we will now mark C as visited and update the distance map.
+<img src="/img/lectures/Lec18/lec18_dag.png" alt="dag" style="width:800px;">
 
-<img src="/img/lectures/Lec17/DA_2.png" alt="Dij Alg 2" style="width: 300px;">
+The operation of the algorithm illustrated in the figure seems similar to that of Bellman-Ford algorithm. 
+However, Bellman-Ford algorithm had to iterate over all edges to find distances to update, whereas the DAG algorithm immediately knows which edges to check. 
 
-Next we do similar steps with B, D, E
+<h4>Floyd-Warshall Algorithm</h4>
 
-<img src="/img/lectures/Lec17/DA_3.png" alt="Dij Alg 3" style="width: 300px;">
-<img src="/img/lectures/Lec17/DA_4.png" alt="Dij Alg 4" style="width: 300px;">
+**Floyd-Warshall algorithm** is another shortest distance algorithm for graphs with negative edges.
+However, instead of finding the distances from a single source, Floyd-Warshall algorithm finds the shortest distances between any pair of vertices. 
+Floyd-Warshall algorithm recursively fills out a 3D array which would eventually hold the shortest distances.
+Suppose we labeled all vertices arbitrarily with integers $1,2,...,|V|$. 
+Let $FW(i,j,k)$ denote the shortest distance from vertex $i$ to $j$ that can be achieved using only the intermediate vertices(excluding the source $i$ and the destination $j$) with labels less than or equal to $k$. 
+As the base case, $FW(i,j,0)$ would equal to the length of the edge $(i,j)$ if the edge exists, and $\infty$ otherwise, since we cannot use any intermediate vertices. 
+For $k>0$, there are two subcases to consider. 
+If it is possible to obtain shorter distance by including the vertex $k$, then $FW(i,j,k)$ would equal to $FW(i,k,k-1)$+$FW(k,j,k-1)$, which is the sum of distances from $i$ to $k$ and from $k$ to $j$ using intermediate vertices upto $k-1$. 
+On the other hand, if we can't construct a shorter path by including $k$, then $FW(i,j,k)$ would be the same as $FW(i,j,k-1)$.
+Finally, $FW(i,j,|V|)$ would be the shortest distance between $i$ and $j$. 
 
-<img src="/img/lectures/Lec17/DA_5.png" alt="Dij Alg 5" style="width: 300px;">
+$$ FW(i,j,k)=
+\begin{cases} 
+l(i,j) &\text{if }k=0 \text{ and }(i,j)\in E\\
+\infty &\text{if }n=0 \text{ and }(i,j)\notin E\\
+\min(FW(i,j,k-1),FW(i,k,k-1)+FW(k,j,k-1)) &\text{otherwise} 
+\end{cases}
+$$
 
-
-
-### Time Complexity
-
-The time complexity of Dijkstra's algorithm is O(|E| + |V|log|V|), where |V| is the number of vertices and |E| is the number of edges in the graph. This is because the algorithm performs a total of |E| relaxation steps (i.e., updating distances to neighboring vertices) and |V| extract-min operations (i.e., selecting the unvisited vertex with the smallest distance).
-
-
-## Dijkstra's Algorithm with Priority Queue
-
-Dijkstra's algorithm can be implemented using a priority queue data structure to efficiently select the unvisited vertex with the smallest distance from the starting vertex.
-
-The algorithm works as follows:
-
-1. Initialize the distance of the starting vertex to 0, and the distance of all other vertices to infinity. Insert all vertices into the priority queue.
-2. While the priority queue is not empty, remove the vertex with the smallest distance from the starting vertex (the root of the priority queue).
-3. If the removed vertex is the destination vertex (if specified), terminate the algorithm and return the shortest distance.
-4. For each neighboring vertex of the removed vertex that is still in the priority queue, calculate its tentative distance from the starting vertex by adding the weight of the edge between the two vertices to the distance of the removed vertex. If this tentative distance is smaller than the current distance of the neighboring vertex, update its distance to the tentative distance and update its position in the priority queue accordingly.
-5. Repeat steps 2-4 until the destination vertex has been visited, or until the priority queue is empty.
-
-### Time Complexity
-
-The time complexity of Dijkstra's algorithm with a priority queue is O((|E| + |V|) log |V|), where |V| is the number of vertices and |E| is the number of edges in the graph. This is because the algorithm performs a total of |E| relaxation steps (i.e., updating distances to neighboring vertices) and |V| extract-min operations (i.e., selecting the unvisited vertex with the smallest distance) using a priority queue with O(log |V|) time complexity.
-
-
-
-
+Filling out the 3D array takes $O(|V|^3)$. 
 <h4>Additional Resources</h4>
-
-
-
-
-
-
-
-

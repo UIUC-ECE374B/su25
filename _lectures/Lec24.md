@@ -1,17 +1,17 @@
 ---
-title: Lecture 24 - Decidability II
+title: Lecture 24 - MT3 Review
 placeholder: false
 back-color: fffaff
 card-link: LecLink24
 # subtitle: And a subtitle
-description: We'll go over some more undecidable problems and how to prove their (un-)decidability. We'll use our familiar reduction method in novel ways. 
+description: Let's take a breather before the third midterm and simply go over some lingering questions and/or some practice problems. We'll also begin with a brief overview of classic decidability problems. 
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-04-20
-link-slides: /materials/lecture_slides/lec24.pdf
-link-scribbles: /materials/lecture_slides/lec24_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_h9lyg6v5
+deliverydate: 2023-11-28
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 Nothing so far.....

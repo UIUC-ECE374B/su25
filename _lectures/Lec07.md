@@ -1,18 +1,18 @@
 ---
-title: Lecture 8 - Turing machine
+title: Lecture 7 - Turing machine
 placeholder: false
 back-color: faffff
-card-link: LecLink8
+card-link: LecLink07
 # subtitle: And a subtitle
 description: "We'll skip context-sensitive language and go straight for Turing recognizable languages and the most important machine in modern computing: the Turing machine"
 people:
   - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-02-09
-link-slides: /materials/lecture_slides/lec8.pdf
-link-scribbles: /materials/lecture_slides/lec8_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_3ib6g4rr/282723252
+deliverydate: 2023-09-14
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 

@@ -1,18 +1,18 @@
 ---
-title: Lecture 3 - Deterministic finite automata (DFAs)
+title: Lecture 2 - Deterministic finite automata (DFAs)
 placeholder: false
 back-color: faffff
-card-link: LecLink3
+card-link: LecLink02
 # subtitle: And a subtitle
 description: Introduction to deterministic finite automata. We'll also discuss how to use DFAs to prove closure properties.
 people:
   - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-24
-link-slides: /materials/lecture_slides/lec3.pdf
-link-scribbles: /materials/lecture_slides/lec3_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_yweasyw8/282723252
+deliverydate: 2023-08-29
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 ### Deterministic Finite Automata

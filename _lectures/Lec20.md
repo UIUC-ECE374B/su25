@@ -1,129 +1,117 @@
 ---
-title: Lecture 20 - Reductions
+title: Lecture 20 - NP-complete problems and reductions I
 placeholder: false
 back-color: fffaff
 card-link: LecLink20
 # subtitle: And a subtitle
-description: We'll begin this section of the course with a discussion of reductions, what various reductions imply and why they are useful. The SAT problem will be introduced as well.
+description: We now delve into the hard (NP-hard) problems and investigate how to prove if a specific problem is NP, NP-hard, etc.
 people:
-  - sindhu
+  - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-04-06
-link-slides: /materials/lecture_slides/lec20.pdf
-link-scribbles: /materials/lecture_slides/lec20_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_k71q3tv0
+deliverydate: 2023-11-07
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
+### SAT
+#### **Definition**:
+For a set of boolean variables $x_1,x_2,...,x_n$
+- A literal is either $x_i$ or $\neg x_i$
+- A clause is a disjunction of literals
 
-<h5>Introduction</h5>
+(i.e. $x_3 \lor \neg x_7 \lor x_8$)
+- Conjunctive normal form (CNF) is a conjunction of causes 
 
-In algorithms we reduce a new problem to known solved one!
+(i.e. $(x_1 \lor x_4) \land (x_3 \lor \neg x_7 \lor x_8) \land x_5$)
+- 3CNF is a CNF formula where each clause has *exactly* 3 literals
 
-<h6> Reductions for decision problems | languages </h6>
+#### **Problem: SAT**
+For a given CNF (3CNF for 3SAT) formula $\phi$, is there a truth assignment of the variables such that $\phi$ evaluates to true? 
 
-- R : Reduction X &rarr; Y
-- $A_Y$ : Algorithm for Y
-- $A_X$: New algorithm for X
-- $I_X$: Instance of X
-- $I_Y$: Instance of Y
+Example: 
+- $(x_1 \lor x_4) \land (x_3 \lor \neg x_7 \lor x_8) \land x_5$ evaluates to true when every variable is set to true.
+- $(x_1 \lor x_4) \land x_5 \land \neg x_5$ cannot evaluate to true because either $x_5$ or $\neg x_5$ will be false.
 
-<img src="/img/lectures/Lec20/R1.png" alt="Concatenation" style="width: 420px;"> 
+#### **Reducing SAT to 3SAT:**
+To reduce from an instance of SAT to an instance of 3SAT all clauses must be made to have exactly 3 literals. To do this dummy variables are introduced such that the original formula is satisfiable if and only if the formula with the dummy variables is satisfiable. Short clauses are padded with dummy variables to have 3 literals, long clauses are broken apart using dummy variables to get 3 literals.
+Proof in Prof. Har-Peled's lectures
 
-We can say that if R and $A_Y$ are polynomial-time algorithms, $A_X$ is also polynomial-time.
+### Complexity Classes
 
-- Reductions allow us to formalize the notion of “Problem X is no harder to solve than Problem Y”
-- If Problem X reduces to Problem Y (we write X $\leq$ Y), then X cannot be harder to solve than Y
-- More generally, if X $\leq$ Y, we can say that X is no harder than Y, or Y is at least as hard as X. X $\leq$ Y:
-    - X is no harder than Y, or
-    - Y is at least as hard as X
+<img src="/img/lectures/lec21.PNG" alt="lec21.PNG" style="width: 300px;">
 
-<h5>Examples of Reduction</h5>
+- P: the set of decision problems that have polynomial time algorithms.
+- NP: the set of decision problems that have polynomial time non-deterministic algorithms. Every NP problem has an exponential time deterministic algorithm.
 
-<h6>Independent Sets and Cliques</h6>
+Problems with no known P solution:
+- Independent Set
+- Vertex Cover
+- Set Cover
+- SAT
 
-Given a graph G, a set of vertices V' is:
+#### **Certifier:**
+An algorithm $C(\cdot,\cdot)$ is a certifier for a problem $X$ if
+- For every $s\in X$ there is some string $t$ such that $C(s,t)$ = "yes"
+- If $s\not\in X$ then $C(s,t)$ = "no" for every $t$
 
-- **An Independent set**: if no two vertices of V' are connected by an edge of G.
-- **Clique** : if every pair of vertices in V' is connected by an edge of G.
+The string $s$ is the problem instance (i.e. a particular graph for vertex cover problem, a CNF formula for SAT problem). The string $t$ is called the certificate or proof for $s$.
 
-We can reduce Independent Set to Clique. An instance of Independent Set is a graph G and an integer k. The reduction given $\langle G, k\rangle$ outputs $\langle G', k\rangle$  where G' is the complement of G. G' has an edge uv &harr; uv is not an edge of G.
-So,
+#### **Efficient Certifier:**
+A certifier $C$ is an efficient certifier for problem $X$ if there is a polynomial $p(\cdot)$ such that 
+- For every $s \in X$ there is some string $t$ such that $C(s,t)$ = yes and $|t| \leq p(|s|)$
+- If $s\not\in X$ then $C(s,t)$ = "no" for every $t$
+- $C(\cdot,\cdot)$ runs in polynomial time
 
-G has an independent set of size k &harr; G' has a clique of size k.
+Example:
+- Problem: Does $G = (V,E)$ have an independent set of size $\geq k$?
+  - Certificate: Set $S \subset V$
+  - Certifier: Check $|S|\geq k$ and no pair of vertices in $S$ is connected by an edge ( $O(n^2)$ )
+- Problem: Does CNF formula $\phi$ have a satisfying assignment?
+  - Certificate: Assignment $a$ 0/1 values to each variable.
+  - Certifier: Check each clause under $a$ and return "yes" if all clauses are true ( $O(n)$ )
 
-- Independent Set $\leq$$_P$ Clique.
-- Clique is at least as hard as Independent Set.
 
-To show Clique $\leq$$_P$ Independent Set :
+### Cook-Levin Theorem
 
-Reduction figure:
+#### **NP-Hard:**
+A problem $X$ is NP-Hard if for any $Y \in$ NP, $Y \leq_P X$
 
-<img src="/img/lectures/Lec20/R1.png" alt="Concatenation" style="width: 420px;"> 
+#### **NP-Complete:**
+A problem $X$ is NP-Complete if $X$ is both NP and NP-Hard
 
-- $I_X$ = $\langle G' \rangle$ 
-- $A_X$ = Clique
-- $I_Y$ = $\langle G\rangle$ 
-- $A_Y$ = Independent Set
-- R : G' = {V, E'}
+#### **Lemma:**
+Suppose $X$ is NP-Complete. Then $X$ can be solved in polynomial time if and only if P=NP
 
-Clique and Independent Set are polynomial-time equivalent because:
+#### **Theorem (Cook-Levin):**
+SAT is NP-Complete
 
-- Independent Set $\leq$$_P$ Clique
-- Clique $\leq$$_P$ Independent Set
+SAT $\leq_P X$ implies that every NP problem $Y\leq_P X$. $Y\leq_P$ SAT (Cook-Levin) and SAT $\leq_P X$ implies $Y\leq_P X$.
 
-<h6>Independent Set and Vertex Cover</h6>
+Example NP-Hard reductions in the lecture slides
+- Independent Set (slides 34-38)
+- Graph Coloring (slides 39-41)
+- Hamiltonian Cycle (slide 42)
 
-Given a graph G = (V, E), a set of vertices S is:
- - A **vertex cover** if every e $\in$ E has at least one endpoint in S
+<h4> Reductions example </h4>
 
-Let G = (V, E) be a graph. S is an Independent Set &harr; V \ S is a vertex cover.
+Your very own, Mr. Kevin Lim, did an animation of a classic 374 reduction:
 
-To show Independent Set  $\leq$$_P$ Vertex Cover:
-- G : graph with n vertices, and an integer k be an instance of the Independent Set problem.
-- G has an independent set of size $\geq$ k  &harr; G has a vertex cover of size $\leq$ n-k
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aWWXXwp1Ya8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Reduction figure:
-
-<img src="/img/lectures/Lec20/R1.png" alt="Concatenation" style="width: 420px;"> 
-
-- $I_X$ = $\langle G\rangle$
-- $A_X$ = Independent Set(G, k)
-- $I_Y$ = $\langle G\rangle$ 
-- $A_Y$ = Vertex Cover(G, n-k)
-- R : G' = G
-
-(G, k) is an instance of Independent Set, and (G, n - k) is an instance of Vertex Cover with the same answer.Therefore,
-
-- Independent Set  $\leq$$_P$ Vertex Cover
-- Vertex Cover $\leq$$_P$ Independent Set
-
-<h5>NFAs | DFAs and Universality</h5>
-
-A DFA M is universal if it accepts every string. That is, L(M) = $\Sigma^*$, the set of all strings.
-
-- To solve DFA Universality, we check if a DFA M has any reachable non-final state.
-
-A NFA N is said to be universal if it accepts every string. That is, L(N) = $\Sigma^*$, the set of all strings.
- - To we solve NFA Universality, we reduce it to DFA Universality. 
- - Given an NFA N, convert it to an equivalent DFA M, and use the DFA Universality Algorithm.
-- The above reduction takes exponential time.
-- NFA Universality is known to be PSPACE-Complete.
-
-<h5>Polynomial-time reductions</h5>
-
-We say that an algorithm is efficient if it runs in polynomial-time. A polynomial time reduction from a decision problem X to a decision problem Y is an algorithm A that has the following properties:
-- Given an instance $I_X$ of X, A produces an instance $I_Y$ of Y
-- A runs in time polynomial in  $\|I_X\|$.
-- Answer to $I_X$ YES &harr; answer to $I_Y$ is YES.
-
- If X $\leq$$_P$ Y then a polynomial time algorithm for Y implies a polynomial time algorithm for X.
-
-Such a reduction is called a Karp reduction. Karp reductions are the same as mapping reductions when specialized to polynomial time for the reduction step.
 
 <h4>Additional Resources</h4>
 
-- [Sariel's Lecture 21](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/pdfs/21.pdf) 
+- [Jeff's - Notes on NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+
+- [Sariel's Lecture 21-24](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+
+
+
+
+
 
 
 

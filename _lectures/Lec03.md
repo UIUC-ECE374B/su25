@@ -1,18 +1,18 @@
 ---
-title: Lecture 4 - Non-deterministic finite automata (NFAs)
+title: Lecture 3 - Non-deterministic finite automata (NFAs)
 placeholder: false
 back-color: faffff
-card-link: LecLink4
+card-link: LecLink03
 # subtitle: And a subtitle
 description: Introduction to non-determinism. We'll talk about how it applies to automata and formalize NFA concepts/definitions.
 people:
   - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-01-26
-link-slides: /materials/lecture_slides/lec4.pdf
-link-scribbles: /materials/lecture_slides/lec4_scribbles_sp23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_jrvgweav/282723252
+deliverydate: 2023-08-31
+link-slides: 
+link-scribbles: 
+link-recording: 
 ---
 
 <style>
