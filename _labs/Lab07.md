@@ -2,7 +2,7 @@
 title: Lab 7 - Turing machines
 placeholder: false
 back-color: f4fafa
-card-link: LabLink7
+card-link: LabLink07
 # subtitle: And a subtitle
 description: The most complex computing machine we know of, we'll go through examples of Turing machines and how they can be used to recognize languages.
 people:

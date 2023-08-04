@@ -1,16 +1,16 @@
 ---
-title: Lab 12 - Dynamic Programming II
+title: Lab 12 - Dynamic Programming I
 placeholder: false
 back-color: fafaf4
 card-link: LabLink12
 # subtitle: And a subtitle
-description: Second dynamic programming lab. We take classic DP problems and explain them in a new way. 
+description: Now that we've formulated our solutions as recurrences, let's turn them into efficient algorithms. 
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-03-08
-link-questions: /materials/labs/lab12.pdf
-link-solutions: /materials/labs/lab12-sol.pdf
+deliverydate: 2023-10-06
+link-questions: 
+link-solutions: 
 ---
 
 

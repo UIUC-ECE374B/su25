@@ -1,16 +1,16 @@
 ---
-title: Lab 17 - Minimum Spanning Trees
+title: Lab 17 - Shortest Paths II 
 placeholder: false
 back-color: fafaf4
 card-link: LabLink17
 # subtitle: And a subtitle
-description: The OG graphing problem, we'll take a moment to discuss minimum spanning tree problems.
+description: A few more shortest path problem that include both negative edges and cycles potentially requiring algorithms other than Djikstra's.
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-03-31
-link-questions: /materials/labs/lab17.pdf
-link-solutions: /materials/labs/lab17-sol.pdf
+deliverydate: 2023-10-25
+link-questions: 
+link-solutions: 
 ---
 
 

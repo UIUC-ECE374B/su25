@@ -1,16 +1,16 @@
 ---
-title: Lab 18 - Reductions
+title: Lab 18 - Minimum Spanning Trees
 placeholder: false
-back-color: faf4fa
+back-color: fafaf4
 card-link: LabLink18
 # subtitle: And a subtitle
-description: We begin with a discussion of reductions and show how one can solve novel problems using known solutions from standard problems.
+description: The OG graphing problem, we'll take a moment to discuss minimum spanning tree problems.
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-04-07
-link-questions: /materials/labs/lab18.pdf
-link-solutions: /materials/labs/lab18-sol.pdf
+deliverydate: 2023-10-27
+link-questions: 
+link-solutions: 
 ---
 
 

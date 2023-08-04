@@ -1,16 +1,16 @@
 ---
-title: Lab 13 - Graph Modeling
+title: Lab 13 - Dynamic Programming II
 placeholder: false
 back-color: fafaf4
 card-link: LabLink13
 # subtitle: And a subtitle
-description: Our first graph algorithms lab. This first lab will be on formulating logic puzzles as graphing problems that can be solved using simple search algos.  
+description: Second dynamic programming lab. We take classic DP problems and explain them in a new way. 
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-03-10
-link-questions: /materials/labs/lab13.pdf
-link-solutions: /materials/labs/lab13-sol.pdf
+deliverydate: 2023-10-11
+link-questions: 
+link-solutions: 
 ---
 
 
