@@ -13,6 +13,22 @@ kani:
         day: Thursday
         location: CSL 221
 
+abhishek:
+    display_name: "Abhishek Umrawal"
+    netid: aumrawal
+    webpage: "https://www.linkedin.com/in/abhishekumrawal/"
+    github: 
+    role: faculty
+    image: /img/people/abhishek.jpeg
+    bio: Teaching Assistant Professor 
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Tuesday
+        location:    
+
+
 # scott:
 #     display_name: "Scott Summers"
 #     webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
@@ -56,36 +72,6 @@ sungwoo:
         time-end: "15:00"
         day: Friday
         location: ECEB 3034  
-
-nicholas:
-    display_name: "Nicholas Bampton"
-    netid: bampton2
-    webpage: ""
-    github: nick-bampton
-    role: grad
-    image: /img/people/nicholas.jpg
-    bio: Graduate Teaching Assistant
-    OHs: 
-      OH1:
-        time-start: "14:00"
-        time-end: "15:00"
-        day: Wednesday
-        location: ECEB 3034  
-
-gautham:
-    display_name: "Gautham Varma"
-    netid: gvarma2
-    webpage: "https://www.linkedin.com/in/gauthamvarma1997/"
-    github: VarmaGautham
-    role: grad
-    image: /img/people/gautham.jpg
-    bio: Graduate Teaching Assistant
-    OHs: 
-      OH1:
-        time-start: "14:00"
-        time-end: "15:00"
-        day: Thursday
-        location: ECEB 4036 
       
 sindu:
     display_name: "Sindhu Vydana"
@@ -143,6 +129,24 @@ weiyang:
     bio: Graduate Course Assistant
 
 
+ziheng:
+    display_name: "Ziheng (Jack) Chen"
+    netid: zihengc2
+    webpage: ""
+    github: 
+    role: grad
+    image: /img/people/anon-male.jpg
+    bio: Graduate Course Assistant
+
+yueyi:
+    display_name: "Yueyi Shen"
+    netid: yueyis2
+    webpage: ""
+    github: 
+    role: grad
+    image: /img/people/anon-female.jpg
+    bio: Graduate Course Assistant
+
 ### Undergraduate TAs
 
 ayu:
@@ -153,21 +157,6 @@ ayu:
     role: ugrad
     image: /img/people/ayu.jpg
     bio: Undergraduate Course Assistant        
-
-rubin:
-    display_name: "Rubin Zou"
-    netid: jiaruz2
-    webpage: "https://www.linkedin.com/in/jiaru-zou-67434a21a/"
-    github: MP-killer
-    role: ugrad
-    image: /img/people/rubin.jpg
-    bio: Undergraduate Course Assistant        
-    OHs: 
-      OH1:
-        time-start: "16:00"
-        time-end: "17:00"
-        day: Friday
-        location: ECEB 2036  
 
 qing:
     display_name: "Qing Wang"
@@ -285,12 +274,6 @@ sarthak:
     role: alum
     image: /img/people/sarthak.jpg
     bio: Undergraduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "15:00"
-        time-end: "16:00"
-        day: Thursday
-        location: ECEB 4036  
 
 maxs:
     display_name: "Max Shepherd"
@@ -320,12 +303,6 @@ kaifeng:
     role: alum
     image: /img/people/kaifeng.jpg
     bio: Undergraduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Tuesday
-    #     location: ECEB 2013  
 
 zikui:
     display_name: "Zikui Wang"
@@ -362,6 +339,46 @@ erin:
     role: alum
     image: /img/people/erin.jpg
     bio: Undergraduate Course Assistant  
+
+nicholas:
+    display_name: "Nicholas Bampton"
+    netid: bampton2
+    webpage: ""
+    github: nick-bampton
+    role: alum
+    image: /img/people/nicholas.jpg
+    bio: Graduate Teaching Assistant
+
+rubin:
+    display_name: "Rubin Zou"
+    netid: jiaruz2
+    webpage: "https://www.linkedin.com/in/jiaru-zou-67434a21a/"
+    github: MP-killer
+    role: alum
+    image: /img/people/rubin.jpg
+    bio: Undergraduate Course Assistant        
+    OHs: 
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "17:00"
+    #     day: Friday
+    #     location: ECEB 2036  
+
+gautham:
+    display_name: "Gautham Varma"
+    netid: gvarma2
+    webpage: "https://www.linkedin.com/in/gauthamvarma1997/"
+    github: VarmaGautham
+    role: alum
+    image: /img/people/gautham.jpg
+    bio: Graduate Teaching Assistant
+    OHs: 
+    #   OH1:
+    #     time-start: "14:00"
+    #     time-end: "15:00"
+    #     day: Thursday
+    #     location: ECEB 4036 
+
 
 
 # alum-a:

@@ -2,79 +2,78 @@ hw1:
   num: 1
   topic: Languages and RegEx
   num-problems: 4
-  assigned-date: 2023-01-20
-  due-date: 2023-01-30
-  questions-link: /materials/homeworks/hw1.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw1_sol.pdf
+  assigned-date: 2023-08-25
+  due-date: 2023-09-04
+  questions-link: 
+  solutions-link: 
 
 hw2: 
   num: 2
   topic: DFAs and NFAs	
-  num-problems: 5
-  assigned-date: 2023-01-30
-  due-date: 2023-02-06
-  questions-link: /materials/homeworks/hw2.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw2_sol.pdf
+  num-problems: 4
+  assigned-date: 2023-09-01
+  due-date: 2023-09-11
+  questions-link: 
+  solutions-link: 
 
 hw3: 
   num: 3
   topic: Fooling Sets and CFGs	
-  num-problems: 5
-  assigned-date: 2023-02-06
-  due-date: 2023-02-13
-  questions-link: /materials/homeworks/hw3.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw3_sol.pdf
+  num-problems: 4
+  assigned-date: 2023-09-07
+  due-date: 2023-09-18
+  questions-link: 
+  solutions-link: 
 
 hw4: 
   num: 4
   topic: Reductions and Divide & Conquer	
-  num-problems: 5
-  assigned-date: 2023-02-27
-  due-date: 2023-03-06
-  questions-link: /materials/homeworks/hw4.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw4_sol.pdf
+  num-problems: 4
+  assigned-date: 2023-09-29
+  due-date: 2023-10-09
+  questions-link: 
+  solutions-link: 
 
 hw5: 
   num: 5
   topic: Backtracking and Dynamic Programming	
-  num-problems: 5
-  assigned-date: 2023-03-06
-  due-date: 2023-03-20
-  questions-link: /materials/homeworks/hw5.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw5_sol.pdf
-
+  num-problems: 4
+  assigned-date: 2023-10-06
+  due-date: 2023-10-16
+  questions-link: 
+  solutions-link: 
 hw6: 
   num: 6
-  num-problems: 5
+  num-problems: 4
   topic: More Dynamic Programming and Problem-Graph Modeling	
-  assigned-date: 2023-03-20
-  due-date: 2023-03-27
-  questions-link: /materials/homeworks/hw6.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw6_sol.pdf
+  assigned-date: 2023-10-13
+  due-date: 2023-10-23
+  questions-link: 
+  solutions-link: 
 
 hw7: 
   num: 7
   topic: DAGs, Shortest Paths	
-  num-problems: 5
-  assigned-date: 2023-03-27
-  due-date: 2023-04-03
-  questions-link: /materials/homeworks/hw7.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw7_sol.pdf
+  num-problems: 4
+  assigned-date: 2023-10-20
+  due-date: 2023-10-30
+  questions-link: 
+  solutions-link: 
 
 hw8: 
   num: 8
   topic: Reductions, NP-Completeness	
   num-problems: 4
-  assigned-date: 2023-04-10
-  due-date: 2023-04-17
-  questions-link: /materials/homeworks/hw8.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw8_sol.pdf
+  assigned-date: 2023-11-03
+  due-date: 2023-11-13
+  questions-link: 
+  solutions-link: 
 
 hw9: 
   num: 9
   topic: NP-Completeness, Decidability	
-  num-problems: 5
-  assigned-date: 2023-04-17
-  due-date: 2023-04-24
-  questions-link: /materials/homeworks/hw9.pdf
-  solutions-link: https://courses.grainger.illinois.edu/cs374/sp2023/secure/374B-docs/hw9_sol.pdf
+  num-problems: 4
+  assigned-date: 2023-11-10
+  due-date: 2023-11-27
+  questions-link: 
+  solutions-link: 
