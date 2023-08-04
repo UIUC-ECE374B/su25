@@ -1,21 +1,16 @@
 ---
-title: No Lab
-subtitle: Winter is coming
-placeholder: true
-back-color: fafafa
+title: Lab 0 - Languages and recursive definitions
+placeholder: false
+back-color: f4fafa
+card-link: LabLink1
 # subtitle: And a subtitle
-
-description: #This is the first disucssion of the course. With your TAs, you will discuss how to  
-
+description: Some quick problem involving recursive definitions and what a language is and how to describe it.  
 people:
-  - kani
-
 layout: post
 no-link: true  # stops link to page 
-# last-updated: 202 #last updated date
-deliverydate: 2023-01-18 #last updated date
-# link-questions: /lab_pdfs/lab1-reg_expr.pdf
-# link-solutions: /lab_pdfs/lab1-reg_expr-sol.pdf
+deliverydate: 2023-08-23
+link-questions: 
+link-solutions: 
 ---
 
-Notes on Lab 1
+Notes on Lab 0
