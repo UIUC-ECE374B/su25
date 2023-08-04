@@ -7,7 +7,7 @@ description: How your final grade is calculated.
 
 There are three components to your raw total: 
 
-- [Homeworks](/homeworks.html): 24%
+- [Homeworks](/homeworks.html): 25%
     - Remember we have a drop policy so if you miss a homework due to illness or did not perform as well as you'd hoped, you have an opportunity to bounce back. 
     - Specifically, we will include only the top 34 homework problems (including the lab problems) scores in computing your final grade. We expect to grade 9 homeworks, each with 4-5 problems. Should for some reason we would grade less homework problems, we will still use the top 34 homework problems.
     - If you submit everything, this policy is equivalent to dropping 9 homework problems.
@@ -21,11 +21,6 @@ There are three components to your raw total:
     - I don't want to be the arbiter of what is and isn't a valid reason to miss your work (and neither should students have to plead and hope for mercy from professors). That is why I constructed this policy that is merciful but will apply it strictly. If you have a serious issue that cause you to miss two or more midterms, you need to contact your department's advising office and/or the [emergency dean](/policies/stressed).
     - I firmly believe that a exam grade distribution with a mean of 50 is best because it allows me to maximize the standard deviation on both ends. This is important to me since tests with a large uniform distribution allow test takers to make a few mistakes without it altering their final grade too much. 
     - The above being said, I have made an effort to increase the average of my exams to ~70 to be more in-line with typical American standards. I'm doing this simply because there is a minority of students that vehemently believe all tests should have a average of at least 70 and don't even pay attention to standard deviation. They are wrong, and in the past two semesters where the exam averages were higher, final grade cutoffs were significantly smaller which meant a lot of people missed a letter grade because of a missed exam problem. That sucks. But this minority of students that committed to this idea of high averages is aggressively vocal (especially online) and it impacts my future career prospects when all the comments about me people could find are negative. 
-- ICES form: 1%
-    - Every semester I send minimum of 3-4 reminder emails asking students to complete the ICES forms and I've never been able to get above 35% participation.
-    - I need feedback because I like to iterate on the course every semester and try to make it better. This is a very different course than 2 years ago and I hope it'll be different in 2 years time as well. 
-    - Prior to the grade estimate release, you must submit a screenshot on gradescope that shows you've completed your ICES evaluations. If you don't you will get a zero for this part of your grade. 
-    - While this isn't a major component, many students have been less that 1% away from the next grade cutoff. Don't risk it, take 5 minutes and fill out the form (for all your courses).
 
 
 #### Final grade calculation 
