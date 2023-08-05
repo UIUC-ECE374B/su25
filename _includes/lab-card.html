@@ -9,7 +9,7 @@
 
 {% if lecture.placeholder %}
 
-<div class="card" style="background-color: #{{ lecture.back-color }};">
+<div class="card" style="background-color: #{{ lecture.back-color }};" id="{{lecture.card-link}}">
     <div class="row align-items-center" style="padding-top: 70px;">
         <div class="col-md-7 text-right">
             <h2 class="card-title">
@@ -29,7 +29,7 @@
 
 {% else %}
 
-<div class="card" style="background-color: #{{ lecture.back-color }};">
+<div class="card" style="background-color: #{{ lecture.back-color }};" id="{{lecture.card-link}}">
     <div class="row">
         <div class="col-md-9">
             <div class="card-body">

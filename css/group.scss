@@ -282,3 +282,36 @@ svg {
     background-color: #4d0099;
     color: white;
   }
+
+
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 2.5rem);
+    line-height: 2rem;
+    text-align: center;
+  }
+  .calendar__we {
+    color: #999;
+  }
+  .calendar__lec {
+    color: #22e;
+  }
+  .calendar__lab {
+    color: #2e2;
+  }
+  .calendar__hw {
+    color: #e22;
+  }
+  .calendar__ext {
+    font-style: normal;
+    position: relative;
+    &:after{
+        content: '•';
+        position: absolute;
+        top: -.45em;
+        right: .125em;
+    }
+  }
+  .calendar__month {
+    grid-column: 1 / 8; 
+  }

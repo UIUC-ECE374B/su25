@@ -64,10 +64,7 @@ Couple things to note about homeworks:
 - **Homeworks are due by noon** of their due date. 
 - You **should not** use Canvas to keep track of homeworks or any other course policies and logistics. **Canvas is a gradebook, that's all.**  
 - You will be registered with Gradescope using your university email address. If you can't access Gradescope let the course staff know. 
-- Homework solutions may be submitted by groups of at **most three** students. Students are responsible for forming their own homework groups. Groups may be different for each numbered homework problem. 
-    - **For group solutions, exactly one member of each group submits the solution to each problem.** Even if the groups are identical, the submitter may be different for each numbered homework problem. This is important to realize since gradescope will overwrite other members' submissions if you submit on behalf of your group.
-    - Whoever submits any group solution must also submit the names of the other group members via Gradescope. Gradescope will then automatically apply the grade for that submission to all group members. If this information is not entered correctly, the other group members' grades will be delayed or possibly lost entirely.
-    - If you discover that your name was omitted from a group homework submission, please submit a regrade request.
+- All homework assignments must be completed and submitted indivudally this semester. No group assignments. 
 - As error correction, each submitted homework solution should **include the following information in large friendly letters at the top of every page/problem**. 
     - The homework number
     - The problem number
@@ -89,3 +86,12 @@ Couple things to note about homeworks:
 Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether or not the grading scale is fair.
 
 Unfortunately, certain students think that they can tire us into giving them point that they did not earn, by keep asking for unjustified regrade requests. As such, superfluous, argumentative and repetitive regrade requests, after an appropriate warning, would results in a zero on the relevant questions - please do not waste our time.
+
+###### Group homeworks
+Homeworks can be completed in groups of at most **three students** as discussed in the [homework policies](https://ecealgo.com/homeworks.html). Ideally, the way it should work is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvied up between the members so alleviate some of the presentation burden. However, I personally am conflicted on group work: 
+
+- **Positive:** If done correctly, it can be a powerful way where students learn from and bounce ideas off one-another. That is definitely a good thing. 
+- **Negative:** Since this is my sixth time doing this course, I believe about half the groups simply divvy up the problems and don't even look at the problems not assigned to them. I've done a bit of analysis on past semesters where I've had a exam problem that was nearly identical to a homework problem and consistently, there's been about 25-30% of students that clearly have never seen the problem before. 
+
+In summary, I tend to fall of the side of discouraging group work. From what I've seen, the strongest performing individuals are over-represented in the group of students that do the homework solo. Also I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves. 
+But, I won't get rid of group homeworks all together. Like I say a lot, you guys are adults and should know what works best for you. [My job is to encourage behavior that I believe will be optimal for learning, not force it.](https://www.youtube.com/watch?v=QIBMMVJFM4M) 
