@@ -19,8 +19,8 @@ Under Construction. There will be no office hours the first week (use Piazza). W
     <td> BL1 </td>
     <td> 12:30PM - 1:45PM </td>
     <td> Kani </td>
-    <td> 1320 DCL </td>
-    <td> <a href="https://mediaspace.illinois.edu/channel/channelid/282723252">Mediaspace</a> </td>
+    <td> 0027/1025 CIF </td>
+    <td> <a href="">Mediaspace</a> </td>
   </tr>
 </table>
 &nbsp;
@@ -35,28 +35,45 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   </tr>
   <tr>
     <td> BYA </td>
-    <td> 10:00AM - 10:50AM </td>
-    <td> Gautham </td>
-    <!-- <td> <s>2055</s> 3101  Sidney Lu MEB </td> -->
-    <td> 2055 Sidney Lu MEB </td>
+    <td> 09:00AM - 09:50AM </td>
+    <td>  </td>
+    <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
-    <td> 11:00AM - 11:50AM </td>
-    <td> Sandhya </td>
-    <td> 4039 CIF </td>
+    <td> 10:00AM - 10:50AM </td>
+    <td>  </td>
+    <td> 430 Armory </td>
   </tr>
   <tr>
     <td> BYC </td>
-    <td> 12:00PM - 12:50PM </td>
-    <td> Sindhu </td>
-    <td> 2015 ECEB </td>
+    <td> 11:00AM - 11:50AM </td>
+    <td>  </td>
+    <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
-    <td> 03:00PM - 03:50PM </td>
-    <td> Nicholas </td>
-    <td> 2015 ECEB </td>
+    <td> 12:00PM - 12:50PM </td>
+    <td>  </td>
+    <td> 4070 ECEB </td>
+  </tr>
+  <tr>
+    <td> BYE </td>
+    <td> 01:00PM - 01:50PM </td>
+    <td>  </td>
+    <td> 4070 ECEB </td>
+  </tr>
+  <tr>
+    <td> BYF </td>
+    <td> 02:00PM - 02:50PM </td>
+    <td>  </td>
+    <td> 4070 ECEB </td>
+  </tr>
+  <tr>
+    <td> BYG </td>
+    <td> 11:00AM - 11:50AM </td>
+    <td>  </td>
+    <td> 0216 Siebel </td>
   </tr>
 </table>
 &nbsp;
