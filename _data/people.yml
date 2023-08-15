@@ -132,10 +132,10 @@ weiyang:
 ziheng:
     display_name: "Ziheng (Jack) Chen"
     netid: zihengc2
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/zihengjackchen"
+    github: JackZihengChen
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
 
 yueyi:
