@@ -147,6 +147,17 @@ yueyi:
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
 
+
+haoyuan:
+    display_name: "Haoyuan You"
+    netid: hy19
+    webpage: ""
+    github: 
+    role: grad
+    image: /img/people/anon-male.jpg
+    bio: Graduate Course Assistant
+
+
 ### Undergraduate TAs
 
 ayu:
@@ -281,6 +292,16 @@ shubham:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+
+siddhant:
+    display_name: "Siddhant Nanavati"
+    netid: ssn5
+    webpage: 
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
 
 
 ##### Alumni Teaching Assistants 
