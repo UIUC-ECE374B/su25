@@ -127,11 +127,15 @@ Besides the obvious "don't cheat" exam policies outlined in the [policies page](
 
 #### Exam Drop
 
-**Exam drop replaces conflict exams.** As per the grading policy, we have included one more exam than normal so that students can drop one exam a semester. This exam drop has the same purpose as the HW drop - to give students a buffer for those times when life gets in the way. Should you get sick or maybe have a moment of panic during one of the exams, you now have a drop so that one grade won't sink you. 
+**Exam drop replaces conflict exams.** As per the grading policy, we have included one more exam than normal so that students can drop one exam grade each semester. This exam drop has the same purpose as the HW drop - to give students a buffer for those times when life gets in the way. Should you get sick or maybe have a moment of panic during one of the exams, you now have a drop so that one grade won't sink you.  
+
+One critique of this policy is what if you missed two exams. I have taught this course more than 6+ times and I have yet to meet someone that missed two exams but had mastered the material. In the past 3 years that I have taught the course, every case of a student missing 2+ exams is accompanied with the student performing in the bottom 10 percentile of the exams they did take. This makes sense whe you think about it because missing two exams is indicative iof being absent for the majority of the semester which would in turn mean that the material was probably not mastered. 
+
+But i will make a deal with anyone that is still worried about this. If you miss two exams due to a *documented* emergency but score in the top 20th percentile on the other two exams, I will substitute the lower completed exam grade for one of the missed exams. Note that you must have documentation of the emergency circumstances that required you to miss the two exams. You can email me about the specific requirements for this documentation.  
 
 #### Cheatsheet
 
-I've wrestled with the concept of cheatsheets a lot in past semesters. Ideally, what a cheatsheet is for is to help you memorize tedious equations or details that are easy to forget. However, I like to give exam questions that are very similar to the HWs/labs. Last semester I noticed that cheat sheets didn't contain definitions/algorithms. Instead, they contained copied questions and solutions of HW/lab problems. Basically cheat sheets had become a "guess what Kani might put on the exam"-sheet. Worse, many, many people simply copied the cheatsheet solutions and were frustrated when they learned that those solutions didn't apply to the exam problems. This leaves me with two options: 
+I've wrestled with the concept of cheatsheets a lot in past semesters. Ideally, what a cheatsheet is for is to help you memorize tedious equations or details that are easy to forget. However, I like to give exam questions that are very similar to the HWs/labs. In prior semesters, I noticed that cheat sheets didn't contain definitions/algorithms. Instead, they contained copied questions and solutions of HW/lab problems. Basically cheat sheets had become a "guess what Kani might put on the exam"-sheet. Worse, many, many people simply copied the cheatsheet solutions and were frustrated when they learned that those solutions didn't apply to the exam problems. This leaves me with two options: 
 
 - Make sure that the exam problems are changed up so that copying from a HW/lab problem would hurt more than help. 
 - Eliminate cheatsheets altogether. 

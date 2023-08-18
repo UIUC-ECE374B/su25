@@ -69,12 +69,6 @@ Under Construction. There will be no office hours the first week (use Piazza). W
     <td>  </td>
     <td> 4070 ECEB </td>
   </tr>
-  <tr>
-    <td> BYG </td>
-    <td> 11:00AM - 11:50AM </td>
-    <td>  </td>
-    <td> 0216 Siebel </td>
-  </tr>
 </table>
 &nbsp;
 

@@ -54,9 +54,9 @@ title: Homeworks
 
 Couple things to note about homeworks:
 - Each homework is assigned when you have all (or at least most) of the required knowledge to complete it. In two cases, because of scheduling constraints, one or two problems may require knowledge from the lecture/discussion right after assignment. Either way you'll have the knowledge for those problems by Wednesday. This is a long-winded way of saying: **There is zero reason not to start the homework early**
-- Each homework will consist of 3 novel problems and 1-2 problems you've seen in the labs. All the problems counts equally toward your final course grade.
-- The homework average consists 24% of your final course grade. We will use the highest 34 scores to calculate your final course grade. Since there are expected to be 43 problems, this means that 9 problems will be dropped (~2 homeworks).
-- It's a bad idea to skip homeworks. Homeworks and labs are where I get inspiration for exam problems. 
+- Each homework will consist of 2 novel problems and 2 problems you've seen in the labs. All the problems counts equally toward your final course grade.
+- The homework average consists 25% of your final course grade. We will use the highest 27 scores to calculate your homework average for your final course grade. Since there are expected to be 36 problems, this means that 8 problems will be dropped (>2 homeworks).
+- It's a bad idea to skip homeworks. Homeworks and labs are where we get inspiration for exam problems. 
 
 ### Homework Logistics: How to submit
 
@@ -64,16 +64,18 @@ Couple things to note about homeworks:
 - **Homeworks are due by noon** of their due date. 
 - You **should not** use Canvas to keep track of homeworks or any other course policies and logistics. **Canvas is a gradebook, that's all.**  
 - You will be registered with Gradescope using your university email address. If you can't access Gradescope let the course staff know. 
-- All homework assignments must be completed and submitted indivudally this semester. No group assignments. 
+- All homework assignments must be completed and submitted individually this semester. No group assignments. 
 - As error correction, each submitted homework solution should **include the following information in large friendly letters at the top of every page/problem**. 
     - The homework number
     - The problem number
-    - Group names+netids
-- **We will not accept late homework for any reason.** To offset this rather draconian policy, we have a very generous number of homework drops (compare to other sections/courses). Also remember you can always resubmit a problem to gradescope. There is zero reason to wait until the last minute to submit your work.  
+    - Name + netid
+- **We will not accept late homework for any reason.** To offset this rather draconian policy, we have a very generous number of homework drops (compared to other sections/courses). Also remember you can always resubmit a problem to gradescope. There is zero reason to wait until the last minute to submit your work.  
 
 ### Homework Grading Policies: 
 
-- **Homeworks** are graded by the entire course staff, within Gradescope. All numbered homework problems are worth the same amount. Under normal circumstances, all homework should be graded within two weeks of submission.
+- **Homeworks** are graded by the entire course staff, within Gradescope. All numbered homework problems are worth the same amount. 
+- Under normal circumstances, all homework should be graded within two weeks of submission. However, your graders also have significant responsibilities and may take longer to grade the homeworks. This is all to say one thing: **homeworks should not be used to check your mastery of the material.** After the due date the homework solutions are immediately posted and you can check your answers against the solutions. Every semester students email me that they got something wrong on the exam because the HW were not graded beforehand. I am sorry but I simply do not have the resources to ensure that homeworks are always returned before an exam and so, you should verify your submission against the posted solutions and ping us on Piazza or come to OHs if you don't understand a discrepency.  
+- Homework grades are **not** a proof of correctness and cannot be used to argue for correctness on a exam. 
 - Partial credit is given for work that is very close to being correct. 
 - **We will give zero points for long and tedious solutions** (i.e., solutions that are longer than the official solutions by a significant amount). We reserve the right of not even reading your solution if it exceedingly and unnecessarily long. If your solutions seems too long - rewrite it to be short and precise. 
 - This semester I am limiting solutions text to be **300 words long max** per problem. It is incredibly important to be able to convey complex idea as concisely as possible and I think this is good practice. I highly suggest using figures(flowcharts, graphics)/equations(useful for recurrences) to cut down on the word vomit. 
@@ -83,15 +85,6 @@ Couple things to note about homeworks:
 
 ### Regrades
 
-Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether or not the grading scale is fair.
+Regrades requests would be open for a week once grades are released (except for final exam because of registrar grade submission deadlines). Regrade requests are not intended for arguing about point allocation, or whether or not the grading scale is fair.
 
 Unfortunately, certain students think that they can tire us into giving them point that they did not earn, by keep asking for unjustified regrade requests. As such, superfluous, argumentative and repetitive regrade requests, after an appropriate warning, would results in a zero on the relevant questions - please do not waste our time.
-
-###### Group homeworks
-Homeworks can be completed in groups of at most **three students** as discussed in the [homework policies](https://ecealgo.com/homeworks.html). Ideally, the way it should work is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvied up between the members so alleviate some of the presentation burden. However, I personally am conflicted on group work: 
-
-- **Positive:** If done correctly, it can be a powerful way where students learn from and bounce ideas off one-another. That is definitely a good thing. 
-- **Negative:** Since this is my sixth time doing this course, I believe about half the groups simply divvy up the problems and don't even look at the problems not assigned to them. I've done a bit of analysis on past semesters where I've had a exam problem that was nearly identical to a homework problem and consistently, there's been about 25-30% of students that clearly have never seen the problem before. 
-
-In summary, I tend to fall of the side of discouraging group work. From what I've seen, the strongest performing individuals are over-represented in the group of students that do the homework solo. Also I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves. 
-But, I won't get rid of group homeworks all together. Like I say a lot, you guys are adults and should know what works best for you. [My job is to encourage behavior that I believe will be optimal for learning, not force it.](https://www.youtube.com/watch?v=QIBMMVJFM4M) 
