@@ -32,6 +32,8 @@ Problem X reduces to problem Y, if given a solution to Y, then it implies a solu
 
 <h4>Additional Resources</h4>
 
+- [4Color problem - Quanta magazine](https://www.youtube.com/watch?v=h7kqlYUV1l8) - Not directly related to our lecture be a very cool tangent
+
 
 
 
