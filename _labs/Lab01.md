@@ -9,7 +9,7 @@ people:
 layout: post
 no-link: true  # stops link to page 
 deliverydate: 2023-08-25
-link-questions: 
+link-questions: /materials/labs/lab1-reg_expr.pdf
 link-solutions: 
 ---
 

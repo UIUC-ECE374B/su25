@@ -9,7 +9,7 @@ people:
 layout: post
 no-link: true  # stops link to page 
 deliverydate: 2023-09-13
-link-questions: 
+link-questions: /materials/labs/lab06-cfgs.pdf
 link-solutions: 
 ---
 
