@@ -1,7 +1,7 @@
 MT1: 
   num: 1
   topic: Languages complexity 
-  date: 2023-02-16
+  date: 2023-09-21
   samp_exam1: 
   samp_exam2: 
   samp_exam1_sol: 
@@ -14,7 +14,7 @@ MT1:
 MT2: 
   num: 2
   topic: Algorithms 
-  date: 2023-04-04
+  date: 2023-10-31
   samp_exam1: 
   samp_exam2: 
   samp_exam1_sol: 
@@ -27,7 +27,7 @@ MT2:
 MT3: 
   num: 3
   topic: NP-completeness and decidability 
-  date: 2023-04-27
+  date: 2023-11-30
   samp_exam1: 
   samp_exam2: 
   samp_exam1_sol: 
@@ -40,7 +40,7 @@ MT3:
 Final: 
   num: 4
   topic: (Final) All of the above 
-  date: 2023-05-08
+  date:
   samp_exam: 
   skillset: materials/exams/final_skillset.pdf
   cheat_sheet: materials/exams/main_Final.pdf
