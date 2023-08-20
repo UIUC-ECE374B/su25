@@ -151,10 +151,10 @@ yueyi:
 haoyuan:
     display_name: "Haoyuan You"
     netid: hy19
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/haoyuan-you-2a0341193/"
+    github: azulradio
     role: grad
-    image: /img/people/anon-male.jpg
+    image: /img/people/haoyuan.png
     bio: Graduate Course Assistant
 
 
