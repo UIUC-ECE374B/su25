@@ -13,14 +13,12 @@ Under Construction. There will be no office hours the first week (use Piazza). W
     <th> Tuesdays and Thursdays at </th>
     <th> Who </th>
     <th> Location </th>
-    <th> Recordings </th>
   </tr>
   <tr>
     <td> BL1 </td>
     <td> 12:30PM - 1:45PM </td>
     <td> Kani </td>
     <td> 0027/1025 CIF </td>
-    <td> <a href="">Mediaspace</a> </td>
   </tr>
 </table>
 &nbsp;
@@ -36,37 +34,37 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   <tr>
     <td> BYA </td>
     <td> 09:00AM - 09:50AM </td>
-    <td>  </td>
+    <td> Jack, Chen, Yueyi Shen </td>
     <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td>  </td>
-    <td> 430 Armory </td>
+    <td> Haoyuan You, Sandhya Perumenki </td>
+    <td> 0216 Siebel </td>
   </tr>
   <tr>
     <td> BYC </td>
     <td> 11:00AM - 11:50AM </td>
-    <td>  </td>
+    <td> Sindhu Vydana </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
     <td> 12:00PM - 12:50PM </td>
-    <td>  </td>
+    <td> Weiyang Wang </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYE </td>
     <td> 01:00PM - 01:50PM </td>
-    <td>  </td>
+    <td> Sumedh Vemuganti </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYF </td>
     <td> 02:00PM - 02:50PM </td>
-    <td>  </td>
+    <td> Sung Woo Jeon </td>
     <td> 4070 ECEB </td>
   </tr>
 </table>

@@ -18,7 +18,7 @@ Historically, homeworks could have been completed in groups of at most **three s
 
 ### Datapoint #1
 
-In SP23 I there was a problem in the Divide and Conquer lab that was also assigned in the homework. 
+In SP23, there was a problem in the Divide and Conquer lab that was also assigned in the homework. 
 
 ![](/materials/posts/no-group-work/lab-problem.png)
 
@@ -26,12 +26,12 @@ This is a classic linear time selection problem and once you know the solution, 
 
 ![](/materials/posts/no-group-work/exam-problem.png)
 
-The question is how many students showed any knowledge of the standard solution mentioned in class: **28%**. 
+Or in this case, not just similar, but exactly the same. The question is: "how many students showed any knowledge of the standard solution mentioned in class, lab and homework solutions?": **28%**. 
 
-There were lots of brute force solutions which thankfully pulled the average up, but only 28% of students have any knowledge of the linear-time solution. So the question is *why*? Well given that 28% is a bit less than a third, and that homework groups consisted of three students maximum, my theory is that the vast majority of students working in a homework group are divvying up their problems and not paying attention to the rest of the homework. Not good. 
+There were lots of brute force solutions which thankfully pulled the average up, but only 28% of students had any knowledge of the linear-time solution. So the question is *why*? Well given that 28% is a bit less than a third, and that homework groups consisted of three students maximum, my theory is that the vast majority of students working in a homework group divvied up their problems and not paying attention to the rest of the homework. Not good. I'm not making moral judgments because I do not believe in good or bad people, just people with differing priorities reacting to their environment. But as a professor my job is to incentivize learning especially since the reward for that knowledge is not immediate. 
 
 **Will update with more datapoints over time.**
 
 ### Conclusion
 
-In summary, I would like to see what happens if I stop allowing groupwork. From what I've seen, the strongest performing individuals are over-represented in the group of students that do the homework solo. I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves and the overall workload is fairly similar to other ECE/CS courses. I understand that many will find this change unacceptable which is fine, there is another section with the standard groupwork structure available. But for my part, I firmly believe in making iterative changes every semester in an effort to continuously try and improve the course and that is what I am doing now as well. 
+Given this information, I am eliminating groupwork. I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves and the overall workload is similar to other ECE/CS courses. If group assignments are important to you, I believe Section A will maintain the historical groupwork structure. For my part, I firmly believe in making iterative changes every semester in an effort to continuously try and improve the course and that is what I am doing now as well. 

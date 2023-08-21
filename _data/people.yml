@@ -11,7 +11,7 @@ kani:
         time-start: "15:00"
         time-end: "16:00"
         day: Tuesday
-        location: CSL 221
+        location: 
 
 abhishek:
     display_name: "Abhishek Umrawal"
@@ -23,8 +23,8 @@ abhishek:
     bio: Teaching Assistant Professor 
     OHs: 
       OH1:
-        time-start: "16:00"
-        time-end: "17:00"
+        time-start: "15:00"
+        time-end: "16:00"
         day: Thursday
         location:    
 
@@ -68,10 +68,10 @@ sungwoo:
     bio: Graduate Teaching Assistant
     OHs: 
       OH1:
-        time-start: "14:00"
-        time-end: "15:00"
-        day: Friday
-        location: ECEB 3034  
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Wednesday
+        location:  
       
 sindu:
     display_name: "Sindhu Vydana"
@@ -85,8 +85,8 @@ sindu:
       OH1:
         time-start: "11:00"
         time-end: "12:00"
-        day: Wednesday
-        location: ECEB 3034  
+        day: Tuesday
+        location:   
 
 
 sandhya:
@@ -99,10 +99,10 @@ sandhya:
     bio: Graduate Teaching Assistant
     OHs: 
       OH1:
-        time-start: "12:00"
-        time-end: "13:00"
-        day: Friday
-        location: ECEB 3034  
+        time-start: "11:00"
+        time-end: "12:00"
+        day: Thursday
+        location:   
 
 sumedh:
     display_name: "Sumedh Vemuganti"
@@ -114,10 +114,10 @@ sumedh:
     bio: Graduate Course Assistant
     OHs: 
       OH1:
-        time-start: "10:00"
-        time-end: "12:00"
-        day: Thursday
-        location: ECEB 3034
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Friday
+        location: 
 
 weiyang:
     display_name: "Weiyang Wang"
@@ -127,7 +127,12 @@ weiyang:
     role: grad
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Wednesday
+        location:   
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
@@ -137,6 +142,12 @@ ziheng:
     role: grad
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Thursday
+        location:   
 
 yueyi:
     display_name: "Yueyi Shen"
@@ -146,7 +157,12 @@ yueyi:
     role: grad
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Thursday
+        location:   
 
 haoyuan:
     display_name: "Haoyuan You"
@@ -156,6 +172,12 @@ haoyuan:
     role: grad
     image: /img/people/haoyuan.png
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Friday
+        location:   
 
 
 ### Undergraduate TAs
