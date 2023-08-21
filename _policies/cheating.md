@@ -40,9 +40,10 @@ There are only two exceptions to this rule. **You are not required to cite the f
 
 #### Penalties
 
-- The default penalty for cheating on a homework problem is *a grade of zero on the entire homework set*, which we will not drop when we compute your final course grade. (In practice, the effect of this penalty is about half of a letter grade.)
-- The default penalty for cheating on an exam is a grade of zero *on the entire exam*, which we will not drop when we compute your final course grade. (In practice, the effect of this penalty is roughly two full letter grades.)
-- The default penalty for cheating on multiple assignments in an F in the course. Doesn't matter if this is your first violation or yoru third. A consistent pattern of cheating in the course if grounds for immediate failure. 
+- The default penalty for cheating on a homework problem is *a full letter grade off your final course grade*.
+- The default penalty for cheating on an exam is *two full letter grades off your final course grade*
+- The default penalty for cheating on an attendance sheet (should we choose to collect attendance) is *a full letter grade off your final course grade*.
+- The default penalty for cheating on multiple assignments in an F in the course. Doesn't matter if this is your first violation or your third. A consistent pattern of cheating in the course if grounds for immediate failure. 
 - We reserve the right to register FAIR violations at any point in the semester (even once the semester is over). FAIR violations are time-consuming for the staff so multiple cheating offenses could be included in a single violation. 
 
 Don't be an idiot. Just do the work.
