@@ -244,15 +244,6 @@ brian:
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
 
-delu:
-    display_name: "Delu Louis Zhao"
-    netid: delulz2
-    webpage: 
-    github: 
-    role: ugrad
-    image: /img/people/anon-male.jpg
-    bio: Undergraduate Course Assistant
-
 
 owen:
     display_name: "Owen Xu"

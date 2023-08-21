@@ -11,14 +11,27 @@ people:
 
 ### Group homeworks
 
-In the past, homeworks could have been completed in groups of at most **three students**. Ideally, the way it should work is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvied up between the members so alleviate some of the presentation burden. However, I personally am conflicted on group work: 
+Historically, homeworks could have been completed in groups of at most **three students**. Ideally, the way it should have worked is that each individual in a group looks at all the problems and comes up with some quick notes on possible solutions. Then the group would come together and attempt to reach a consensus on each problem. Finally, the solution writing and presentation would be divvied up between the members so alleviate some presentation burden. 
 
 - **Positive:** If done correctly, it can be a powerful way where students learn from and bounce ideas off one-another. That is definitely a good thing. 
-- **Negative:** Since this is my seventh time doing this course, I believe about half the groups simply divvy up the problems and don't even look at the problems not assigned to them. I've done a bit of analysis on past semesters where I've had a exam problem that was nearly identical to a homework problem and consistently, there's been about 25-30% of students that clearly have never seen the problem before. 
+- **Negative:** The group can simply divvy up the problems and each individual won't look at the problem(s) not assigned to them. In this case, group assignments are treated as a way to reduce the workload. 
 
-### Data 
+### Datapoint #1
 
+In SP23 I there was a problem in the Divide and Conquer lab that was also assigned in the homework. 
+
+![](/materials/posts/no-group-work/lab-problem.png)
+
+This is a classic linear time selection problem and once you know the solution, it is almost trivial. Problems like these typically make good exam problems and seeing as this problem was in a lab and on a homework, I figured I would put something similar on the exam:
+
+![](/materials/posts/no-group-work/exam-problem.png)
+
+The question is how many students showed any knowledge of the standard solution mentioned in class: **28%**. 
+
+There were lots of brute force solutions which thankfully pulled the average up, but only 28% of students have any knowledge of the linear-time solution. So the question is *why*? Well given that 28% is a bit less than a third, and that homework groups consisted of three students maximum, my theory is that the vast majority of students working in a homework group are divvying up their problems and not paying attention to the rest of the homework. Not good. 
+
+**Will update with more datapoints over time.**
 
 ### Conclusion
 
-In summary, have stopped allowing group work. From what I've seen, the strongest performing individuals are over-represented in the group of students that do the homework solo. Also I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves.
+In summary, I would like to see what happens if I stop allowing groupwork. From what I've seen, the strongest performing individuals are over-represented in the group of students that do the homework solo. I have reduced the homework burden compared to past semesters so a single person should be fine doing all the problems themselves and the overall workload is fairly similar to other ECE/CS courses. I understand that many will find this change unacceptable which is fine, there is another section with the standard groupwork structure available. But for my part, I firmly believe in making iterative changes every semester in an effort to continuously try and improve the course and that is what I am doing now as well. 

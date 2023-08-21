@@ -129,9 +129,9 @@ Besides the obvious "don't cheat" exam policies outlined in the [policies page](
 
 **Exam drop replaces conflict exams.** As per the grading policy, we have included one more exam than normal so that students can drop one exam grade each semester. This exam drop has the same purpose as the HW drop - to give students a buffer for those times when life gets in the way. Should you get sick or maybe have a moment of panic during one of the exams, you now have a drop so that one grade won't sink you.  
 
-One critique of this policy is what if you missed two exams. I have taught this course more than 6+ times and I have yet to meet someone that missed two exams but had mastered the material. In the past 3 years that I have taught the course, every case of a student missing 2+ exams is accompanied with the student performing in the bottom 10 percentile of the exams they did take. This makes sense whe you think about it because missing two exams is indicative iof being absent for the majority of the semester which would in turn mean that the material was probably not mastered. 
+One critique of this policy is "what if you missed two exams?" I have taught this course more than 6+ times and I have yet to meet someone that missed two exams but had mastered the material. In the past three years that I have taught the course, every case of a student missing two or more exams is accompanied by the student performing in the bottom 10% of the exams they did take. This makes sense when you think about. Missing two exams is indicative of being absent for the majority of the semester which would in turn mean that the material was probably not mastered. 
 
-But i will make a deal with anyone that is still worried about this. If you miss two exams due to a *documented* emergency but score in the top 20th percentile on the other two exams, I will substitute the lower completed exam grade for one of the missed exams. Note that you must have documentation of the emergency circumstances that required you to miss the two exams. You can email me about the specific requirements for this documentation.  
+However, I will make a deal with anyone that is still worried about this. If you miss two exams due to a *documented* emergency but score in the top 20th percentile on the other two exams, I will substitute the lower completed exam grade for one of the missed exams. Note: you must have documentation of the emergency circumstances that required you to miss the two exams. You can email me about the specific requirements for this documentation.  
 
 #### Cheatsheet
 
@@ -151,11 +151,11 @@ The exams will be scanned and uploaded to Gradescope where they will be graded b
 
 ### Regrades
 
-Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether or not the grading scale is fair.
+Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether the grading scale is fair.
 
 Unfortunately, certain students think that they can tire us into giving them point that they did not earn, by keep asking for unjustified regrade requests. As such, superfluous, argumentative and repetitive regrade requests, after an appropriate warning, would results in a zero on the relevant questions - please do not waste our time.
 
 ### DRES
-- If you have a DRES accommodation, please email the course staff directly (not sure if sending documents over Piazza is compliant with EHR policies or not, but why risk it ). Make sure I respond that I've recorded your accommodation! If I don't respond email again.
+- If you have a DRES accommodation, please email the course staff directly (not sure if sending documents over Piazza is compliant with EHR policies or not, but why risk it). Make sure I respond that I've recorded your accommodation! If I don't respond email again.
 - Because of the limited staff, DRES students will take the exams at the [TAC](https://www.disability.illinois.edu/academic-accommodations-and-supports/academic-accommodations/testing-accommodations) synchronously with the rest of the class. We'll hammer out the details closer to MT1. 
-- Best thing you can do is **right now** schedule the exams with TAC. That way there is no chance on forgetting to schedule a slot and missing out on your accommodations.  
+- Best thing you can do is to schedule the exams with TAC **now**. That way there is no chance on forgetting to schedule a slot and missing out on your accommodations.  
