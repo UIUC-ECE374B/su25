@@ -14,12 +14,12 @@ kani:
         location: 
 
 abhishek:
-    display_name: "Abhishek Umrawal"
+    display_name: "Abhishek Kumar Umrawal"
     netid: aumrawal
     webpage: "https://www.linkedin.com/in/abhishekumrawal/"
     github: 
     role: faculty
-    image: /img/people/abhishek.jpeg
+    image: /img/people/abhishek.png
     bio: Teaching Assistant Professor 
     OHs: 
       OH1:
