@@ -108,7 +108,7 @@ sumedh:
     display_name: "Sumedh Vemuganti"
     netid: sumedh2
     webpage: "https://www.linkedin.com/in/sumedh-vemu/"
-    github: 
+    github: sumedh2
     role: grad
     image: /img/people/sumedh.jpeg
     bio: Graduate Course Assistant
@@ -123,7 +123,7 @@ weiyang:
     display_name: "Weiyang Wang"
     netid: weiyang7
     webpage: ""
-    github: 
+    github: willwwy
     role: grad
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
@@ -152,8 +152,8 @@ ziheng:
 yueyi:
     display_name: "Yueyi Shen"
     netid: yueyis2
-    webpage: ""
-    github: 
+    webpage: "http://www.linkedin.com/in/yueyishen"
+    github: yueyis2
     role: grad
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
