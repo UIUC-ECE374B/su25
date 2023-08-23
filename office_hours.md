@@ -40,7 +40,7 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td> Haoyuan You, Sandhya Perumenki </td>
+    <td> Haoyuan You, Weiyang Wang </td>
     <td> 0216 Siebel </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   <tr>
     <td> BYD </td>
     <td> 12:00PM - 12:50PM </td>
-    <td> Weiyang Wang </td>
+    <td> Sandhya Perumenki </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
