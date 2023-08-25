@@ -275,7 +275,17 @@ owen:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Tuesday
+        location: 4036 ECEB  
+      OH2:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Thursday
+        location: 4036 ECEB
 
 anirudth:
     display_name: "Anirudth Kumar"
@@ -323,7 +333,12 @@ chris:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Wednesday
+        location: 2034 ECEB
 
 
 
