@@ -58,6 +58,7 @@ Couple things to note about homeworks:
 - Each homework will consist of 2 novel problems and 2 problems you've seen in the labs. All the problems counts equally toward your final course grade.
 - The homework average consists 25% of your final course grade. We will use the highest 27 scores to calculate your homework average for your final course grade. Since there are expected to be 36 problems, this means that 8 problems will be dropped (>2 homeworks).
 - It's a bad idea to skip homeworks. Homeworks and labs are where we get inspiration for exam problems. 
+- You can find a sample HW LaTeX template [here](/materials/homeworks/hwt_B.tex).
 
 ### Homework Logistics: How to submit
 
