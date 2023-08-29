@@ -209,11 +209,11 @@ mikem:
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-      # OH1:
-      #   time-start: "12:00"
-      #   time-end: "14:00"
-      #   day: Monday
-      #   location: ECEB 5034  
+      OH1:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Monday
+        location:  
 
 hamza:
     display_name: "Hamza Husain"
@@ -295,7 +295,12 @@ anirudth:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "18:00"
+        day: Monday
+        location:   
 
 erin:
     display_name: "Erin Kim"
@@ -305,7 +310,17 @@ erin:
     role: ugrad
     image: /img/people/erin.jpg
     bio: Undergraduate Course Assistant  
-
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Monday
+        location:   
+      OH2:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Friday
+        location: 
 
 shubham:
     display_name: "Shubham Thakar"
