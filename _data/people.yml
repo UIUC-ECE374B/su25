@@ -256,6 +256,12 @@ ved:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Monday
+        location:  
 
 brian:
     display_name: "Brian Kim"
@@ -339,6 +345,12 @@ siddhant:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Tuesday
+        location:   
 
 chris:
     display_name: "Chris Deng"
