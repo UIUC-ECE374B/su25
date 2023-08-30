@@ -367,6 +367,20 @@ chris:
         day: Wednesday
         location: 2034 ECEB
 
+ifesi:
+    display_name: "Ifesi Onubogu"
+    netid: onubogu2
+    webpage: 
+    github: 
+    role: ugrad
+    image: /img/people/anon-female.jpg
+    bio: Undergraduate Course Assistant
+    # OHs: 
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "17:00"
+    #     day: Wednesday
+    #     location: 2034 ECEB
 
 
 
