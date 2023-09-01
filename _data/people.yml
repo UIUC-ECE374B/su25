@@ -213,7 +213,7 @@ mikem:
         time-start: "10:00"
         time-end: "12:00"
         day: Monday
-        location:  
+        location: 3034 ECEB
 
 hamza:
     display_name: "Hamza Husain"
