@@ -1,4 +1,4 @@
-23kani:
+kani:
     display_name: "Nickvash Kani"
     netid: kani
     webpage: "https://nickvashkani.com"
@@ -99,9 +99,9 @@ sandhya:
     bio: Graduate Teaching Assistant
     OHs: 
       OH1:
-        time-start: "11:00"
-        time-end: "12:00"
-        day: Thursday
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Tuesday
         location: 4036 ECEB
 
 sumedh:
