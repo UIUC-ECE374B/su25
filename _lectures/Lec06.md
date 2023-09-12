@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-09-12
 link-slides: /materials/lecture_slides/lec6.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec6_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_ivtlumuj
 ---
 
 <!-- Gautham's content begin-->
