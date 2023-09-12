@@ -362,10 +362,10 @@ chris:
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
-        time-start: "16:00"
-        time-end: "17:00"
+        time-start: "13:00"
+        time-end: "15:00"
         day: Wednesday
-        location: 2034 ECEB
+        location: 2036 ECEB
 
 ifesi:
     display_name: "Ifesi Onubogu"
