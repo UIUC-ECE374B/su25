@@ -142,6 +142,11 @@ What we want to ask with language transformations is if these operations change 
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
-- [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
-- [A video by Kevin Lim on language transformations](https://www.youtube.com/watch?v=PuZFHpmOotQ) 
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 1 - Regular Languages - 1.2 Non-determinism
+* [Sariel's Lecture 4](https://www.youtube.com/watch?v=APzLhLvvg3k&list=PLaEwgrahG-LrlNb4Wy7jXGdFd4EzLHWae&pp=iAQB)
+* [A video by Kevin Lim on language transformations](https://www.youtube.com/watch?v=PuZFHpmOotQ) 

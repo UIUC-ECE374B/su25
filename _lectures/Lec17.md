@@ -113,3 +113,17 @@ $$
 
 Filling out the 3D array takes $O(|V|^3)$. 
 <h4>Additional Resources</h4>
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 8 - Shortest Paths](https://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf)
+    * [Chapter 9 - All-Pairs Shortest Paths](https://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 8.3 - Shortest Path
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 4.4 - Shortest Paths
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 22 - Single Source Shortest Path  
+	* Chapter 23 - All-Pairs Shortest Paths 
+
+* [Sariel's Lecture 18](https://www.youtube.com/watch?v=cHVN1gyx7is&list=PLaEwgrahG-LoyYmW7_J1adcrhiQeGEsnN&pp=iAQB)

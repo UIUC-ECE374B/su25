@@ -103,9 +103,21 @@ Your very own, Mr. Kevin Lim, did an animation of a classic 374 reduction:
 
 <h4>Additional Resources</h4>
 
-- [Jeff's - Notes on NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Chapter 12 - NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 7.4 - Polynomial time reducibility
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 11 - NP-completeness
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 6 - Context.Reductions
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 32 - NP-Completeness 
+  
 
-- [Sariel's Lecture 21-24](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+* [Jeff's - Notes on NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+* [Sariel's Lecture 22](https://www.youtube.com/watch?v=nOhojw1lpGI&list=PLaEwgrahG-LpMTgfekHiBLrpQ_0rduycb&pp=iAQB) 
 
 
 

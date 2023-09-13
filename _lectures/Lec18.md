@@ -155,8 +155,19 @@ Prim_ComputeMSTv3
 ```
 
 <h4>Additional Resources</h4>
-- [Jeff's Textbook - Minimum Spanning Trees](https://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)
-- [Sariel's Lecture 20](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Chapter 7 - Minimum Spanning Trees](https://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 8.1 - Minimum Spanning Trees
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 4.3 - Minimum Spanning Trees
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 21 - Minimum Spanning Trees 
+
+* [Jeff's Textbook - Minimum Spanning Trees]()
+* [Sariel's Lecture 20](https://www.youtube.com/watch?v=Jj3b4N6g_vM&list=PLaEwgrahG-Lo7XSkzF0MJIw7HncrIKEtV&pp=iAQB) 
 
 
 

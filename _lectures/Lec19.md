@@ -123,7 +123,18 @@ Such a reduction is called a Karp reduction. Karp reductions are the same as map
 
 <h4>Additional Resources</h4>
 
-- [Sariel's Lecture 21](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/pdfs/21.pdf) 
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Chapter 12 - NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 7 - Time Complexity
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 11 - NP-completeness
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 6 - Context.Reductions
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 32 - NP-Completeness 
+- [Sariel's Lecture 21](https://www.youtube.com/watch?v=L2AtJJbj6uI&list=PLaEwgrahG-LrkFh2tTGqjEHAvm8s5S6yA&pp=iAQB) 
 
 
 

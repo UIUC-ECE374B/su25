@@ -52,6 +52,11 @@ $$L_{MULT2} =
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's Textbook - Introduction and History](https://jeffe.cs.illinois.edu/teaching/algorithms/book/00-intro.pdf)
-- [Jeff's - Notes on strings](https://jeffe.cs.illinois.edu/teaching/algorithms/models/01-strings.pdf)
-- [Sariel's Lecture 1](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's Textbook - Introduction and History](https://jeffe.cs.illinois.edu/teaching/algorithms/book/00-intro.pdf)
+    * [Jeff's - Notes on strings](https://jeffe.cs.illinois.edu/teaching/algorithms/models/01-strings.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 0 - Introduction - Mathematical Notation and Terminology  
+* [Sariel's Lecture 1](https://www.youtube.com/watch?v=Szd-pWE2Ztc)

@@ -186,8 +186,14 @@ Example: To construct language $R = (ab + c)^{*}$
 
 <h4>Additional Resources</h4>
 
-- Check out Mike Montano's [NFA-to-DFA subset construction](/resources/SubsetConstruction) tool to visualize how to convert a NFA to a DFA!
-- Rust has a pretty robust RegEx library and a former 374-er spent some time investigating Rust's procedural macros and how to convert a RegEx to a NFA. It's a super interestign analysis requiring knowledge of grammars and programming paradigms. [Check it out](https://github.com/djohn49/fastregex)
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's - Notes on non-deterministic automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/04-nfa.pdf)
+  * Sipser, Michael. **Introduction to the Theory of Computation*
+    * Chapter 1 - Regular Languages
+* [Sariel's Lecture 5](https://www.youtube.com/watch?v=jyIgH1T2Npk&list=PLaEwgrahG-Lo_6PDz_2UrsK9bkPtbd8y0&pp=iAQB)
+* Check out Mike Montano's [NFA-to-DFA subset construction](/resources/SubsetConstruction) tool to visualize how to convert a NFA to a DFA!
+* Rust has a pretty robust RegEx library and a former 374-er spent some time investigating Rust's procedural macros and how to convert a RegEx to a NFA. It's a super interesting analysis requiring knowledge of grammars and programming paradigms. [Check it out](https://github.com/djohn49/fastregex)
 
 
 

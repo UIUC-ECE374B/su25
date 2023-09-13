@@ -142,8 +142,21 @@ The above algorithm  runs in time $O(m + n)$ and correctly outputs all the SCCs 
 
 <h4>Additional Resources</h4>
 
-- [Sariel's Lecture 16](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
-- [Jeff's - Notes on Depth-First Search](https://jeffe.cs.illinois.edu/teaching/algorithms/book/06-dfs.pdf)
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 6 - Depth First Search](https://jeffe.cs.illinois.edu/teaching/algorithms/book/06-dfs.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 7.8 - Depth-First Search 
+    * Chapter 7.9 - Applications of Depth-First Search
+    * Chapter 7.10 - Depth-First Search on Directed Graphs
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 4.2 - Directed Graphs
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 20.3 - Depth-First Search 
+    * Chapter 20.4 - Topological Sort  
+
+* [Sariel's Lecture 16](https://www.youtube.com/watch?v=A8Fx4pgHP9g&list=PLaEwgrahG-Lp24vuBVIO8zhfep_NHW7uo&pp=iAQB) 
+* [Jeff's - Notes on Depth-First Search](https://jeffe.cs.illinois.edu/teaching/algorithms/book/06-dfs.pdf)
 
 
 

@@ -92,8 +92,16 @@ Our very own Jeep Kaewla has created the following video explainer of the LIS pr
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's notes on dynamic programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
-- [Sariel's Lecture 13](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 3 - Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 10.1 - Caching vs. Computation
+    * Chapter 10.3 - Longest Increasing Subsequence
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 14 - Dynamic Programming 
+* [Sariel's Lecture 13](https://www.youtube.com/watch?v=k1RGKjYH9V0&list=PLaEwgrahG-LoaOUDmloTQp19Um0rOlcDC&pp=iAQB) 
 
 
 

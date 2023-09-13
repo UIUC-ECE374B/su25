@@ -100,9 +100,12 @@ $\delta$ : (q, c) = (p, d, L)
 
 <h4>Additional Resources</h4>
 
-- [Jeff's - Notes on Turing Machines](http://jeffe.cs.illinois.edu/teaching/algorithms/models/06-turing-machines.pdf)
-
-- [Sariel's Lecture 8](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's Notes on Turign Machines](https://jeffe.cs.illinois.edu/teaching/algorithms/models/06-turing-machines.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 3 - Turing Machines 
+* [Sariel's Lecture 8](https://www.youtube.com/watch?v=G6oNdpaVXa0&list=PLaEwgrahG-Lq4hTscGd88DrC74VOXiBfl&pp=iAQB) 
 
 
 

@@ -90,7 +90,21 @@ The time complexity of Dijkstra's algorithm with a priority queue is O((|E| + |V
 
 <h4>Additional Resources</h4>
 
-
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	  * [Chapter 8 - Shortest Paths](https://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf)
+    * [Chapter 9 - All-Pairs Shortest Paths](https://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 7.6 - Breadth-First Search 
+    * Chapter 8.3 - Shortest Path
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 4.1 - Breadth-First Search
+    * Chapter 4.4 - Shortest Paths
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 20.2 - Breadth-First Search 
+    * Chapter 22.1 - The Bellman-Ford Algorithm  
+	  
+* [Sariel's Lecture 17](https://www.youtube.com/watch?v=QXqLO2h1b6Y&list=PLaEwgrahG-LpvBkD_8v-YQUaVLu13iK6E&pp=iAQB)
 
 
 

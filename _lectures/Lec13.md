@@ -108,9 +108,8 @@ Our very own Hamza Husain has dedicated himself to giving you even more DP probl
 
 <h4>Additional Resources</h4>
 
-- [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
-
-- [Sariel's Lecture 14](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+* [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+* [Sariel's Lecture 14](https://www.youtube.com/watch?v=o4gOGiBXT2g&list=PLaEwgrahG-Lq_ux1_o3TqFX-vWXh0uLLK&pp=iAQB) 
 
 
 

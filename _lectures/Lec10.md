@@ -66,17 +66,22 @@ The worst-case time complexity of the quickselect algorithm can be improved from
 One way to select a good pivot element is to use the "median-of-medians" algorithm, which guarantees that the chosen pivot element is close to the true median of the subarray. The median-of-medians algorithm works by recursively dividing the subarray into groups of five elements, computing the median of each group, and then recursively computing the median of the medians until a single pivot element is found.
 
 
-
-
-
-
-
-
-
-
 <h4>Additional Resources</h4>
 
-
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 1 - Recursion](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 5 - Divide and Conquer
+    * Chapter 17.3 - Median and Selection
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 2.2 - MergeSort
+    * Chapter 2.3 - QuickSort
+    * Chapter 2.5 - Median and order statistics
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 4 - Divide and Conquer 
+    * Chapter 14.4 - Longest Common Subsequence 
+* [Sariel's Lecture 11](https://www.youtube.com/watch?v=PE2_UzsslGE&list=PLaEwgrahG-LpX9Z3OhDU6QDD3Ru5SMGkD&pp=iAQB)
 
 
 
