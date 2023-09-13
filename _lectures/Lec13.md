@@ -108,7 +108,16 @@ Our very own Hamza Husain has dedicated himself to giving you even more DP probl
 
 <h4>Additional Resources</h4>
 
-* [Jeff's - Notes on Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 3 - Dynamic Programming](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 10.2 - Approximate String Matching
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 6 - Suffix Arrays
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 14 - Dynamic Programming 
+    * Chapter 14.4 - Longest Common Subsequence 
 * [Sariel's Lecture 14](https://www.youtube.com/watch?v=o4gOGiBXT2g&list=PLaEwgrahG-Lq_ux1_o3TqFX-vWXh0uLLK&pp=iAQB) 
 
 
