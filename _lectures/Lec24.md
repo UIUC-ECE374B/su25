@@ -18,7 +18,7 @@ Nothing so far.....
 
 <h4>Additional Resources</h4>
 
-
+* [Sariel's Lecture 9](https://www.youtube.com/watch?v=dKAg5FRmsCE&list=PLaEwgrahG-LrpPMI4l744yAHCwtVXPh2g&pp=iAQB)
 
 
 

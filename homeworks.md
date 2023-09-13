@@ -58,11 +58,12 @@ Couple things to note about homeworks:
 - Each homework will consist of 2 novel problems and 2 problems you've seen in the labs. All the problems counts equally toward your final course grade.
 - The homework average consists 25% of your final course grade. We will use the highest 27 scores to calculate your homework average for your final course grade. Since there are expected to be 36 problems, this means that 8 problems will be dropped (>2 homeworks).
 - It's a bad idea to skip homeworks. Homeworks and labs are where we get inspiration for exam problems. 
+- You can find a sample HW LaTeX template [here](/materials/homeworks/hwt_B.tex).
 
 ### Homework Logistics: How to submit
 
 - All homework solutions must be submitted electronically via Gradescope. Submit one PDF file for each numbered homework problem. Gradescope will not accept other file formats such as plain text, HTML, LaTeX source, or Microsoft Word (.doc or .docx).
-- **Homeworks are due by noon** of their due date. 
+- **Homeworks are due by 6 AM** of their due date. 
 - You **should not** use Canvas to keep track of homeworks or any other course policies and logistics. **Canvas is a gradebook, that's all.**  
 - You will be registered with Gradescope using your university email address. If you can't access Gradescope let the course staff know. 
 - All homework assignments must be completed and submitted individually this semester. No group assignments. 

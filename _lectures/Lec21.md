@@ -29,7 +29,19 @@ One of your CAs, Mr. Sumedh Vemuganti decided that it might be fun to [prove if 
 
 <h4>Additional Resources</h4>
 
-
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Chapter 12 - NP-Hardness](https://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 7 - Time Complexity
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 11 - NP-completeness
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 6 - Context.Intractability
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 32 - NP-Completeness 
+    
+* [Sariel's Lecture 23](https://www.youtube.com/watch?v=jXH40tp_RcI&list=PLaEwgrahG-Lq0llcS-fcyCDTQdFm3peLZ&pp=iAQB)
 
 
 

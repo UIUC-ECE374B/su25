@@ -18,7 +18,12 @@ Nothing so far.....
 
 <h4>Additional Resources</h4>
 
-
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's notes on Undecidability](https://jeffe.cs.illinois.edu/teaching/algorithms/models/07-undecidable.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 5 - Reducibility 
+* [Sariel's Lecture 9](https://www.youtube.com/watch?v=dKAg5FRmsCE&list=PLaEwgrahG-LrpPMI4l744yAHCwtVXPh2g&pp=iAQB)
 
 
 

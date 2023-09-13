@@ -70,10 +70,25 @@ example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 
 
 <h4>Additional Resources</h4>
 
-- [Jeff's - Notes on Recursion](https://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf)
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 1 - Recursion](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 1.5 - Modeling the Problem
+    * Chapter 2.1 - The RAM Model of Computation
+    * Chapter 2.2 - The Big Oh Notation
+    * Chapter 2.5 - Reasoning about Efficiency
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 1.1 - Basic Programming Model
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 2.3 - Designing Algorithms
+    * Chapter 4 - Divide and Conquer 
+    * Chapter 4.4 - The recursion tree method for solving recurrences
+    * Chapter 4.5 - The master method for solving recurrences
 
 - [Sariel's Lecture 10](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
-
+- [Great Reducible video on Towers of Hanoi](https://www.youtube.com/watch?v=rf6uf3jNjbo)
+* [Sariel's Lecture 10](https://www.youtube.com/watch?v=vBl8JSdKrvw&list=PLaEwgrahG-LpCO04ip9-KfGIYSr1YGbwE&pp=iAQB)
 
 
 

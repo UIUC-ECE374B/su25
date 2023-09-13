@@ -32,7 +32,14 @@ Problem X reduces to problem Y, if given a solution to Y, then it implies a solu
 
 <h4>Additional Resources</h4>
 
-- [4Color problem - Quanta magazine](https://www.youtube.com/watch?v=h7kqlYUV1l8) - Not directly related to our lecture be a very cool tangent
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's notes on Undecidability](https://jeffe.cs.illinois.edu/teaching/algorithms/models/07-undecidable.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 4 - Decidability 
+* [Sariel's Lecture 2](https://www.youtube.com/watch?v=_plrktuxUtg&list=PLaEwgrahG-LojthWv-NVyLQMIUsdOP8if&pp=iAQB)
+* [4Color problem - Quanta magazine](https://www.youtube.com/watch?v=h7kqlYUV1l8) - Not directly related to our lecture be a very cool tangent
 
 
 

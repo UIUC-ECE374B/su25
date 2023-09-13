@@ -10,9 +10,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-08-29
-link-slides: 
-link-scribbles: 
-link-recording: 
+link-slides: /materials/lecture_slides/lec2.pdf
+link-scribbles: /materials/lecture_slides/lec2_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_1jncgpah
 ---
 
 ### Deterministic Finite Automata
@@ -100,9 +100,13 @@ In depth in Lecture 5
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's - Notes on Finite State Automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/03-automata.pdf)
-- [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's - Notes on Finite State Automata](https://jeffe.cs.illinois.edu/teaching/algorithms/models/03-automata.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 1 - Regular Languages - 1.1 Finite Automata
+* [Sariel's Lecture 3](https://www.youtube.com/watch?v=GioPwOAWUHc&list=PLaEwgrahG-Lqh1ugmXq5s64-qV2u7nWxZ&pp=iAQB)
 
 
 

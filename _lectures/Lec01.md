@@ -10,9 +10,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-08-24
-link-slides: 
-link-scribbles: 
-link-recording: 
+link-slides: /materials/lecture_slides/lec1.pdf
+link-scribbles: /materials/lecture_slides/lec1_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_o7rruiy0
 ---
 
 #### Strings and Languages
@@ -109,10 +109,15 @@ The correct answer would be $\\{\varepsilon\\}$ assuming a regular expression, o
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's - Notes on strings](https://jeffe.cs.illinois.edu/teaching/algorithms/models/01-strings.pdf)
-- [Jeff's notes on regular languages](https://jeffe.cs.illinois.edu/teaching/algorithms/models/02-regular.pdf)
-- [Sariel's Lecture 2](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's - Notes on strings](https://jeffe.cs.illinois.edu/teaching/algorithms/models/01-strings.pdf)
+    * [Jeff's - Notes on strings](https://jeffe.cs.illinois.edu/teaching/algorithms/models/01-strings.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 1 - Regular Languages - 1.3 Regular expressions
+* [Sariel's Lecture 2](https://www.youtube.com/watch?v=_plrktuxUtg&list=PLaEwgrahG-LojthWv-NVyLQMIUsdOP8if&pp=iAQB)
 
 
 

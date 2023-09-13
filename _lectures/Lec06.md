@@ -10,9 +10,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-09-12
-link-slides: 
-link-scribbles: 
-link-recording: 
+link-slides: /materials/lecture_slides/lec6.pdf
+link-scribbles: /materials/lecture_slides/lec6_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_ivtlumuj
 ---
 
 <!-- Gautham's content begin-->
@@ -97,6 +97,10 @@ Given two CFG $G_1 = (V_1, T, P_1, S_1)$ and $G_2 = (V_2, T, P_2, S_2)$ and assu
 
 <h4>Additional Resources</h4>
 
-- [Jeff's Notes on Context Free language](http://jeffe.cs.illinois.edu/teaching/algorithms/models/05-context-free.pdf)
-- [Sariel's Lecture 7](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/)
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's Notes on Context Free language](http://jeffe.cs.illinois.edu/teaching/algorithms/models/05-context-free.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 2 - Context-Free Languages 
+* [Sariel's Lecture 7](https://www.youtube.com/watch?v=NwzQMETmpi4&list=PLaEwgrahG-LoFinaaQ9YQeLQ_ARNEj783&pp=iAQB)
 

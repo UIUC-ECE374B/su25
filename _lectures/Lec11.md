@@ -161,9 +161,14 @@ have an increasing order of value. For each input element, the algorithm decides
 to include it in the output sequence or not.
 
 <h4>Additional Resources</h4>
-- [Jeff's Textbook - Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf)
-- [Sariel's Lecture 12](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	  * [Chapter 3 - Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 9.1 - Backtracking
+    * Chapter 9.2 - Examples of sBacktracking
+* [Sariel's Lecture 12](https://www.youtube.com/watch?v=wBCnigInHX0&list=PLaEwgrahG-LqZsjL9z3yZ0auODC6L7VHE&pp=iAQB) 
 
 
 

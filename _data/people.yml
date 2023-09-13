@@ -11,7 +11,7 @@ kani:
         time-start: "15:00"
         time-end: "16:00"
         day: Tuesday
-        location: 
+        location: 239 CSL
 
 abhishek:
     display_name: "Abhishek Kumar Umrawal"
@@ -26,7 +26,7 @@ abhishek:
         time-start: "15:00"
         time-end: "16:00"
         day: Thursday
-        location:    
+        location: 4036 ECEB
 
 
 # scott:
@@ -71,9 +71,9 @@ sungwoo:
         time-start: "15:00"
         time-end: "16:00"
         day: Wednesday
-        location:  
+        location: 2036 ECEB 
       
-sindu:
+sindhu:
     display_name: "Sindhu Vydana"
     netid: svydana2
     webpage: "https://linkedin.com/in/sindhu-vydana/"
@@ -86,7 +86,7 @@ sindu:
         time-start: "11:00"
         time-end: "12:00"
         day: Tuesday
-        location:   
+        location: 2036 ECEB  
 
 
 sandhya:
@@ -99,10 +99,10 @@ sandhya:
     bio: Graduate Teaching Assistant
     OHs: 
       OH1:
-        time-start: "11:00"
-        time-end: "12:00"
-        day: Thursday
-        location:   
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Tuesday
+        location: 4036 ECEB
 
 sumedh:
     display_name: "Sumedh Vemuganti"
@@ -117,7 +117,7 @@ sumedh:
         time-start: "16:00"
         time-end: "17:00"
         day: Friday
-        location: 
+        location: 3013 ECEB
 
 weiyang:
     display_name: "Weiyang Wang"
@@ -132,7 +132,7 @@ weiyang:
         time-start: "17:00"
         time-end: "18:00"
         day: Wednesday
-        location:   
+        location: 2036 ECEB
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
@@ -147,7 +147,7 @@ ziheng:
         time-start: "10:00"
         time-end: "11:00"
         day: Thursday
-        location:   
+        location: 4036 ECEB
 
 yueyi:
     display_name: "Yueyi Shen"
@@ -162,7 +162,7 @@ yueyi:
         time-start: "16:00"
         time-end: "17:00"
         day: Thursday
-        location:   
+        location: 4036 ECEB
 
 haoyuan:
     display_name: "Haoyuan You"
@@ -177,7 +177,7 @@ haoyuan:
         time-start: "17:00"
         time-end: "18:00"
         day: Friday
-        location:   
+        location: 3013 ECEB
 
 
 ### Undergraduate TAs
@@ -209,11 +209,11 @@ mikem:
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-      # OH1:
-      #   time-start: "12:00"
-      #   time-end: "14:00"
-      #   day: Monday
-      #   location: ECEB 5034  
+      OH1:
+        time-start: "10:00"
+        time-end: "12:00"
+        day: Monday
+        location: 3034 ECEB
 
 hamza:
     display_name: "Hamza Husain"
@@ -256,6 +256,12 @@ ved:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Monday
+        location: 3034 ECEB
 
 brian:
     display_name: "Brian Kim"
@@ -275,17 +281,32 @@ owen:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Tuesday
+        location: 4036 ECEB  
+      OH2:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Thursday
+        location: 4036 ECEB
 
-
-anirudth:
-    display_name: "Anirudth Kumar"
+anirudh:
+    display_name: "Anirudh Kumar"
     netid: kumar67
     webpage: 
     github: 
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "18:00"
+        day: Monday
+        location: 3003 ECEB
 
 erin:
     display_name: "Erin Kim"
@@ -295,7 +316,17 @@ erin:
     role: ugrad
     image: /img/people/erin.jpg
     bio: Undergraduate Course Assistant  
-
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Monday
+        location: 3003 ECEB
+      OH2:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Friday
+        location: 3013 ECEB
 
 shubham:
     display_name: "Shubham Thakar"
@@ -314,6 +345,12 @@ siddhant:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Tuesday
+        location: 4036 ECEB
 
 chris:
     display_name: "Chris Deng"
@@ -323,8 +360,27 @@ chris:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "13:00"
+        time-end: "15:00"
+        day: Wednesday
+        location: 2036 ECEB
 
-
+ifesi:
+    display_name: "Ifesi Onubogu"
+    netid: onubogu2
+    webpage: 
+    github: 
+    role: ugrad
+    image: /img/people/anon-female.jpg
+    bio: Undergraduate Course Assistant
+    # OHs: 
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "17:00"
+    #     day: Wednesday
+    #     location: 2034 ECEB
 
 
 

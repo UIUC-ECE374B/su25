@@ -296,8 +296,17 @@ Example - rch(B) :
     - Thus S = rch(u) at termination
     
 <h4>Additional Resources</h4>
-- [Jeff's Textbook - Basic Graph Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/book/05-graphs.pdf)
-- [Sariel's Lecture 15](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
+
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+	* [Chapter 5 - Basic Graph Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/book/05-graphs.pdf)
+  * Skiena, Steven. *The Algorithms Design Manual*
+    * Chapter 7.5 - Traversing a Graph
+  * Sedgewick, Robert and Wayne, Kevin. *Algorithms (Forth Edition)*
+    * Chapter 4 - Graphs
+  * Cormen, Thomas, et al. *Algorithms (Forth Edition)*
+    * Chapter 20 - Elementary Graph Algorithms 
+* [Sariel's Lecture 15](https://www.youtube.com/watch?v=_WFduXSroFo&list=PLaEwgrahG-LqAqBXqmpeKgLT-sxMt8SZB&pp=iAQB) 
 
 
 

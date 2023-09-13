@@ -88,8 +88,13 @@ This way we can update the configuration and return the out of the TM according 
 
 &nbsp;
 <h4>Additional Resources</h4>
-- [Jeff's notes on Universal Turing Machine](https://jeffe.cs.illinois.edu/teaching/algorithms/models/08-universal.pdf)
 
+* Textbooks 
+  * Erickson, Jeff. *Algorithms* 
+    * [Jeff's notes on Universal Turing Machine](https://jeffe.cs.illinois.edu/teaching/algorithms/models/08-universal.pdf)
+  * Sipser, Michael. *Introduction to the Theory of Computation*
+    * Chapter 3 - Turing Machines 
+* [Sariel's Lecture 8.6](https://www.youtube.com/watch?v=p_QNHVeFDws&list=PLaEwgrahG-Lq4hTscGd88DrC74VOXiBfl&index=9)
 
 
 
