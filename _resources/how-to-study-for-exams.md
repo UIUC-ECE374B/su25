@@ -3,7 +3,7 @@ layout: resource
 title: "How to study for this course"
 
 description: Some tips on studying for this course. 
-
+date: 2023-09-15
 icon: star-o
 people:
   - kani
@@ -30,7 +30,6 @@ I firmly believe that if you do all this, failing this course (or even get a bad
 
 Good luck with your studies and I hope that everyone masters the upcoming midterm(s).
 
-Thanks
-Nickvash Kani
+<hr>
 
 I need to add this disclaimer: the posted exams make no guarantees or promises about the exams you'll take for this semester. Every semester is different, so the exam this semester might be easier than the exams from the previous semesters, might be harder this semester. There may be a subject that wasn't covered in previous semesters that is covered this semester.  
