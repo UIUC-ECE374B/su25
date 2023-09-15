@@ -56,7 +56,7 @@ title: Exams
             </a>
             {% endif %}
             {% if item.samp_exam2_sol %}
-            <a href="{{ site.base }}{{ item.samp_exam2_sol }}"
+            <a href="{{ site.base }}{{ item.samp_exam1_sol }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} exam solutions"
