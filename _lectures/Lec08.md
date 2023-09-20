@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-09-19
 link-slides: /materials/lecture_slides/lec8.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec8_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_0eh2dic0
 ---
 
 <h4>Universal Turing Machine</h4>
