@@ -34,13 +34,13 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   <tr>
     <td> BYA </td>
     <td> 09:00AM - 09:50AM </td>
-    <td> Jack, Chen, Yueyi Shen </td>
+    <td> Jack Chen, Yueyi Shen </td>
     <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td> Haoyuan You, Weiyang Wang </td>
+    <td> Haoyuan You </td>
     <td> 0216 Siebel </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Under Construction. There will be no office hours the first week (use Piazza). W
   <tr>
     <td> BYE </td>
     <td> 01:00PM - 01:50PM </td>
-    <td> Sumedh Vemuganti </td>
+    <td> Weiyang Wang, Sumedh Vemuganti </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>

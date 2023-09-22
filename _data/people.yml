@@ -177,7 +177,16 @@ haoyuan:
         time-start: "14:00"
         time-end: "15:00"
         day: Thursday
-        location: 3013 ECEB
+        location: 3003 ECEB
+
+hongbo:
+    display_name: "Hongbo Zheng"
+    webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
+    netid: hongboz2
+    github: 
+    role: grad
+    image: /img/people/hongbo.jpeg
+    bio: Graduate Course Assistant
 
 
 ### Undergraduate TAs
