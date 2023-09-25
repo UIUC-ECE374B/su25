@@ -242,10 +242,10 @@ hamza:
 keerthana:
     display_name: "Keerthana Nallamotu"
     netid: kn19
-    webpage: 
-    github: 
+    webpage: https://www.linkedin.com/in/keerthana-nallamotu-041629191/
+    github: KeerthanaNallamotu
     role: ugrad
-    image: /img/people/anon-female.jpg
+    image: /img/people/keerthana.jpeg
     bio: Undergraduate Course Assistant
 
 raghav:
@@ -260,10 +260,10 @@ raghav:
 ved:
     display_name: "Ved Eti"
     netid: vedeti2
-    webpage: 
-    github: 
+    webpage: https://www.linkedin.com/in/ved-eti/
+    github: VedEti123
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/ved-eti.png
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
@@ -285,8 +285,8 @@ brian:
 owen:
     display_name: "Owen Xu"
     netid: jinyuxu2
-    webpage: 
-    github: 
+    webpage: https://www.linkedin.com/in/owen-xu-38b097251/
+    github: 112728430
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
@@ -305,10 +305,10 @@ owen:
 anirudh:
     display_name: "Anirudh Kumar"
     netid: kumar67
-    webpage: 
-    github: 
+    webpage: https://www.linkedin.com/in/anirudh-kumar-066ab7241/
+    github: ankumar8164
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/anirudh.jpg
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
@@ -349,10 +349,10 @@ anirudh:
 siddhant:
     display_name: "Siddhant Nanavati"
     netid: ssn5
-    webpage: 
-    github: 
+    webpage: http://www.linkedin.com/in/siddhant-nanavati
+    github: ssn5
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/siddhant.jpg
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
@@ -364,10 +364,10 @@ siddhant:
 chris:
     display_name: "Chris Deng"
     netid: zdeng14
-    webpage: 
-    github: 
+    webpage: https://www.linkedin.com/in/zhiyuan-deng-61223b253/
+    github: Chrizzel7
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/chris-deng.jpg
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
