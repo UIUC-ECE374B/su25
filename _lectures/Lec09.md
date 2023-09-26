@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-09-26
 link-slides: /materials/lecture_slides/lec9.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec9_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_jb5jxsjn
 ---
 
 ### Algorithms
