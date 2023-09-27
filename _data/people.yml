@@ -379,10 +379,10 @@ chris:
 ifesi:
     display_name: "Ifesi Onubogu"
     netid: onubogu2
-    webpage: 
-    github: 
+    webpage: https://www.linkedin.com/in/ifesionubogu/
+    github: ifesiONUBOGU
     role: ugrad
-    image: /img/people/anon-female.jpg
+    image: /img/people/ifesi.png
     bio: Undergraduate Course Assistant
     # OHs: 
     #   OH1:
