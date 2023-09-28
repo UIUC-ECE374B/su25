@@ -10,7 +10,7 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-09-28
-link-slides: 
+link-slides: /materials/lecture_slides/lec10.pdf
 link-scribbles: 
 link-recording: 
 ---
