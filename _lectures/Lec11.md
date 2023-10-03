@@ -11,7 +11,7 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-10-03
 link-slides: /materials/lecture_slides/lec11.pdf
-link-scribbles: 
+link-scribbles: /materials/lecture_slides/lec11_scribbles_fa23.pdf
 link-recording: 
 ---
 
