@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2023-10-05
 link-slides: /materials/lecture_slides/lec12.pdf
 link-scribbles: 
-link-recording: 
+link-recording: https://mediaspace.illinois.edu/media/t/1_sr2w97x9
 ---
 
 <h4> Dynamic Programming </h4>
