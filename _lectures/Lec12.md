@@ -11,7 +11,7 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-10-05
 link-slides: /materials/lecture_slides/lec12.pdf
-link-scribbles: 
+link-scribbles: /materials/lecture_slides/lec12_scribbles_fa23.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_sr2w97x9
 ---
 
