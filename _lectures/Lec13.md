@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-10-10
 link-slides: /materials/lecture_slides/lec13.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec13_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_cz045f0e
 ---
 
 ### Dynamic Programming
