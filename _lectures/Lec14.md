@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-10-12
 link-slides: /materials/lecture_slides/lec14.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec14_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_64v7ogzl
 ---
 
 <h4> I. Undirected graphs </h4>
