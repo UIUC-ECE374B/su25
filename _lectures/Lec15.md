@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-10-17
 link-slides: /materials/lecture_slides/lec15.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec15_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_g13u1mxd
 ---
 
 <h4>Directed Acyclic Graph</h4>
