@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-10-19
 link-slides: /materials/lecture_slides/lec16.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec16_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_l4e2e2s8
 ---
 
 ## Breadth First Search Algorithm
