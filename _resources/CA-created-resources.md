@@ -13,11 +13,11 @@ people:
 
 Creating new content is *difficult* and usually a task for me and the TAs. However, a few CAs have taken up the challenge of making new content: 
 
-- [Jigsaw problem reduction](/lectures/Lec22.html)
+- [Jigsaw problem reduction](/lectures/Lec21.html)
   - Manuscript: [pdf](/materials/extra_content/Jigsaw_Sumedh.pdf)
   - Author: Sumedh Vemuganti
 
-- [Even more DP problems (Extra Lab)](/lectures/Lec14.html)
+- [Even more DP problems (Extra Lab)](/lectures/Lec13.html)
   - Manuscript: [Questions](/materials/extra_content/lab12-new.pdf) [Solutions](/materials/extra_content/lab12-sol-new.pdf)
   - Author: Hamza Husain
 
@@ -29,6 +29,9 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
 
 - [Manim tutorial - Djikstra](/resources/ManimGuide2):
   - Author: Kevin Lim
+
+- [Lecture notes - Decidability](/lectures/Lec23.html):
+  - Author: Ifesi Onubogu
 
 ### Animations 
 
