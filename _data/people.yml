@@ -18,15 +18,15 @@ abhishek:
     netid: aumrawal
     webpage: "https://www.linkedin.com/in/abhishekumrawal/"
     github: 
-    role: faculty
+    role: alum
     image: /img/people/abhishek.png
     bio: Teaching Assistant Professor 
-    OHs: 
-      OH1:
-        time-start: "15:00"
-        time-end: "16:00"
-        day: Thursday
-        location: 4036 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "15:00"
+    #     time-end: "16:00"
+    #     day: Thursday
+    #     location: 4036 ECEB
 
 
 # scott:
