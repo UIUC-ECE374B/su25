@@ -10,9 +10,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-11-14
-link-slides: /materials/lecture_slides/lec22.pdf
-link-scribbles: /materials/lecture_slides/lec22_scribbles_fa23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_w9ttj0ng
+link-slides: /materials/lecture_slides/lec23.pdf
+link-scribbles: /materials/lecture_slides/lec23_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_4s9vft47
 ---
 
 <h4>Decidability</h4>

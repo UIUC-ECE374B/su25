@@ -9,9 +9,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2023-11-28
-link-slides: /materials/lecture_slides/lec24.pdf
-link-scribbles: /materials/lecture_slides/lec24_scribbles_fa23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_07h3tgw1
+link-slides: /materials/lecture_slides/lec25.pdf
+link-scribbles: /materials/lecture_slides/lec25_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_w7pjbbxx
 ---
 
 Nothing so far.....
