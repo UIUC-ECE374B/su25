@@ -5,6 +5,7 @@ title: "Manim - simple animation introduction "
 description: Manim is a powerful animation tool that is used extensibly by STEM youtubers to animate mathematical concepts. It's integration with python allows you to calculate and display examples within the same script. This is a quickstart guide on how to create Manim animations. 
 
 icon: star-o
+date: 2023-05-15
 people:
   - jeep
 ---

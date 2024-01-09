@@ -5,6 +5,7 @@ title: "CA created resources from this and past semesters"
 description: Want to keep a list of all the amazing work(s) my CAs have have. Some are published here. Some are in reserves  
 
 icon: star-o
+date: 2023-09-15
 people:
   - kani
 ---

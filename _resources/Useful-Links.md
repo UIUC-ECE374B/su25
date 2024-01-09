@@ -5,6 +5,7 @@ title: "Useful resources and links"
 description: Some useful resources and links I've found that could be relevant to your studies 
 
 icon: star-o
+date: 2023-05-15
 people:
   - kani
 ---

@@ -8,3 +8,11 @@ title: Policies
     {% include policy-item.html item=post %}
 {% endfor %}
 </ul>
+
+<hr>
+<h2>Other Resources</h2>
+<ul class="news list-unstyled">
+    {% for post in site.resources %}
+        {% include policy-item.html item=post %}
+    {% endfor %}
+</ul>

@@ -5,6 +5,7 @@ title: "Manim - Djikstra animation tutorial "
 description: Mr. Kevin Lim created a tutorial on how to create an animation of Djikstra's algorithm using Manim. This post contains a link to the posts as well as the github repo containing all the code.  
 
 icon: star-o
+date: 2023-05-15
 people:
   - kevin
 ---
