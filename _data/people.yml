@@ -5,7 +5,7 @@ kani:
     github: NickvashKani
     role: faculty
     image: /img/people/Kani.png
-    bio: Research Assistant Professor 
+    bio: Teaching Assistant Professor 
     OHs: 
       OH1:
         time-start: "15:00"
@@ -13,12 +13,43 @@ kani:
         day: Tuesday
         location: 239 CSL
 
+
+sariel:     
+    display_name: "Abhishek Kumar Umrawal"
+    netid: sariel
+    webpage: "https://sarielhp.org/"
+    github: 
+    role: faculty-alum
+    image: /img/people/sariel.png
+    bio:  Professor 
+
+
+andrew:     
+    display_name: "Andrew Miller"
+    netid: soc1024
+    webpage: "https://sarielhp.org/"
+    github: 
+    role: faculty-alum
+    image: /img/people/miller.png
+    bio:  Associate Professor 
+
+
+chandra:     
+    display_name: "Chandra Chekuri"
+    netid: chekuri
+    webpage: "https://chekuri.cs.illinois.edu/"
+    github: 
+    role: faculty-alum
+    image: /img/people/chekuri.png
+    bio:  Professor 
+
+
 abhishek:
     display_name: "Abhishek Kumar Umrawal"
     netid: aumrawal
     webpage: "https://www.linkedin.com/in/abhishekumrawal/"
     github: 
-    role: alum
+    role: faculty-alum
     image: /img/people/abhishek.png
     bio: Teaching Assistant Professor 
     # OHs: 
@@ -63,7 +94,7 @@ sungwoo:
     netid: sjeon12
     webpage: "https://www.linkedin.com/in/sung-woo-jeon-26a06524a/"
     github: al0wner
-    role: grad
+    role: grad-alum
     image: /img/people/sung.jpg
     bio: Graduate Teaching Assistant
     OHs: 
@@ -75,10 +106,10 @@ sungwoo:
       
 sindhu:
     display_name: "Sindhu Vydana"
-    netid: svydana2
+    netid: svydana2-alum
     webpage: "https://linkedin.com/in/sindhu-vydana/"
     github: vydanasindhu
-    role: grad
+    role: grad-alum
     image: /img/people/sindu.jpeg
     bio: Graduate Teaching Assistant
     OHs: 
@@ -91,10 +122,10 @@ sindhu:
 
 sandhya:
     display_name: "Sandhya Perumenki"
-    netid: sp84
+    netid: sp84-alum
     webpage: "https://www.linkedin.com/in/sandhya-rao-p"
     github: sandhya-rao-p
-    role: grad
+    role: grad-alum
     image: /img/people/sandhya.jpeg
     bio: Graduate Teaching Assistant
     OHs: 
@@ -106,10 +137,10 @@ sandhya:
 
 sumedh:
     display_name: "Sumedh Vemuganti"
-    netid: sumedh2
+    netid: sumedh2-alum
     webpage: "https://www.linkedin.com/in/sumedh-vemu/"
     github: sumedh2
-    role: grad
+    role: grad-alum
     image: /img/people/sumedh.jpeg
     bio: Graduate Course Assistant
     # OHs: 
@@ -124,7 +155,7 @@ weiyang:
     netid: weiyang7
     webpage: ""
     github: willwwy
-    role: grad
+    role: grad-alum
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
     OHs: 
@@ -139,7 +170,7 @@ ziheng:
     netid: zihengc2
     webpage: "https://www.linkedin.com/in/zihengjackchen"
     github: JackZihengChen
-    role: grad
+    role: grad-alum
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
     OHs: 
@@ -154,7 +185,7 @@ yueyi:
     netid: yueyis2
     webpage: "http://www.linkedin.com/in/yueyishen"
     github: yueyis2
-    role: grad
+    role: grad-alum
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
     OHs: 
@@ -169,7 +200,7 @@ haoyuan:
     netid: hy19
     webpage: "https://www.linkedin.com/in/haoyuan-you-2a0341193/"
     github: azulradio
-    role: grad
+    role: grad-alum
     image: /img/people/haoyuan.png
     bio: Graduate Course Assistant
     OHs: 
@@ -184,9 +215,11 @@ hongbo:
     webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
     netid: hongboz2
     github: 
-    role: grad
+    role: grad-alum
     image: /img/people/hongbo.jpeg
     bio: Graduate Course Assistant
+
+
 
 
 ### Undergraduate TAs
@@ -196,25 +229,25 @@ ayu:
     netid: aseiya2
     webpage: "https://www.linkedin.com/in/ayu-seiya-88509722b"
     github: ayuseiya02
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/ayu.jpg
     bio: Undergraduate Course Assistant        
 
 qing:
     display_name: "Qing Wang"
-    netid: qingw3
+    netid: qingw3-alum
     webpage: "https://github.com/Kingcela/variable_extraction"
     github: Kingcela
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/qing.jpg
     bio: Undergraduate Course Assistant
 
 mikem:
     display_name: "Mike Montano"
-    netid: montano3
+    netid: montano3-alum
     webpage: "https://www.linkedin.com/in/mike-montano-680aa6230/"
     github: EdgesFTW
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
     OHs: 
@@ -229,7 +262,7 @@ hamza:
     netid: mhusain3
     webpage: ""
     github: hamza14102
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/hamza.jpg
     bio: Undergraduate Course Assistant
     OHs: 
@@ -241,10 +274,10 @@ hamza:
 
 keerthana:
     display_name: "Keerthana Nallamotu"
-    netid: kn19
+    netid: kn19-alum
     webpage: https://www.linkedin.com/in/keerthana-nallamotu-041629191/
     github: KeerthanaNallamotu
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/keerthana.jpeg
     bio: Undergraduate Course Assistant
 
@@ -253,7 +286,7 @@ raghav:
     netid: raghavp4
     webpage: 
     github: 
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
 
@@ -262,7 +295,7 @@ ved:
     netid: vedeti2
     webpage: https://www.linkedin.com/in/ved-eti/
     github: VedEti123
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/ved-eti.png
     bio: Undergraduate Course Assistant
     OHs: 
@@ -277,7 +310,7 @@ brian:
     netid: brianhk2
     webpage: 
     github: 
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
 
@@ -287,7 +320,7 @@ owen:
     netid: jinyuxu2
     webpage: https://www.linkedin.com/in/owen-xu-38b097251/
     github: 112728430
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/owen.jpg
     bio: Undergraduate Course Assistant
     OHs: 
@@ -307,7 +340,7 @@ anirudh:
     netid: kumar67
     webpage: https://www.linkedin.com/in/anirudh-kumar-066ab7241/
     github: ankumar8164
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/anirudh.jpg
     bio: Undergraduate Course Assistant
     OHs: 
@@ -351,7 +384,7 @@ siddhant:
     netid: ssn5
     webpage: http://www.linkedin.com/in/siddhant-nanavati
     github: ssn5
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/siddhant.jpg
     bio: Undergraduate Course Assistant
     OHs: 
@@ -366,7 +399,7 @@ chris:
     netid: zdeng14
     webpage: https://www.linkedin.com/in/zhiyuan-deng-61223b253/
     github: Chrizzel7
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/chris-deng.jpg
     bio: Undergraduate Course Assistant
     OHs: 
@@ -381,7 +414,7 @@ ifesi:
     netid: onubogu2
     webpage: https://www.linkedin.com/in/ifesionubogu/
     github: ifesiONUBOGU
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/ifesi.png
     bio: Undergraduate Course Assistant
     # OHs: 
@@ -401,7 +434,7 @@ sarthak:
     netid: skamboj2
     webpage: "https://www.linkedin.com/in/sarthakkamboj"
     github: 
-    role: alum
+    role: ugrad-alum
     image: /img/people/sarthak.jpg
     bio: Undergraduate Course Assistant
 
@@ -410,7 +443,7 @@ maxs:
     netid: maxes2
     webpage: "https://www.linkedin.com/in/max-shepherd-546b001b5"
     github: 
-    role: alum
+    role: ugrad-alum
     image: /img/people/max.png
     bio: Undergraduate Course Assistant
     # OHs: 
@@ -430,7 +463,7 @@ kaifeng:
     netid: kaifeng6
     webpage: "https://www.linkedin.com/in/kaifeng-lin-sde"
     github: kefinlin
-    role: alum
+    role: ugrad-alum
     image: /img/people/kaifeng.jpg
     bio: Undergraduate Course Assistant
 
@@ -439,7 +472,7 @@ zikui:
     netid: zikuiw2
     webpage: "https://www.linkedin.com/in/zikui-wang-b1821421b"
     github: zikuiw2
-    role: alum
+    role: ugrad-alum
     image: /img/people/zikui.jpg
     bio: Undergraduate Course Assistant
 
@@ -448,7 +481,7 @@ jeep:
     netid: ckaewla2
     webpage: "https://www.linkedin.com/in/chayanid-kaewla/"
     github: jeeepx
-    role: alum
+    role: ugrad-alum
     image: /img/people/jeep.jpg
     bio: Undergraduate Course Assistant    
 
@@ -457,7 +490,7 @@ kevin:
     netid: wzlim2
     webpage: "https://www.linkedin.com/in/kevin-lim-b01021203/"
     github: kevtool
-    role: alum
+    role: ugrad-alum
     image: /img/people/kevin.png
     bio: Undergraduate Course Assistant  
 
@@ -466,7 +499,7 @@ nicholas:
     netid: bampton2
     webpage: ""
     github: nick-bampton
-    role: alum
+    role: grad-alum
     image: /img/people/nicholas.jpg
     bio: Graduate Teaching Assistant
 
@@ -475,7 +508,7 @@ rubin:
     netid: jiaruz2
     webpage: "https://www.linkedin.com/in/jiaru-zou-67434a21a/"
     github: MP-killer
-    role: alum
+    role: ugrad-alum
     image: /img/people/rubin.jpg
     bio: Undergraduate Course Assistant        
     OHs: 
@@ -487,10 +520,10 @@ rubin:
 
 gautham:
     display_name: "Gautham Varma"
-    netid: gvarma2
+    netid: grad-gvarma2
     webpage: "https://www.linkedin.com/in/gauthamvarma1997/"
     github: VarmaGautham
-    role: alum
+    role: grad-alum
     image: /img/people/gautham.jpg
     bio: Graduate Teaching Assistant
     OHs: 
@@ -500,6 +533,114 @@ gautham:
     #     day: Thursday
     #     location: ECEB 4036 
 
+
+jason:
+    display_name: "Jason Zhu"
+    webpage: "https://www.linkedin.com/in/zhengzhongzhu/"
+    netid: zz26
+    github: 
+    role: grad-alum
+    image: /img/people/anon-male.jpg
+    bio: Graduate Course Assistant
+
+nitin:
+    display_name: "Nitin Balachandran"
+    webpage: "https://www.linkedin.com/in/nitin-balachandran-955133114/"
+    netid: nitinkb2
+    github: 
+    role: grad-alum
+    image: /img/people/nitin.jpeg
+    bio: Graduate Course Assistant
+
+haochen:
+    display_name: "Haochen Shen"
+    webpage: ""
+    netid: hshen14
+    github: 
+    role: grad-alum
+    image: /img/people/anon-male.jpg
+    bio: Graduate Course Assistant
+
+zhongweiyang:
+    display_name: "Zhongweiyang Xu"
+    webpage: "https://www.linkedin.com/in/zhongweiyang-xu-625694160/"
+    netid: zx21
+    github: 
+    role: grad-alum
+    image: /img/people/anon-male.jpg
+    bio: Graduate Course Assistant
+
+emerson:
+    display_name: "Emerson Sie"
+    webpage: "https://sie2.github.io/"
+    netid: sie2
+    github: 
+    role: grad-alum
+    image: /img/people/emerson.jpeg
+    bio: Graduate Course Assistant
+
+junyeob:
+    display_name: "Junyeob Lim"
+    webpage: "https://ece.illinois.edu/about/directory/grad-students/junyeob2"
+    netid: junyeob2
+    github: 
+    role: grad-alum
+    image: /img/people/anon-male.jpg
+    bio: Graduate Course Assistant
+
+jinghan:
+    display_name: "Jinghan Huang"
+    webpage: "https://www.linkedin.com/in/jinghanhuang/"
+    netid: jinghan4
+    github: 
+    role: grad-alum
+    image: /img/people/jinghan.jpeg
+    bio: Graduate Course Assistant
+
+xiangcan:
+    display_name: "Xiangcan Li"
+    webpage: "https://www.linkedin.com/in/xiangcanli/"
+    netid: xl69
+    github: 
+    role: ugrad-alum
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+vaibhav:
+    display_name: "Vaibhav Gupta"
+    webpage: "https://www.linkedin.com/in/vvgupta01/"
+    netid: vaibhav7
+    github: 
+    role: ugrad-alum
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+prakarsh:
+    display_name: "Prakarsh Gupta"
+    webpage: "https://www.linkedin.com/in/gprakarsh/"
+    netid: pg12
+    github: 
+    role: ugrad-alum
+    image: /img/people/prakarsh.jpeg
+    bio: Undergraduate Course Assistant
+
+kunal:
+    display_name: "Kunal Bhargava"
+    webpage: "https://www.linkedin.com/in/kunal0829/"
+    netid: kunalb4
+    github: 
+    role: ugrad-alum
+    image: /img/people/kunal.jpeg
+    bio: Undergraduate Course Assistant
+
+kopinsky:
+    display_name: "Max Kopinsky"
+    webpage: "https://www.linkedin.com/in/max-kopinsky-2bbb5719b/"
+    netid: maxk3
+    github: 
+    role: ugrad-alum
+    image: /img/people/kopinsky.jpeg
+    bio: Graduate Course Assistant
 
 
 # alum-a:

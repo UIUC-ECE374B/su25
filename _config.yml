@@ -21,8 +21,12 @@ roles:
     name: Graduate Teaching Assistants
   - key: ugrad
     name: Undergraduate Teaching Assistants
-  - key: alum
-    name: Alumni Teaching Assistants   
+  - key: faculty-alum
+    name: Historical Co-instructors   
+  - key: grad-alum
+    name: Alumni Graduate Teaching Assistants   
+  - key: ugrad-alum
+    name: Alumni Undergraduate Teaching Assistants   
   # - key: ugrad-alum
   #   name: Past Undergraduate Students
   # - key: collab
@@ -63,3 +67,6 @@ navigation:
     link: /policies.html
   - title: Schedules
     link: /office_hours.html       
+
+#Variable that sets if this is a archived version of the site or not
+archived: true

@@ -14,9 +14,28 @@ role-tables:
 - - roles: [ugrad]
     width: 12
     image: true
-- - roles: [alum]
+- - roles: [grad-alum]
     width: 12
     image: true
+- - roles: [ugrad-alum]
+    width: 12
+    image: true
+
+# putting in a archived version for off-semesters
+role-archive-tables:
+- - roles: [faculty]
+    width: 4
+    image: true
+  - roles: [faculty-alum]
+    width: 8
+    image: true
+- - roles: [grad-alum]
+    width: 12
+    image: true
+- - roles: [ugrad-alum]
+    width: 12
+    image: true
+
 ---
 
 <div class="jumbotron">
@@ -28,9 +47,9 @@ role-tables:
 </div>
 
 <section style="text-align: center;">
-    <a href="https://piazza.com/class/llecyw6fyx91yi" class="button button1">Forum (Piazza)</a> 
-    <a href="https://www.gradescope.com/courses/573775" class="button button2">Submit HWs (Gradescope)</a> 
-    <a href="https://canvas.illinois.edu/courses/40058" class="button button3">Gradebook (Canvas)</a> 
+    <a href="https://piazza.com/" class="button button1">Forum (Piazza)</a> 
+    <a href="https://www.gradescope.com/" class="button button2">Submit HWs (Gradescope)</a> 
+    <a href="https://canvas.illinois.edu/" class="button button3">Gradebook (Canvas)</a> 
 </section>
 
 <section>
@@ -54,7 +73,7 @@ role-tables:
 {% include quicklinks.html%}
 
 
-
+{% if site.archived != true %}
 <div id="people">
     <h2>People</h2>
     {% for role-table in page.role-tables %}
@@ -69,3 +88,21 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+{% else %}
+<div id="people">
+    <h2>People</h2>
+    {% for role-table in page.role-archive-tables %}
+        <section class="people row justify-content-between">
+            {% for role-column in role-table %}
+                <div class="col-md-{{ role-column.width }}">
+                    {% for role in role-column.roles %}
+                        {% include role-people.html role=role image=role-column.image %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </section>
+    {% endfor %}
+</div>
+{% endif %}
+
+
