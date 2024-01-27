@@ -10,7 +10,7 @@ layout: post
 no-link: true  # stops link to page 
 deliverydate: 2023-10-11
 link-questions: /materials/labs/lab13.pdf
-link-solutions: /materials/labs/lab13-sol.pdf
+link-solutions: /materials/labs/lab13.pdf
 ---
 
 
