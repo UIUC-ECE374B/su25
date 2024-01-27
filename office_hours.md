@@ -2,8 +2,10 @@
 layout: default
 title: Course Schedules
 ---
+{% if site.archived == true %}
+Obviously this course isn't active and there aren't any discussion sections or office hours. But I left a bunch of sample data in the repo to show how the backend works when you need want to display OHs. It was tricky to get working at the time but I built everything so that you only need to set the time(s) in the people.yml file and everything is beautifully displayed on the schedule table. Super helpful since staff needs to change OH times frequently throughout the semester and all you need to do on your end is to change a few values in the .yml file instead of futzing with a bunch of HTML.   
+{% endif %}
 
-Under Construction. There will be no office hours the first week (use Piazza). We'll begin OHs on Aug. 28.
 
 #### Lectures
 

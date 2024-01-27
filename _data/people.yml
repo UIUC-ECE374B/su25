@@ -11,8 +11,12 @@ kani:
         time-start: "15:00"
         time-end: "16:00"
         day: Tuesday
-        location: 239 CSL
-
+        location: 1039 CSL
+      OH2:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Thursday
+        location: 1039 CSL
 
 sariel:     
     display_name: "Abhishek Kumar Umrawal"
@@ -32,7 +36,12 @@ andrew:
     role: faculty-alum
     image: /img/people/miller.png
     bio:  Associate Professor 
-
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Wednesday
+        location: 555 CSL
 
 chandra:     
     display_name: "Chandra Chekuri"
@@ -587,6 +596,12 @@ junyeob:
     role: grad-alum
     image: /img/people/anon-male.jpg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Friday
+        location: 239 ACL
 
 jinghan:
     display_name: "Jinghan Huang"
@@ -596,6 +611,13 @@ jinghan:
     role: grad-alum
     image: /img/people/jinghan.jpeg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "09:00"
+        time-end: "12:00"
+        day: Friday
+        location: 239 ACL
+
 
 xiangcan:
     display_name: "Xiangcan Li"
@@ -641,6 +663,12 @@ kopinsky:
     role: ugrad-alum
     image: /img/people/kopinsky.jpeg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "18:00"
+        day: Friday
+        location: 435 MNTL
 
 
 # alum-a:
