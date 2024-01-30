@@ -317,12 +317,20 @@ ved:
 brian:
     display_name: "Brian Kim"
     netid: brianhk2
-    webpage: 
-    github: 
-    role: ugrad-alum
-    image: /img/people/anon-male.jpg
-    bio: Undergraduate Course Assistant
+    webpage: https://www.linkedin.com/in/brian-kim-7a5116177/
+    github: bkimk
+    role: ugrad
+    image: /img/people/briankim.png
+    bio: Undergraduate Researcher
 
+vishesh:
+    display_name: "Vishesh Prasad"
+    netid: vprasad3
+    webpage: ""
+    github: VisheshP-29
+    role: ugrad
+    image: /img/people/visheh.png
+    bio: Undergraduate Researcher
 
 owen:
     display_name: "Owen Xu"
