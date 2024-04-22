@@ -60,3 +60,4 @@ $$L_{MULT2} =
   * Sipser, Michael. *Introduction to the Theory of Computation*
     * Chapter 0 - Introduction - Mathematical Notation and Terminology  
 * [Sariel's Lecture 1](https://www.youtube.com/watch?v=Szd-pWE2Ztc)
+* [Very cool use of induction with hydra problem](https://www.youtube.com/watch?v=prURA1i8Qj4)
