@@ -13,6 +13,7 @@ deliverydate: 2023-10-03
 link-slides: /materials/lecture_slides/lec12.pdf
 link-scribbles: /materials/lecture_slides/lec12_scribbles_sp23.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_benw2x7d
+pre-recording: 
 ---
 
 

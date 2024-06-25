@@ -13,6 +13,7 @@ deliverydate: 2023-10-26
 link-slides: /materials/lecture_slides/lec19.pdf
 link-scribbles: /materials/lecture_slides/lec19_scribbles_sp23.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_vo9hpi9z
+pre-recording: 
 ---
 
 <h3>Minimum Spanning Trees</h3>

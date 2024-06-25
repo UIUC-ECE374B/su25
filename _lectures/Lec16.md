@@ -13,6 +13,7 @@ deliverydate: 2023-10-19
 link-slides: /materials/lecture_slides/lec17.pdf
 link-scribbles: /materials/lecture_slides/lec17_scribbles_sp23.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_t85q7ijk
+pre-recording: 
 ---
 
 ## Breadth First Search Algorithm
