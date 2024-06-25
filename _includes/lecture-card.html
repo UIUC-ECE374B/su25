@@ -88,6 +88,15 @@
                 src="{{ site.base }}/img/icons/slide_scribble.png" />
         </a> 
         {% endif %}
+        {% if lecture.pre-recording %}
+        <a href="{{ lecture.pre-recording }}"
+            style="text-decoration: none">
+            <img class="slides-link"
+                alt="{{ lecture.title }}"
+                title="{{ lecture.title }} Recording"
+                src="{{ site.base }}/img/icons/pre-recording.png" />
+        </a> 
+        {% endif %}
         {% if lecture.link-recording %}
         <a href="{{ lecture.link-recording }}"
             style="text-decoration: none">
