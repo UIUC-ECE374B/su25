@@ -87,6 +87,15 @@
                 src="{{ site.base }}/img/icons/lab_solutions.png" />
         </a> 
         {% endif %}
+        {% if lecture.link-recording %}
+        <a href="{{ lecture.link-recording }}"
+            style="text-decoration: none">
+            <img class="slides-link"
+                alt="{{ lecture.title }}"
+                title="{{ lecture.title }} Recording"
+                src="{{ site.base }}/img/icons/lecture_recording.png" />
+        </a> 
+        {% endif %}
     </div>
     {% endif %}
 </div>

@@ -11,6 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2023-08-23
 link-questions: /materials/labs/lab0-languages.pdf
 link-solutions: /materials/labs/lab0-languages-sol.pdf
+link-recording:
 ---
 
 Notes on Lab 0

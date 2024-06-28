@@ -11,6 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2023-09-13
 link-questions: /materials/labs/lab06-cfgs.pdf
 link-solutions: /materials/labs/lab06-cfgs.pdf
+link-recording:
 ---
 
 

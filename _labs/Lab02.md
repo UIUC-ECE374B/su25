@@ -11,6 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2023-08-30
 link-questions: /materials/labs/lab2-dfas.pdf
 link-solutions: /materials/labs/lab2-dfas.pdf
+link-recording:
 ---
 
 

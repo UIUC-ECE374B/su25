@@ -11,6 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2023-09-06
 link-questions: /materials/labs/lab4-equivalence.pdf
 link-solutions: /materials/labs/lab4-equivalence.pdf
+link-recording:
 ---
 
 

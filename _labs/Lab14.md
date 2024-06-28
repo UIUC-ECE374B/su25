@@ -11,6 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2023-10-13
 link-questions: /materials/labs/lab14.pdf
 link-solutions: /materials/labs/lab14.pdf
+link-recording:
 ---
 
 
