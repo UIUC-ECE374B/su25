@@ -28,7 +28,7 @@ In the above graph, if we start at Node with value 2, the BFS would result in tw
 
 ### Time Complexity
 
-The time complexity of BFS is O(|V| + |E|), where |V| is the number of vertices and |E| is the number of edges in the graph. This is because each vertex and edge is visited at most once.
+The time complexity of BFS is <code>O(&#124 V &#124 + &#124 E &#124) </code> , where |V| is the number of vertices and |E| is the number of edges in the graph. This is because each vertex and edge is visited at most once.
 
 
 ## Dijkstra's Algorithm for Shortest Path
