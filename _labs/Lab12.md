@@ -11,7 +11,8 @@ no-link: true  # stops link to page
 deliverydate: 2023-10-06
 link-questions: /materials/labs/lab12.pdf
 link-solutions: /materials/labs/lab12-sol.pdf
-link-recording:
+link-recording: https://mediaspace.illinois.edu/media/t/1_01wum5ud/347892222
+link-recording-ta:
 ---
 
 

@@ -11,7 +11,8 @@ no-link: true  # stops link to page
 deliverydate: 2023-09-29
 link-questions: /materials/labs/lab10-divnconq.pdf
 link-solutions: /materials/labs/lab10-divnconq.pdf
-link-recording:
+link-recording: https://mediaspace.illinois.edu/media/t/1_ij1t05x0/347892222
+link-recording-ta:
 ---
 
 

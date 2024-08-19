@@ -13,7 +13,7 @@ deliverydate: 2023-10-17
 link-slides: /materials/lecture_slides/lec16.pdf
 link-scribbles: /materials/lecture_slides/lec16_scribbles_sp23.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_xqq3cq35
-pre-recording: 
+pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr0_rD9mGiniyC1jcI3EqzZr
 ---
 
 <h4>Directed Acyclic Graph</h4>

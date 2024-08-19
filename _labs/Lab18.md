@@ -11,7 +11,8 @@ no-link: true  # stops link to page
 deliverydate: 2023-10-27
 link-questions: /materials/labs/lab18.pdf
 link-solutions: /materials/labs/lab18.pdf
-link-recording:
+link-recording: https://mediaspace.illinois.edu/media/t/1_6t3h4umk
+link-recording-ta:
 ---
 
 

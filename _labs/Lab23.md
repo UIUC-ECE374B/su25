@@ -12,6 +12,7 @@ deliverydate: 2023-11-17
 link-questions: /materials/labs/lab23.pdf
 link-solutions: /materials/labs/lab23.pdf
 link-recording:
+link-recording-ta:
 ---
 
 

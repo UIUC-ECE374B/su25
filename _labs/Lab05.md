@@ -12,6 +12,7 @@ deliverydate: 2023-09-08
 link-questions: /materials/labs/lab5-fooling.pdf
 link-solutions: /materials/labs/lab5-fooling.pdf
 link-recording:
+link-recording-ta:
 ---
 
 

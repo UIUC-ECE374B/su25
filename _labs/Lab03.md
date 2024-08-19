@@ -12,6 +12,7 @@ deliverydate: 2023-09-01
 link-questions: /materials/labs/lab3-lang_trans.pdf
 link-solutions: /materials/labs/lab3-lang_trans.pdf
 link-recording:
+link-recording-ta:
 ---
 
 

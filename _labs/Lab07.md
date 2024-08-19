@@ -12,6 +12,7 @@ deliverydate: 2023-09-15
 link-questions: /materials/labs/lab07-tms.pdf
 link-solutions: /materials/labs/lab07-tms.pdf
 link-recording:
+link-recording-ta:
 ---
 
 
