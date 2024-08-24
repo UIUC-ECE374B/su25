@@ -13,20 +13,26 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
+    description: This is me!
   # - key: staff
   #   name: Staff
   # - key: postdoc
   #   name: Researchers
   - key: grad
     name: Graduate Teaching Assistants
+    description: Something 2
   - key: ugrad
     name: Undergraduate Teaching Assistants
+    description: Something 3
   - key: faculty-alum
-    name: Historical Co-instructors   
+    name: Content Creators
+    description: Instructors who have created and contributed to the pool of 374 content.    
   - key: grad-alum
-    name: Alumni Graduate Teaching Assistants   
+    name: Alumni graduate teaching assistants 
+    description: Past graduate teaching assistants. Most have created/contributed to the notes and problems/solutions.   
   - key: ugrad-alum
-    name: Alumni Undergraduate Teaching Assistants   
+    name: Alumni Undergraduate Teaching Assistants
+    description: Many of our past CAs. Most have moved on to successful careers but their time grading and hosting office hours won't be forgotten. 
   # - key: ugrad-alum
   #   name: Past Undergraduate Students
   # - key: collab
@@ -35,7 +41,7 @@ roles:
   #   name: Alumni
 
 # Number of news stories on the front page.
-front_page_news: 4
+front_page_news: 1
 
 # Base pathname for links.
 base: ''
