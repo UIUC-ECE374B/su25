@@ -1,4 +1,4 @@
-name: ECE374-B FA23
+name: ECE374-B Archive
 url: http://UIUC-ECE374B-FA23.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]

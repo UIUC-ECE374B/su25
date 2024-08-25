@@ -92,10 +92,19 @@
             style="text-decoration: none">
             <img class="slides-link"
                 alt="{{ lecture.title }}"
-                title="{{ lecture.title }} Recording"
-                src="{{ site.base }}/img/icons/lecture_recording.png" />
+                title="{{ lecture.title }} Recording (Kani)"
+                src="{{ site.base }}/img/icons/lecture_recording_3.png" />
         </a> 
         {% endif %}
+        {% if lecture.link-recording-ta %}
+        <a href="{{ lecture.link-recording }}"
+            style="text-decoration: none">
+            <img class="slides-link"
+                alt="{{ lecture.title }}"
+                title="{{ lecture.title }} Recording (Sumedh)"
+                src="{{ site.base }}/img/icons/lecture_recording_3_sumedh.png" />
+        </a> 
+        {% endif %}        
     </div>
     {% endif %}
 </div>

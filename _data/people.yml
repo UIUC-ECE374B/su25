@@ -71,34 +71,6 @@ chandra:
     bio:  Professor 
 
 
-# scott:
-#     display_name: "Scott Summers"
-#     webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-#     role: staff
-#     image: /img/people/scott.png
-#     bio: aka Cyclops
-
-# wolverine:
-#     display_name: "Wolverine"
-#     webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-#     github: wolverine
-#     role: postdoc
-
-# storm:
-#     display_name: "Storm"
-#     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-#     role: grad
-#     image: /img/people/storm.png
-
-# emma:
-#     display_name: "Emma Hamel"
-#     webpage: "https://github.com/emhamel"
-#     github: emhamel
-#     role: postdoc
-#     image: /img/people/Emma.jpg
-#     bio: Alumni Research Assistant
-
-
 #### Graduate Teaching Assistants
 sungwoo:
     display_name: "Sung Woo Jeon"
@@ -375,25 +347,25 @@ anirudh:
         day: Monday
         location: 3003 ECEB
 
-# erin:
-#     display_name: "Erin Kim"
-#     netid: erinkim4
-#     webpage: ""
-#     github: oati
-#     role: ugrad
-#     image: /img/people/erin.jpg
-#     bio: Undergraduate Course Assistant  
-#     OHs: 
-#       # OH1:
-#       #   time-start: "14:00"
-#       #   time-end: "16:00"
-#       #   day: Monday
-#       #   location: 3003 ECEB
-#       # OH2:
-#       #   time-start: "14:00"
-#       #   time-end: "16:00"
-#       #   day: Friday
-#       #   location: 3013 ECEB
+erin:
+    display_name: "Erin Kim"
+    netid: erinkim4
+    webpage: ""
+    github: oati
+    role: ugrad-alum
+    image: /img/people/erin.jpg
+    bio: Undergraduate Course Assistant  
+    OHs: 
+      # OH1:
+      #   time-start: "14:00"
+      #   time-end: "16:00"
+      #   day: Monday
+      #   location: 3003 ECEB
+      # OH2:
+      #   time-start: "14:00"
+      #   time-end: "16:00"
+      #   day: Friday
+      #   location: 3013 ECEB
 
 # shubham:
 #     display_name: "Shubham Thakar"
@@ -755,7 +727,20 @@ kylechung:
     image: /img/people/kylechung.jpg
     bio: Undergraduate Course Assistant
 
-
+ben:
+    display_name: "Ben Kim"
+    netid: bdkim4
+    webpage: https://www.linkedin.com/in/bkim34/
+    # github: Chrizzel7
+    role: ugrad-alum
+    image: /img/people/ben.jpeg
+    bio: Undergraduate Course Assistant
+    OHs: 
+      # OH1:
+      #   time-start: "16:00"
+      #   time-end: "17:00"
+      #   day: Wednesday
+      #   location: ECEB 3020
 
 # alum-a:
 #     display_name: "Alum A"
