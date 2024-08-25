@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-    {% if lecture.link-questions or lecture.link-solutions%}
+    {% if lecture.link-questions or lecture.link-solutions or lecture.link-recording or lecture.link-recording-ta%}
     <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
         {% if lecture.link-questions %}
         <a href="{{ site.base }}{{ lecture.link-questions }}"
