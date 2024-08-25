@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-    {% if lecture.link-slides or lecture.link-scribbles or lecture.link-recording%}
+    {% if lecture.link-slides or lecture.link-scribbles or lecture.link-recording or lecture.pre-recording%}
     <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
         {% if lecture.link-slides %}
         <a href="{{ site.base }}{{ lecture.link-slides }}"

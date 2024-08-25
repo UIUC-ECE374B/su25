@@ -253,6 +253,22 @@ svg {
     cursor: pointer;
   }
   
+  .button-row {
+    background-color: white; /* Green */
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    min-width: 932px;
+    cursor: pointer;
+  }
+
   .button1 {
     background-color: white; 
     color: black; 
