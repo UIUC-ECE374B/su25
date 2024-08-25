@@ -32,6 +32,12 @@ role-archive-tables:
     image: true
 ---
 
+{% if site.archived == true %}   
+<section style="text-align: center;">
+    <a href="https://ecealgo.com/fa24" class="button button4"> Current iteration - Fall 2024 </a> 
+</section>
+{% endif %}
+
 <div class="jumbotron">
     <p>
         CS/ECE 374 covers fundamental tools and techniques from theoretical computer science, including design and analysis of algorithms, formal languages and automata, computability, and complexity. Specific topics include regular and context-free languages, finite-state automata, recursive algorithms (including divide and conquer, backtracking, dynamic programming, and greedy algorithms), fundamental graph algorithms (including depth- and breadth-first search, topological sorting, minimum spanning trees, and shortest paths), undecidability, and NP-completeness. The course also has a strong focus on clear technical communication.
