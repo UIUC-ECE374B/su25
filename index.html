@@ -37,6 +37,12 @@ role-archive-tables:
     image: true
 ---
 
+{% if site.archived == true %}   
+<section style="text-align: center;">
+    <a href="https://ecealgo.com/fa24" class="button button4"> Current iteration - Fall 2024 </a> 
+</section>
+{% endif %}
+
 <div class="jumbotron">
     <p>
         This is <b>not</b> the current CS/ECE-374-B site if you want the current course website, click the big red button above. I have received many emails asking for my past course materials (mostly my lectures and exams) so I am keeping this site alive as a repository of the content I created during my tenure as a ECE374 instructor. I also spent a year learning Jekyll to create course website that is simple, clean, and lightweight on the front-end and is easy to update on the backend. I invite any professors to contribute to this effort and feel free to email me with any suggestions. 
