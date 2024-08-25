@@ -22,11 +22,11 @@ ivan:
     image: /img/people/ivan.jpg
     bio: Teaching Assistant Professor 
     OHs: 
-      OH1:
-        # time-start: "17:00"
-        # time-end: "18:00"
-        # day: Thursday
-        # location:         
+    #   OH1:
+    #     time-start: "17:00"
+    #     time-end: "18:00"
+    #     day: Thursday
+    #     location:         
 
 sariel:     
     display_name: "Sariel Har-Peled"
@@ -54,12 +54,7 @@ andrew:
     role: faculty-alum
     image: /img/people/miller.png
     bio:  Associate Professor 
-    OHs: 
-      OH1:
-        time-start: "10:00"
-        time-end: "11:00"
-        day: Wednesday
-        location: 555 CSL
+
 
 chandra:     
     display_name: "Chandra Chekuri"
@@ -130,12 +125,12 @@ weiyang:
     role: grad
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        # time-start: "17:00"
-        # time-end: "18:00"
-        # day: Wednesday
-        # location: 2036 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "17:00"
+    #     time-end: "18:00"
+    #     day: Wednesday
+    #     location: 2036 ECEB
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
@@ -146,11 +141,11 @@ ziheng:
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
     OHs: 
-      OH1:
-        time-start: "10:00"
-        time-end: "11:00"
-        day: Thursday
-        location: 4036 ECEB
+    #   OH1:
+    #     time-start: "10:00"
+    #     time-end: "11:00"
+    #     day: Thursday
+    #     location: 4036 ECEB
 
 yueyi:
     display_name: "Yueyi Shen"
@@ -160,12 +155,6 @@ yueyi:
     role: grad-alum
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "16:00"
-        time-end: "17:00"
-        day: Thursday
-        location: 4036 ECEB
 
 haoyuan:
     display_name: "Haoyuan You"
@@ -175,12 +164,6 @@ haoyuan:
     role: grad-alum
     image: /img/people/haoyuan.png
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "14:00"
-        time-end: "15:00"
-        day: Thursday
-        location: 3003 ECEB
 
 hongbo:
     display_name: "Hongbo Zheng"
@@ -259,12 +242,6 @@ mikem:
     role: ugrad-alum
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "10:00"
-        time-end: "12:00"
-        day: Monday
-        location: 3034 ECEB
 
 hamza:
     display_name: "Hamza Husain"
@@ -308,11 +285,11 @@ ved:
     image: /img/people/ved-eti.png
     bio: Undergraduate Course Assistant
     OHs: 
-      OH1:
-        time-start: "12:00"
-        time-end: "14:00"
-        day: Monday
-        location: 3034 ECEB
+    #   OH1:
+    #     time-start: "12:00"
+    #     time-end: "14:00"
+    #     day: Monday
+    #     location: 3034 ECEB
 
 brian:
     display_name: "Brian Kim"
@@ -341,11 +318,11 @@ anirudh:
     image: /img/people/anirudh.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-      OH1:
-        time-start: "16:00"
-        time-end: "18:00"
-        day: Monday
-        location: 3003 ECEB
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "18:00"
+    #     day: Monday
+    #     location: 3003 ECEB
 
 erin:
     display_name: "Erin Kim"
@@ -400,11 +377,11 @@ chris:
     image: /img/people/chris-deng.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-      OH1:
-        time-start: "13:00"
-        time-end: "15:00"
-        day: Wednesday
-        location: 2036 ECEB
+    #   OH1:
+    #     time-start: "13:00"
+    #     time-end: "15:00"
+    #     day: Wednesday
+    #     location: 2036 ECEB
 
 ifesi:
     display_name: "Ifesi Onubogu"
@@ -593,13 +570,6 @@ jinghan:
     role: grad-alum
     image: /img/people/jinghan.jpeg
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "09:00"
-        time-end: "12:00"
-        day: Friday
-        location: 239 ACL
-
 
 xiangcan:
     display_name: "Xiangcan Li"
