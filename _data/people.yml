@@ -735,10 +735,10 @@ ericroth:
 williamou:
     display_name: "William Ou"
     netid: ou14
-    webpage: 
-    github: 
+    webpage: "https://www.linkedin.com/in/william-ou-4734b6220/"
+    github: WilliamOuJiatong
     role: ugrad-alum
-    image: /img/people/anon-male.jpg
+    image: /img/people/williamou.png
     bio: Undergraduate Course Assistant
 
 terence:
@@ -762,8 +762,8 @@ skylargao:
 kylechung:
     display_name: "Kyle Chung"
     netid: kbchung2
-    webpage: 
-    github: 
+    webpage: "https://www.linkedin.com/in/kyle-chung-a644b6231/"
+    github: kyle11067
     role: ugrad-alum
     image: /img/people/kylechung.jpg
     bio: Undergraduate Course Assistant
