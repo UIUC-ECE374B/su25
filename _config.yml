@@ -1,5 +1,5 @@
-name: ECE374-B Archive
-url: http://UIUC-ECE374B-FA23.github.io
+name: ECE374-B Fall 2024
+url: http://ecealgo.com/fa24
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -75,4 +75,4 @@ navigation:
     link: /office_hours.html       
 
 #Variable that sets if this is a archived version of the site or not
-archived: true
+archived: false
