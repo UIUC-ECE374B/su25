@@ -60,7 +60,7 @@ collections:
 # Navigation bar links.
 navigation:
   - title: Home
-    link: /
+    link: 
   # - title: People
   #   link: /people.html
   - title: Lectures and Labs
