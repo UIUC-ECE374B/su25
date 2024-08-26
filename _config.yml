@@ -44,7 +44,7 @@ roles:
 front_page_news: 1
 
 # Base pathname for links.
-base: ''
+base: '/fa24'
 
 # make pages for the colections
 collections:
