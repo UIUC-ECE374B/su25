@@ -375,11 +375,11 @@ siddhant:
     image: /img/people/siddhant.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB
+      OH1:
+        time-start: "17:00"
+        time-end: "19:00"
+        day: Wednesday
+        location: 
 
 chris:
     display_name: "Chris Deng"
