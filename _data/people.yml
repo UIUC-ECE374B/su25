@@ -22,11 +22,11 @@ ivan:
     image: /img/people/ivan.jpg
     bio: Teaching Assistant Professor 
     OHs: 
-    #   OH1:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Thursday
-    #     location:         
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Wednesday
+        location:         
 
 sariel:     
     display_name: "Sariel Har-Peled"
@@ -76,11 +76,11 @@ sungwoo:
     image: /img/people/sung.jpg
     bio: Graduate Teaching Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "15:00"
-    #     time-end: "16:00"
-    #     day: Wednesday
-    #     location: 2036 ECEB 
+      OH1:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Friday
+        location:  
       
 sindhu:
     display_name: "Sindhu Vydana"
@@ -110,12 +110,12 @@ sumedh:
     role: grad
     image: /img/people/sumedh.jpeg
     bio: Graduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Friday
-    #     location: 3013 ECEB
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Wednesday
+        location: 
 
 weiyang:
     display_name: "Weiyang Wang"
@@ -125,12 +125,12 @@ weiyang:
     role: grad
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Wednesday
-    #     location: 2036 ECEB
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Tuesday
+        location: 
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
@@ -141,12 +141,11 @@ ziheng:
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "10:00"
-    #     time-end: "11:00"
-    #     day: Thursday
-    #     location: 4036 ECEB
-
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Friday
+        location:   
 yueyi:
     display_name: "Yueyi Shen"
     netid: yueyis2
@@ -182,7 +181,12 @@ neeraj:
     role: grad
     image: /img/people/neeraj.jpg
     bio: Graduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "12:00"
+        time-end: "13:00"
+        day: Monday
+        location:      
 suyuan:
     display_name: "Suyuan Wang"
     webpage: "https://www.linkedin.com/in/suyuanw8197a724a/"
@@ -191,6 +195,13 @@ suyuan:
     role: grad
     image: /img/people/suyuan.jpg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "11:00"
+        time-end: "12:00"
+        day: Wednesday
+        location:    
+
 
 owen:
     display_name: "Owen Xu"
@@ -201,16 +212,12 @@ owen:
     image: /img/people/owen.jpg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB  
-    #   OH2:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Thursday
-    #     location: 4036 ECEB
+      OH1:
+        time-start: "13:00"
+        time-end: "14:00"
+        day: Friday
+        location:   
+
 
 
 
