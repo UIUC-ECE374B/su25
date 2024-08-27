@@ -650,9 +650,13 @@ pratyush:
       OH1:
         time-start: "17:00"
         time-end: "19:00"
-        day: Wednesday
+        day: Monday
         location: 
-
+      OH2:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Tuesday
+        location: 
 
 atharva:
     display_name: "Atharva Jain"
