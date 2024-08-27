@@ -315,6 +315,12 @@ vishesh:
     role: ugrad
     image: /img/people/visheh.png
     bio: Undergraduate Researcher
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Monday
+        location: 
 
 anirudh:
     display_name: "Anirudh Kumar"
@@ -705,8 +711,8 @@ kylechung:
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
-        time-start: "11:00"
-        time-end: "13:00"
+        time-start: "10:00"
+        time-end: "12:00"
         day: Monday
         location: 
 
