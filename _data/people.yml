@@ -700,6 +700,13 @@ williamou:
     role: ugrad
     image: /img/people/williamou.png
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Monday
+        location: 
+
 
 terence:
     display_name: "Terence Zeng"
