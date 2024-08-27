@@ -702,6 +702,13 @@ terence:
     role: ugrad
     image: /img/people/terence.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "09:00"
+        time-end: "11:00"
+        day: Friday
+        location:   
+
 
 skylargao:
     display_name: "Skylar Gao"
@@ -742,11 +749,11 @@ ben:
     image: /img/people/ben.jpeg
     bio: Undergraduate Course Assistant
     OHs: 
-      # OH1:
-      #   time-start: "16:00"
-      #   time-end: "17:00"
-      #   day: Wednesday
-      #   location: ECEB 3020
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "17:00"
+    #     day: Wednesday
+    #     location: ECEB 3020
 
 # alum-a:
 #     display_name: "Alum A"
