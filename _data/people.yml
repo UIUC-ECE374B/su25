@@ -662,10 +662,10 @@ shreyas:
 ericroth:
     display_name: "Eric Carl Roth"
     netid: ericcr2
-    webpage: 
-    github: 
+    webpage: "https://www.linkedin.com/in/eric-carl-roth"
+    github: frogmasta
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/eric.jpg
     bio: Undergraduate Course Assistant
 
 williamou:
