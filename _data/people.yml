@@ -646,6 +646,13 @@ pratyush:
     role: ugrad
     image: /img/people/pratyush.png
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "19:00"
+        day: Wednesday
+        location: 
+
 
 atharva:
     display_name: "Atharva Jain"
