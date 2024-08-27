@@ -25,42 +25,7 @@ There are two components to your raw total:
 
 #### Final grade calculation 
 
-There are two grade distributions that I use when calculating a final grade. The first is a deterministic grade distribution which is the standard cutoffs used in most American educational systems: 
-
-<table id="customers">
-    <tr>
-        <td> A+ </td>
-        <td> A  </td>
-        <td> A- </td>
-        <td> B+ </td>
-        <td> B  </td>
-        <td> B- </td>
-        <td> C+ </td>
-        <td> C  </td>
-        <td> C- </td>
-        <td> D+ </td>
-        <td> D  </td>
-        <td> D- </td>
-        <td> F  </td>
-    </tr>
-    <tr>
-        <td> 97+    </td>
-        <td> 96-93  </td>
-        <td> 92-90  </td>
-        <td> 89-87  </td>
-        <td> 86-83  </td>
-        <td> 82-80  </td>    
-        <td> 79-77  </td>
-        <td> 76-73  </td>
-        <td> 72-70  </td>    
-        <td> 69-67  </td>
-        <td> 66-63  </td>
-        <td> 62-60  </td>    
-        <td> 59-0   </td>    
-    </tr>
-</table>
-
-These are the minimum grades that you can achieve in this course using the raw final grade (which includes the flat curve for each exam). Now here is the thing, no one use the standard cutoff calculation. **All professors grade relatively**. Yes, even the ones that say they don't. Those professors that say they have a firm, preset grading cutoff are usually older and have banks of questions that they have tested over the course of decades, so they know the performance distribution of any particular question ahead of time. 
+Here is the thing, no one use the standard cutoff calculation. **All professors grade relatively**. Yes, even the ones that say they don't. Those professors that say they have a firm, preset grading cutoff are usually older and have banks of questions that they have tested over the course of decades, so they know the performance distribution of any particular question ahead of time. 
 
 I can't do this since I try to constantly find and develop new problems and hence, I'm never really sure how hard the students will find these new problems. So while I won't give anyone a grade less than the distribution above dictates, I will use an additional relative grading scheme layer where the cutoffs are determined such that the percentage of students getting each letter grades is approximately:  
 
@@ -79,12 +44,52 @@ I can't do this since I try to constantly find and develop new problems and henc
     </tr>
 </table>
 
+Usually I would do this at the end of the semester once I have the grade distribution in hand. However, this has slowly caused a weird psychology among some students. During the semester some students would be worried because they weren't quite sure what their final grade would be and others would be totally relaxed even though they had scored many deviations below the mean on their exams because they were counting on the curve at the end. The situation has become toxic.
+
+But here's the good news. I've taught this course enough times so that I have a pretty good idea of the final grade distribution. So I am going to simply assign the cutoffs now. As long as nothing insane happens (like 10% of the course getting A's or >10% course getting F's), this will be the cutoffs I'm sticking to in the end. Keep in mind, I am still flat curving all the exams to at least 70.  
+
+<table id="customers">
+    <tr>
+        <td> A+ </td>
+        <td> A  </td>
+        <td> A- </td>
+        <td> B+ </td>
+        <td> B  </td>
+        <td> B- </td>
+        <td> C+ </td>
+        <td> C  </td>
+        <td> C- </td>
+        <td> D+ </td>
+        <td> D  </td>
+        <td> D- </td>
+        <td> F  </td>
+    </tr>
+    <tr>
+        <td> XX    </td>
+        <td> XX  </td>
+        <td> XX  </td>
+        <td> XX  </td>
+        <td> XX  </td>
+        <td> XX  </td>    
+        <td> XX  </td>
+        <td> XX  </td>
+        <td> XX  </td>    
+        <td> XX  </td>
+        <td> XX  </td>
+        <td> XX  </td>    
+        <td> XX   </td>    
+    </tr>
+</table>
+
+**(To be updated by end of first week)**
+
+Personally I'm hoping you guys surprise me this semester and the majority of the class falls in the A+ category. I guess we'll see.
+
 This typically puts the average GPA of my course right around ~3.2 ish which is mostly in-line with what I see in the [rest of the ECE department](https://waf.cs.illinois.edu/discovery/grade_disparity_between_sections_at_uiuc/). I'm not promising an exact average, could be a bit lower, could be higher, but that's the rough target. 
 
 Important notes: 
-
-- Grade cutoffs change for every semester simply because the exam/homework garde distributions change every semester. 
-- Cutoffs (even for the relative scheme) are finalized after the third midterm so students can figure out if they want to take the final or not. 
+- Grade cutoffs change for every semester simply because the exam/homework grade distributions change every semester. 
+- I will not change the cutoffs for any individual student. If you have a special circumstance that you feel needs to be taken into account, please contact your department's advising office. 
  
 
 
