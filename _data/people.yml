@@ -637,6 +637,13 @@ pranav:
     role: ugrad
     image: /img/people/pranav.png
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Wednesday
+        location:   
+
 
 pratyush:
     display_name: "Pratyush Thakur"
