@@ -673,6 +673,17 @@ atharva:
     role: ugrad
     image: /img/people/atharva.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "19:00"
+        day: Tuesday
+        location: 
+      OH2:
+        time-start: "16:00"
+        time-end: "18:00"
+        day: Friday
+        location: 
 
 shreyas:
     display_name: "Shreyas Sriram"
