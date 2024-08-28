@@ -1,5 +1,5 @@
 ---
-title: Lecture 7 - Turing machine
+title: Lecture 7 (Abraham) - Turing machine
 placeholder: false
 back-color: faffff
 card-link: LecLink07

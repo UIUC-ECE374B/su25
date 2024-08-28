@@ -1,5 +1,5 @@
 ---
-title: Lecture 4 - DFA/NFA/RegEx equivalence and grammars
+title: Lecture 4 (Abraham) - DFA/NFA/RegEx equivalence and grammars
 placeholder: false
 back-color: faffff
 card-link: LecLink04

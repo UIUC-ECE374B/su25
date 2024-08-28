@@ -1,5 +1,5 @@
 ---
-title: Lecture 16 - Shortest paths I - BFS and Djikstra
+title: Lecture 16 (Abraham) - Shortest paths I - BFS and Djikstra
 placeholder: false
 back-color: fffffa
 card-link: LecLink16

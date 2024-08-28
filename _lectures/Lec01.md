@@ -1,5 +1,5 @@
 ---
-title: Lecture 1 - Languages and regular expression
+title: Lecture 1 (Kani) - Languages and regular expression
 placeholder: false
 back-color: faffff
 card-link: LecLink01

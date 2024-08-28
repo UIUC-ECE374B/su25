@@ -1,5 +1,5 @@
 ---
-title: Lecture 19 - Reductions
+title: Lecture 19 (Kani) - Reductions
 placeholder: false
 back-color: fffaff
 card-link: LecLink19

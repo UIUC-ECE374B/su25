@@ -1,5 +1,5 @@
 ---
-title: Lecture 6 - Context-Free Languages and Push-down Automata
+title: Lecture 6 (Abraham) - Context-Free Languages and Push-down Automata
 placeholder: false
 back-color: faffff
 card-link: LecLink06

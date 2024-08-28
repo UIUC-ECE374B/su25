@@ -1,5 +1,5 @@
 ---
-title: Lecture 0 - Course introduction and languages
+title: Lecture 0 (Kani) - Course introduction and languages
 placeholder: false
 back-color: faffff
 card-link: LecLink00

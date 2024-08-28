@@ -1,5 +1,5 @@
 ---
-title: Lecture 5 - Non-regularity and fooling sets
+title: Lecture 5 (Abraham) - Non-regularity and fooling sets
 placeholder: false
 back-color: faffff
 card-link: LecLink05

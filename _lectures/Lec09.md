@@ -1,5 +1,5 @@
 ---
-title: Lecture 9 - Recursion and reductions
+title: Lecture 9 (Kani) - Recursion and reductions
 placeholder: false
 back-color: fffffa
 card-link: LecLink09

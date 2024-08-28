@@ -1,5 +1,5 @@
 ---
-title: Lecture 23 - Decidability II
+title: Lecture 23 (Abraham) - Decidability II
 placeholder: false
 back-color: fffaff
 card-link: LecLink23

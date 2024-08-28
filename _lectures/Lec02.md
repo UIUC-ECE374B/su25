@@ -1,5 +1,5 @@
 ---
-title: Lecture 2 - Deterministic finite automata (DFAs)
+title: Lecture 2 (Kani) - Deterministic finite automata (DFAs)
 placeholder: false
 back-color: faffff
 card-link: LecLink02

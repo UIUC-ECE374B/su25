@@ -1,5 +1,5 @@
 ---
-title: Lecture 17 - Shortest paths II - Bellman-Ford and Floyd-Warshall
+title: Lecture 17 (Abraham) - Shortest paths II - Bellman-Ford and Floyd-Warshall
 placeholder: false
 back-color: fffffa
 card-link: LecLink17

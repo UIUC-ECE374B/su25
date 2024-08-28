@@ -1,5 +1,5 @@
 ---
-title: Lecture 25 - Final Review
+title: Lecture 25 (Kani) - Final Review
 placeholder: false
 back-color: ffffff
 card-link: LecLink25

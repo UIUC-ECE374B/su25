@@ -1,5 +1,5 @@
 ---
-title: Lecture 20 - NP-complete problems and reductions I
+title: Lecture 20 (Kani) - NP-complete problems and reductions I
 placeholder: false
 back-color: fffaff
 card-link: LecLink20

@@ -1,5 +1,5 @@
 ---
-title: Lecture 18 - Minimum spanning trees (MSTs)
+title: Lecture 18 (Abraham) - Minimum spanning trees (MSTs)
 placeholder: false
 back-color: fffffa
 card-link: LecLink18

@@ -1,5 +1,5 @@
 ---
-title: Lecture 8 - Universal turing machines
+title: Lecture 8 (Abraham) - Universal turing machines
 placeholder: false
 back-color: faffff
 card-link: LecLink08

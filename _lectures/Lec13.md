@@ -1,5 +1,5 @@
 ---
-title: Lecture 13 - Dynamic programming II
+title: Lecture 13 (Kani) - Dynamic programming II
 placeholder: false
 back-color: fffffa
 card-link: LecLink13

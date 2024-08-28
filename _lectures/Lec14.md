@@ -1,5 +1,5 @@
 ---
-title: Lecture 14 - Graphs and basic search
+title: Lecture 14 (Abraham) - Graphs and basic search
 placeholder: false
 back-color: fffffa
 card-link: LecLink14

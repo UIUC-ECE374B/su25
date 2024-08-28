@@ -1,5 +1,5 @@
 ---
-title: Lecture 11 - Backtracking
+title: Lecture 11 (Kani) - Backtracking
 placeholder: false
 back-color: fffffa
 card-link: LecLink11

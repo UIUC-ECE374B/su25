@@ -1,5 +1,5 @@
 ---
-title: Lecture 10 - Divide and conquer and selection algorithms
+title: Lecture 10 (Kani) - Divide and conquer and selection algorithms
 placeholder: false
 back-color: fffffa
 card-link: LecLink10

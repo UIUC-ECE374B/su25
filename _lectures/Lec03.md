@@ -1,5 +1,5 @@
 ---
-title: Lecture 3 - Non-deterministic finite automata (NFAs)
+title: Lecture 3 (Kani) - Non-deterministic finite automata (NFAs)
 placeholder: false
 back-color: faffff
 card-link: LecLink03

@@ -1,5 +1,5 @@
 ---
-title: Lecture 15 - Directed graphs, DFS, DAGs, TopSort
+title: Lecture 15 (Abraham) - Directed graphs, DFS, DAGs, TopSort
 placeholder: false
 back-color: fffffa
 card-link: LecLink15
