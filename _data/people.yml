@@ -774,11 +774,11 @@ ben:
     image: /img/people/ben.jpeg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Wednesday
-    #     location: ECEB 3020
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Thursday
+        location: 
 
 # alum-a:
 #     display_name: "Alum A"
