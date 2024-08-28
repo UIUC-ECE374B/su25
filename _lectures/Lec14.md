@@ -4,7 +4,7 @@ placeholder: false
 back-color: fffffa
 card-link: LecLink14
 # subtitle: And a subtitle
-description: First lecture in our discussion of graphing algorithms. We'll discuss basic search and introduce the concept of connected components. 
+description: First lecture on graphing algorithms. We'll discuss basic search and introduce the concept of connected components. 
 people:
   - sandhya
 layout: lecture
