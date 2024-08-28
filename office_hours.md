@@ -19,7 +19,7 @@ Obviously this course isn't active and there aren't any discussion sections or o
   <tr>
     <td> BL1 </td>
     <td> 12:30PM - 1:45PM </td>
-    <td> Kani </td>
+    <td> Kani + Abraham </td>
     <td> 0027/1025 CIF </td>
   </tr>
 </table>
