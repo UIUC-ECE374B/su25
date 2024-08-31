@@ -26,7 +26,7 @@ ivan:
         time-start: "16:00"
         time-end: "17:00"
         day: Wednesday
-        location:         
+        location: 2034 ECEB
 
 sariel:     
     display_name: "Sariel Har-Peled"
@@ -80,7 +80,7 @@ sungwoo:
         time-start: "15:00"
         time-end: "16:00"
         day: Friday
-        location:  
+        location: 3001 ECEB
       
 sindhu:
     display_name: "Sindhu Vydana"
@@ -115,7 +115,7 @@ sumedh:
         time-start: "14:00"
         time-end: "15:00"
         day: Wednesday
-        location: 
+        location: 2034 ECEB
 
 weiyang:
     display_name: "Weiyang Wang"
@@ -130,7 +130,7 @@ weiyang:
         time-start: "10:00"
         time-end: "11:00"
         day: Tuesday
-        location: 
+        location: 3001 ECEB
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
@@ -145,7 +145,7 @@ ziheng:
         time-start: "14:00"
         time-end: "15:00"
         day: Friday
-        location:   
+        location: 3001 ECEB
 yueyi:
     display_name: "Yueyi Shen"
     netid: yueyis2
@@ -186,7 +186,8 @@ neeraj:
         time-start: "12:00"
         time-end: "13:00"
         day: Monday
-        location:      
+        location: 3001 ECEB
+
 suyuan:
     display_name: "Suyuan Wang"
     webpage: "https://www.linkedin.com/in/suyuanw8197a724a/"
@@ -200,7 +201,7 @@ suyuan:
         time-start: "11:00"
         time-end: "12:00"
         day: Wednesday
-        location:    
+        location: 3001 ECEB
 
 
 owen:
@@ -216,7 +217,7 @@ owen:
         time-start: "13:00"
         time-end: "14:00"
         day: Friday
-        location:   
+        location: 3001 ECEB
 
 
 
@@ -320,7 +321,7 @@ vishesh:
         time-start: "14:00"
         time-end: "16:00"
         day: Monday
-        location: 
+        location: 3001 ECEB
 
 anirudh:
     display_name: "Anirudh Kumar"
@@ -379,7 +380,7 @@ siddhant:
         time-start: "17:00"
         time-end: "19:00"
         day: Wednesday
-        location: 
+        location: 2034 ECEB
 
 chris:
     display_name: "Chris Deng"
@@ -642,7 +643,7 @@ pranav:
         time-start: "15:00"
         time-end: "16:00"
         day: Wednesday
-        location:   
+        location: 2034 ECEB
 
 
 pratyush:
@@ -658,12 +659,12 @@ pratyush:
         time-start: "17:00"
         time-end: "19:00"
         day: Monday
-        location: 
+        location: 3001 ECEB
       OH2:
         time-start: "14:00"
         time-end: "16:00"
         day: Tuesday
-        location: 
+        location: 5034 ECEB
 
 atharva:
     display_name: "Atharva Jain"
@@ -678,12 +679,12 @@ atharva:
         time-start: "17:00"
         time-end: "19:00"
         day: Tuesday
-        location: 
+        location: 5034 ECEB
       OH2:
         time-start: "16:00"
         time-end: "18:00"
         day: Friday
-        location: 
+        location: 3001 ECEB
 
 shreyas:
     display_name: "Shreyas Sriram"
@@ -702,6 +703,12 @@ ericroth:
     role: ugrad
     image: /img/people/eric.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Tuesday
+        location: 5034 ECEB
 
 williamou:
     display_name: "William Ou"
@@ -716,7 +723,7 @@ williamou:
         time-start: "16:00"
         time-end: "17:00"
         day: Monday
-        location: 
+        location: 3001 ECEB
 
 
 terence:
@@ -732,7 +739,7 @@ terence:
         time-start: "09:00"
         time-end: "11:00"
         day: Friday
-        location:   
+        location: 3001 ECEB  
 
 
 skylergao:
@@ -743,12 +750,12 @@ skylergao:
     role: ugrad
     image: /img/people/skyler.png
     bio: Undergraduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "11:00"
-        time-end: "13:00"
-        day: Thursday
-        location:
+    # OHs: 
+    #   OH1:
+    #     time-start: "11:00"
+    #     time-end: "13:00"
+    #     day: Thursday
+    #     location:
 
 kylechung:
     display_name: "Kyle Chung"
@@ -759,11 +766,11 @@ kylechung:
     image: /img/people/kylechung.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "13:30"
-    #     time-end: "15:00"
-    #     day: Thursday
-    #     location: 
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Thursday
+        location: 
 
 ben:
     display_name: "Ben Kim"
@@ -773,12 +780,12 @@ ben:
     role: ugrad
     image: /img/people/ben.jpeg
     bio: Undergraduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "14:00"
-        time-end: "15:00"
-        day: Thursday
-        location: 
+    # OHs: 
+    #   OH1:
+    #     time-start: "14:00"
+    #     time-end: "15:00"
+    #     day: Thursday
+    #     location: 
 
 # alum-a:
 #     display_name: "Alum A"
