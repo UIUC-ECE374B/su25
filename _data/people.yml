@@ -765,12 +765,12 @@ kylechung:
     role: ugrad
     image: /img/people/kylechung.jpg
     bio: Undergraduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "14:00"
-    #     time-end: "15:00"
-    #     day: Thursday
-    #     location: 
+    OHs: 
+      OH1:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Thursday
+        location: 2036 ECEB
 
 ben:
     display_name: "Ben Kim"
