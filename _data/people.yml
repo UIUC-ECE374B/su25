@@ -8,10 +8,10 @@ kani:
     bio: Teaching Assistant Professor 
     OHs: 
       OH1:
-        time-start: "17:00"
-        time-end: "18:00"
+        time-start: "16:00"
+        time-end: "17:00"
         day: Thursday
-        location: 239 CSL
+        location: 
 
 ivan:
     display_name: "Ivan Abraham"
@@ -198,10 +198,10 @@ suyuan:
     bio: Graduate Course Assistant
     OHs: 
       OH1:
-        time-start: "11:00"
-        time-end: "12:00"
+        time-start: "10:00"
+        time-end: "11:00"
         day: Wednesday
-        location: 3001 ECEB
+        location: 
 
 owen:
     display_name: "Owen Xu"
