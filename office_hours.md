@@ -36,13 +36,13 @@ Obviously this course isn't active and there aren't any discussion sections or o
   <tr>
     <td> BYA </td>
     <td> 09:00AM - 09:50AM </td>
-    <td> Ziheng (Jack) Chen </td>
+    <td> Suyuan Wang </td>
     <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td> Suyuan Wang </td>
+    <td> Ziheng (Jack) Chen </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
@@ -78,7 +78,7 @@ Obviously this course isn't active and there aren't any discussion sections or o
   <tr>
     <td> BYH </td>
     <td> 04:00PM - 04:50PM </td>
-    <td> Nickvash Kani </td>
+    <td> Tue Ngoc Do </td>
     <td> 2015 ECEB </td>
   </tr>    
 </table>
