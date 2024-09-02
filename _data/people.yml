@@ -17,7 +17,7 @@ ivan:
     display_name: "Ivan Abraham"
     netid: itabrah2
     webpage: "https://itabrah2.web.engr.illinois.edu/"
-    github: 
+    github: iabraham
     role: faculty
     image: /img/people/ivan.jpg
     bio: Teaching Assistant Professor 
@@ -104,9 +104,9 @@ sandhya:
 
 sumedh:
     display_name: "Sumedh Vemuganti"
-    netid: sumedh2-alum
+    netid: sumedh2
     webpage: "https://www.linkedin.com/in/sumedh-vemu/"
-    github: sumedh2
+    github: BitWhispererSumedh
     role: grad
     image: /img/people/sumedh.jpeg
     bio: Graduate Course Assistant
@@ -136,7 +136,7 @@ ziheng:
     display_name: "Ziheng (Jack) Chen"
     netid: zihengc2
     webpage: "https://www.linkedin.com/in/zihengjackchen"
-    github: JackZihengChen
+    github: zihengjackchen
     role: grad
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
@@ -168,7 +168,7 @@ hongbo:
     display_name: "Hongbo Zheng"
     webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
     netid: hongboz2
-    github: 
+    github: hongbozheng
     role: grad
     image: /img/people/hongbo.jpeg
     bio: Graduate Course Assistant
@@ -191,7 +191,7 @@ suyuan:
     display_name: "Suyuan Wang"
     webpage: "https://www.linkedin.com/in/suyuanw8197a724a/"
     netid: suyuan2
-    github: 
+    github: wsylxy
     role: grad
     image: /img/people/suyuan.jpg
     bio: Graduate Course Assistant
@@ -202,12 +202,11 @@ suyuan:
         day: Wednesday
         location:    
 
-
 owen:
     display_name: "Owen Xu"
     netid: jinyuxu2
     webpage: https://www.linkedin.com/in/owen-xu-38b097251/
-    github: 112728430
+    github: jinyuxu2
     role: grad
     image: /img/people/owen.jpg
     bio: Graduate Course Assistant
@@ -218,7 +217,20 @@ owen:
         day: Friday
         location:   
 
-
+tuedo:
+    display_name: "Tue Ngoc Do"
+    netid: tuedo2
+    webpage: "http://tuedo2.github.io/"
+    github: tuedo2
+    role: grad
+    image: /img/people/tuedo.png
+    bio: Graduate Course Assistant
+    OHs: 
+    #   OH1:
+    #     time-start: "13:00"
+    #     time-end: "14:00"
+    #     day: Friday
+    #     location:   
 
 
 ### Undergraduate TAs
