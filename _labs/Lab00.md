@@ -9,8 +9,8 @@ people:
 layout: post
 no-link: true  # stops link to page 
 deliverydate: 2024-08-28
-link-questions: /materials/labs/lab00.pdf
-link-solutions: /materials/labs/lab00-sol.pdf
+link-questions: /materials/labs/lab00-languages.pdf
+link-solutions: /materials/labs/lab00-languages-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_8torby60/352822542
 link-recording-ta:
 ---
