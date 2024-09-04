@@ -201,7 +201,7 @@ suyuan:
         time-start: "10:00"
         time-end: "11:00"
         day: Wednesday
-        location: 
+        location: 3001 ECEB
 
 owen:
     display_name: "Owen Xu"
