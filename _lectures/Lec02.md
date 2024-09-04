@@ -10,9 +10,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2024-09-03
-link-slides: /materials/lecture_slides/lec1.pdf
+link-slides: /materials/lecture_slides/lec2.pdf
 link-scribbles: 
-link-recording: 
+link-recording: https://mediaspace.illinois.edu/media/t/1_f20z8z5l/352822122
 pre-recording: 
 ---
 
