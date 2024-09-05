@@ -11,7 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2024-09-04
 link-questions: /materials/labs/lab02-dfas.pdf
 link-solutions: 
-link-recording:
+link-recording: https://mediaspace.illinois.edu/media/t/1_zq1glc8l
 link-recording-ta:
 ---
 
