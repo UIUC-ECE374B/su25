@@ -11,7 +11,7 @@ no-link: true  # stops link to page
 deliverydate: 2024-08-30
 link-questions: /materials/labs/lab01-reg_expr.pdf
 link-solutions: /materials/labs/lab01-reg_expr-sol.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_1v956bbp/352822542
+link-recording: https://mediaspace.illinois.edu/media/t/1_1v956bbp
 link-recording-ta:
 ---
 
