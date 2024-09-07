@@ -10,10 +10,10 @@ hw1:
 hw2: 
   num: 2
   topic: DFAs and NFAs	
-  num-problems: 
+  num-problems: 4
   assigned-date: 2024-09-06
   due-date: 2024-09-16
-  questions-link: 
+  questions-link: /materials/homeworks/hw2.pdf
   solutions-link: 
 
 hw3: 
@@ -22,7 +22,7 @@ hw3:
   num-problems: 
   assigned-date: 2024-09-12
   due-date: 2024-09-23
-  questions-link: /materials/homeworks/hw2.pdf
+  questions-link: 
   solutions-link: 
 
 hw4: 
