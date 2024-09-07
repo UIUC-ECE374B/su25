@@ -762,12 +762,12 @@ skylergao:
     role: ugrad
     image: /img/people/skyler.png
     bio: Undergraduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "11:00"
-    #     time-end: "13:00"
-    #     day: Thursday
-    #     location:
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "12:00"
+        day: Tuesday
+        location: 5034 ECEB
 
 kylechung:
     display_name: "Kyle Chung"
