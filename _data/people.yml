@@ -344,11 +344,11 @@ anirudh:
     image: /img/people/anirudh.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "18:00"
-    #     day: Monday
-    #     location: 3003 ECEB
+      OH1:
+        time-start: "09:00"
+        time-end: "11:00"
+        day: Thursday
+        location: 2036 ECEB
 
 erin:
     display_name: "Erin Kim"
@@ -762,12 +762,12 @@ skylergao:
     role: ugrad
     image: /img/people/skyler.png
     bio: Undergraduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "11:00"
-    #     time-end: "13:00"
-    #     day: Thursday
-    #     location:
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "12:00"
+        day: Tuesday
+        location: 5034 ECEB
 
 kylechung:
     display_name: "Kyle Chung"
