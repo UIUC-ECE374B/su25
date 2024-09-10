@@ -10,7 +10,7 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2024-09-10
-link-slides: 
+link-slides: /materials/lecture_slides/lec4.pdf
 link-scribbles: 
 link-recording: 
 pre-recording: 
