@@ -642,20 +642,20 @@ kopinsky:
     image: /img/people/kopinsky.jpeg
     bio: Graduate Course Assistant
 
-pranav:
-    display_name: "Pranav Gaka"
-    webpage: "https://www.linkedin.com/in/pranavgaka/"
-    netid: pgaka2
-    github: psg319
-    role: ugrad
-    image: /img/people/pranav.png
-    bio: Undergraduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "15:00"
-        time-end: "16:00"
-        day: Wednesday
-        location: 2034 ECEB
+# pranav:
+#     display_name: "Pranav Gaka"
+#     webpage: "https://www.linkedin.com/in/pranavgaka/"
+#     netid: pgaka2
+#     github: psg319
+#     role: ugrad
+#     image: /img/people/pranav.png
+#     bio: Undergraduate Course Assistant
+#     OHs: 
+#       OH1:
+#         time-start: "15:00"
+#         time-end: "16:00"
+#         day: Wednesday
+#         location: 2034 ECEB
 
 
 pratyush:
@@ -730,12 +730,12 @@ williamou:
     role: ugrad
     image: /img/people/williamou.png
     bio: Undergraduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "16:00"
-        time-end: "17:00"
-        day: Monday
-        location: 3001 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "17:00"
+    #     day: Monday
+    #     location: 3001 ECEB
 
 
 terence:
