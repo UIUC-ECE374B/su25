@@ -9,25 +9,25 @@ hw1:
 
 hw2: 
   num: 2
-  topic: DFAs and NFAs	
+  topic: DFAs and NFAs
   num-problems: 4
   assigned-date: 2024-09-06
   due-date: 2024-09-16
   questions-link: /materials/homeworks/hw2.pdf
-  solutions-link: 
+  solutions-link: /materials/homeworks/hw2_sol.pdf
 
 hw3: 
   num: 3
-  topic: Fooling Sets and CFGs	
-  num-problems: 
-  assigned-date: 2024-09-12
+  topic: Fooling Sets and CFGs
+  num-problems: 4
+  assigned-date: 2024-09-14
   due-date: 2024-09-23
-  questions-link: 
+  questions-link: /materials/homeworks/hw3.pdf
   solutions-link: 
 
 hw4: 
   num: 4
-  topic: Reductions and Divide & Conquer	
+  topic: Reductions and Divide & Conquer
   num-problems: 
   assigned-date: 2024-10-04
   due-date: 2024-10-14
@@ -36,7 +36,7 @@ hw4:
 
 hw5: 
   num: 5
-  topic: Backtracking and Dynamic Programming	
+  topic: Backtracking and Dynamic Programming
   num-problems: 
   assigned-date: 2024-10-11
   due-date: 2024-10-21
@@ -45,7 +45,7 @@ hw5:
 hw6: 
   num: 6
   num-problems: 
-  topic: More Dynamic Programming and Problem-Graph Modeling	
+  topic: More Dynamic Programming and Problem-Graph Modeling
   assigned-date: 2024-10-18
   due-date: 2024-10-28
   questions-link: 
@@ -53,7 +53,7 @@ hw6:
 
 hw7: 
   num: 7
-  topic: DAGs, Shortest Paths	
+  topic: DAGs, Shortest Paths
   num-problems: 
   assigned-date: 2024-10-25
   due-date: 2024-11-04
@@ -62,7 +62,7 @@ hw7:
 
 hw8: 
   num: 8
-  topic: Reductions, NP-Completeness	
+  topic: Reductions, NP-Completeness
   num-problems: 
   assigned-date: 2024-11-08
   due-date: 2024-11-18
@@ -71,7 +71,7 @@ hw8:
 
 hw9: 
   num: 9
-  topic: NP-Completeness, Decidability	
+  topic: NP-Completeness, Decidability
   num-problems: 
   assigned-date: 2024-11-15
   due-date: 2024-12-02
