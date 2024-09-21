@@ -46,7 +46,7 @@ I can't do this since I try to constantly find and develop new problems and henc
 
 Usually I would do this at the end of the semester once I have the grade distribution in hand. However, this has slowly caused a weird psychology among some students. During the semester some students would be worried because they weren't quite sure what their final grade would be and others would be totally relaxed even though they had scored many deviations below the mean on their exams because they were counting on the curve at the end. The situation has become toxic.
 
-But here's the good news. I've taught this course enough times so that I have a pretty good idea of the final grade distribution. So I am going to simply assign the cutoffs now. As long as nothing insane happens (like 10% of the course getting A's or >10% course getting F's), this will be the cutoffs I'm sticking to in the end. Keep in mind, I am still flat curving all the exams to at least 70.  
+But here's the good news. I've taught this course enough times so that I have a pretty good idea of the final grade distribution. So I am going to simply assign the cutoffs now. As long as nothing insane happens (like 10% of the course getting A's or >10% course getting F's), this will be the cutoffs I'm sticking to in the end. Keep in mind, **I am still flat curving all the exams to at least 70**.  
 
 <table id="customers">
     <tr>
@@ -65,33 +65,31 @@ But here's the good news. I've taught this course enough times so that I have a 
         <td> F  </td>
     </tr>
     <tr>
-        <td> XX    </td>
-        <td> XX  </td>
-        <td> XX  </td>
-        <td> XX  </td>
-        <td> XX  </td>
-        <td> XX  </td>    
-        <td> XX  </td>
-        <td> XX  </td>
-        <td> XX  </td>    
-        <td> XX  </td>
-        <td> XX  </td>
-        <td> XX  </td>    
-        <td> XX   </td>    
+        <td> 96  </td>
+        <td> 88  </td>
+        <td> 82  </td>
+        <td> 75  </td>
+        <td> 70  </td>
+        <td> 67  </td>    
+        <td> 64  </td>
+        <td> 60  </td>
+        <td> 57  </td>    
+        <td> 54  </td>
+        <td> 50  </td>
+        <td> 47  </td>    
+        <td>  0  </td>    
     </tr>
 </table>
 
-**(To be updated by end of first week)**
+I assigned these cutoffs after an analysis of historical grades. Big thing to note is that historically, the vast majority >80% of students end with a homework average >90%. This means that with a mean exam of 70% and a homework average >90% you are guaranteed a B+ which seems fair. 
 
-Personally I'm hoping you guys surprise me this semester and the majority of the class falls in the A+ category. I guess we'll see.
+Before anyone says, "what if everyone does really well?" keep in mind that I never curve down exams, only up if the average is below 70%. This means that it is still perfectly possible for the class average to be way higher than 75%. *Personally I'm hoping you guys surprise me this semester and the majority of the class falls in the A+ category. I guess we'll see.*
 
-This typically puts the average GPA of my course right around ~3.2 ish which is mostly in-line with what I see in the [rest of the ECE department](https://waf.cs.illinois.edu/discovery/grade_disparity_between_sections_at_uiuc/). I'm not promising an exact average, could be a bit lower, could be higher, but that's the rough target. 
+This typically puts the average GPA of my course right around ~3.1 ish which is mostly in-line with what I see in the [rest of the ECE department](https://waf.cs.illinois.edu/discovery/grade_disparity_between_sections_at_uiuc/). I'm not promising an exact average, could be a bit lower, could be higher, but that's the rough target. 
 
 Important notes: 
 - Grade cutoffs change for every semester simply because the exam/homework grade distributions change every semester. 
 - I will not change the cutoffs for any individual student. If you have a special circumstance that you feel needs to be taken into account, please contact your department's advising office. 
- 
-
 
 #### Regrade requests
 
