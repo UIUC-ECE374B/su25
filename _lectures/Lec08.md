@@ -11,8 +11,8 @@ layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2024-09-24
 link-slides: /materials/lecture_slides/lec8.pdf
-link-scribbles: 
-link-recording: 
+link-scribbles: /materials/lecture_slides/lec8_scribbles_fa24.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_cb2zs981
 pre-recording: 
 ---
 
