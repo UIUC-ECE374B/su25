@@ -1,7 +1,7 @@
 ---
 title: No Lab
 subtitle: MT1 Review (OHs)
-placeholder: true
+placeholder: false
 back-color: fafafa
 # subtitle: And a subtitle
 
