@@ -9,7 +9,7 @@ people:
 layout: post
 no-link: true  # stops link to page 
 deliverydate: 2024-10-02
-link-questions: 
+link-questions: /materials/labs/lab09-bin-search.pdf
 link-solutions: 
 link-recording: https://mediaspace.illinois.edu/media/t/1_1fwduk7u/347892222
 link-recording-ta:
