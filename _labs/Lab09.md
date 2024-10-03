@@ -10,9 +10,9 @@ layout: post
 no-link: true  # stops link to page 
 deliverydate: 2024-10-02
 link-questions: /materials/labs/lab09-bin-search.pdf
-link-solutions: 
+link-solutions: /materials/labs/lab09-bin-search-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_1fwduk7u/347892222
-link-recording-ta:
+link-recording-ta: https://youtu.be/1SAZ636q4wY
 ---
 
 
