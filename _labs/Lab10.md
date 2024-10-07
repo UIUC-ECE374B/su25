@@ -10,7 +10,7 @@ layout: post
 no-link: true  # stops link to page 
 deliverydate: 2024-10-04
 link-questions: /materials/labs/lab10-divnconq.pdf
-link-solutions: 
+link-solutions: /materials/labs/lab10-divnconq-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_ij1t05x0/347892222
 link-recording-ta:
 ---
