@@ -12,7 +12,7 @@ deliverydate: 2024-10-09
 link-questions: /materials/labs/lab11.pdf
 link-solutions: /materials/labs/lab11-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_xmzrqndq/347892222
-link-recording-ta: https://www.youtube.com/watch?v=7niaj7e0wDs
+link-recording-ta: 
 ---
 
 
