@@ -108,7 +108,7 @@ All regrade requests would be handled via Gradescope. Regrade requests can be su
     **Regrade requests with poor or missing justifications will be denied.**
 - You will lose all points on a question if you waste our time by submitting repeatedly unjustified regrade requests.
 - **We can only grade what you actually submitted.** You cannot get a higher grade by explaining what you meant, either in person or in writing; your original submission must stand on its own.
-- If you submit a regrade request, we will regrade the submitted problem from *scratch*. The TAs will regrade homework problems; Instructors will regrade exam problems. **Your grade may go down.**
+- If you submit a regrade request, we will regrade the submitted problem from *scratch*. **Your grade may go down.**
 - We will readily admit, apologize for, and correct our mistakes if you have been graded unfairly. However, please remember that "unfairly" means your grade is inconsistent with the published grading rubric, or that you were graded more harshly than other students, not just that you think the rubric itself is too harsh. Please also keep in mind that each homework point is worth approximately 0.1% of your final course grade. Don't fight for each point like your life depends on it - it does not!
 - You would lose points (and potentially all of them) for long and tedious solutions.
 
