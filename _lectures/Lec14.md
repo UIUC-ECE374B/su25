@@ -10,7 +10,7 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2024-10-17
-link-slides: 
+link-slides: /materials/lecture_slides/lec14.pdf
 link-scribbles: 
 link-recording: 
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr10SgAKn_Dk_7rkyI4LxIcq&si=zrwD84N1DHpmJL1n
