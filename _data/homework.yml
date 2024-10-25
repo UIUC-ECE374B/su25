@@ -54,10 +54,10 @@ hw6:
 hw7: 
   num: 7
   topic: DAGs, Shortest Paths
-  num-problems: 
+  num-problems: 4
   assigned-date: 2024-10-25
   due-date: 2024-11-04
-  questions-link: 
+  questions-link: /materials/homeworks/hw7.pdf
   solutions-link: 
 
 hw8: 
