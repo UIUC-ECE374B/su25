@@ -12,7 +12,7 @@ deliverydate: 2024-10-25
 link-questions: /materials/labs/lab16.pdf
 link-solutions: /materials/labs/lab16-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_rntkc98e
-link-recording-ta:
+link-recording-ta: https://www.youtube.com/watch?v=-SsowhenMZc&ab_channel=SumedhVemuganti
 ---
 
 
