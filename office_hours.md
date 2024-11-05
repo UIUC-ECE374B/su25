@@ -36,49 +36,49 @@ Obviously this course isn't active and there aren't any discussion sections or o
   <tr>
     <td> BYA </td>
     <td> 09:00AM - 09:50AM </td>
-    <td> Ziheng (Jack) Chen </td>
+    <td> Suyuan Wang </td>
     <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td> Tue Ngoc Do </td>
+    <td> Ziheng (Jack) Chen </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYC </td>
     <td> 11:00AM - 11:50AM </td>
-    <td> Suyuan Wang </td>
+    <td> Weiyang Wang </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
     <td> 12:00PM - 12:50PM </td>
-    <td> Weiyang Wang </td>
+    <td> Neeraj Gangwar </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYE </td>
     <td> 01:00PM - 01:50PM </td>
-    <td> Neeraj Gangwar</td>
+    <td> Sumedh Vemuganti</td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYF </td>
     <td> 02:00PM - 02:50PM </td>
-    <td> Sumedh Vemuganti </td>
+    <td> Sung Woo Jeon </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYG </td>
     <td> 03:00PM - 03:50PM </td>
-    <td> Sung Woo Jeon  </td>
+    <td> Jinyu (Owen) Xu  </td>
     <td> 4070 ECEB </td>
   </tr>  
   <tr>
     <td> BYH </td>
     <td> 04:00PM - 04:50PM </td>
-    <td> Jinyu (Owen) Xu </td>
+    <td> Tue Ngoc Do </td>
     <td> 2015 ECEB </td>
   </tr>    
 </table>
