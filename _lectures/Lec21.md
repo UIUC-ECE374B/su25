@@ -1,5 +1,5 @@
 ---
-title: Lecture 21 (Kani) - NP-complete problems and reductions II
+title: Lecture 21 (Abraham) - NP-complete problems and reductions II
 placeholder: false
 back-color: fffaff
 card-link: LecLink21

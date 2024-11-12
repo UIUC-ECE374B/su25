@@ -1,5 +1,5 @@
 ---
-title: Lecture 22 (Abraham) - Decidability I
+title: Lecture 22 (Kani) - Decidability I
 placeholder: false
 back-color: fffaff
 card-link: LecLink22
