@@ -72,8 +72,8 @@ hw8:
 hw9: 
   num: 9
   topic: NP-Completeness, Decidability
-  num-problems: 
+  num-problems: 4
   assigned-date: 2024-11-15
   due-date: 2024-12-02
-  questions-link: 
+  questions-link: /materials/homeworks/hw9.pdf
   solutions-link: 
