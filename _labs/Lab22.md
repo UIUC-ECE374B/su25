@@ -12,7 +12,7 @@ deliverydate: 2024-11-20
 link-questions: /materials/labs/lab22.pdf
 link-solutions: /materials/labs/lab22-sol.pdf
 link-recording:
-link-recording-ta:
+link-recording-ta: https://youtu.be/EjGIFSMdpA4
 ---
 
 
