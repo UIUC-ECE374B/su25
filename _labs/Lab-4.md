@@ -1,7 +1,7 @@
 ---
 title: No Lab
 subtitle: MT3 Review (OHs)
-placeholder: true
+placeholder: false
 back-color: fafafa
 # subtitle: And a subtitle
 
@@ -16,6 +16,7 @@ no-link: true  # stops link to page
 deliverydate: 2024-12-04 #last updated date
 # link-questions: /lab_pdfs/lab1-reg_expr.pdf
 # link-solutions: /lab_pdfs/lab1-reg_expr-sol.pdf
+link-recording-ta: https://youtu.be/AeY1Nhksl2c
 ---
 
 Notes on Lab 1
