@@ -11,7 +11,7 @@ layout: lecture
 deliverydate: 2024-12-03
 link-slides: 
 link-scribbles: 
-link-recording: 
+link-recording: https://mediaspace.illinois.edu/media/t/1_4rj7uzqw/352822122
 pre-recording: 
 ---
 
