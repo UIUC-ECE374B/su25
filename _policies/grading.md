@@ -65,18 +65,18 @@ But here's the good news. I've taught this course enough times so that I have a 
         <td> F  </td>
     </tr>
     <tr>
-        <td> 96  </td>
-        <td> 88  </td>
-        <td> 82  </td>
-        <td> 75  </td>
-        <td> 70  </td>
-        <td> 67  </td>    
-        <td> 64  </td>
-        <td> 60  </td>
-        <td> 57  </td>    
-        <td> 54  </td>
-        <td> 50  </td>
-        <td> 47  </td>    
+        <td> <s> 96 </s> 94 </td>
+        <td> <s> 88 </s> 86 </td>
+        <td> <s> 82 </s> 80 </td>
+        <td> <s> 75 </s> 73 </td>
+        <td> <s> 70 </s> 68 </td>
+        <td> <s> 67 </s> 65 </td>    
+        <td> <s> 64 </s> 62 </td>
+        <td> <s> 60 </s> 58 </td>
+        <td> <s> 57 </s> 55 </td>    
+        <td> <s> 54 </s> 52 </td>
+        <td> <s> 50 </s> 48 </td>
+        <td> <s> 47 </s> 45 </td>    
         <td>  0  </td>    
     </tr>
 </table>
