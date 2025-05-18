@@ -1,79 +1,80 @@
 hw1: 
   num: 1
-  topic: Languages and RegEx
-  num-problems: 4
-  assigned-date: 2024-08-30
-  due-date: 2024-09-09
-  questions-link: /materials/homeworks/hw1.pdf
-  solutions-link: /materials/homeworks/hw1_sol.pdf
+  topic: RegEx and DFAs
+  num-problems: 2
+  assigned-date: 2025-05-20
+  due-date: 2025-05-26
+  questions-link: 
+  solutions-link: 
 
 hw2: 
   num: 2
-  topic: DFAs and NFAs
+  topic: Language Transforms and Fooling Sets
   num-problems: 4
-  assigned-date: 2024-09-06
-  due-date: 2024-09-16
-  questions-link: /materials/homeworks/hw2.pdf
-  solutions-link: /materials/homeworks/hw2_sol.pdf
+  assigned-date: 2025-05-27
+  due-date: 2025-06-02
+  questions-link: 
+  solutions-link: 
 
 hw3: 
   num: 3
-  topic: Fooling Sets and CFGs
-  num-problems: 4
-  assigned-date: 2024-09-14
-  due-date: 2024-09-23
-  questions-link: /materials/homeworks/hw3.pdf
-  solutions-link: /materials/homeworks/hw3_sol.pdf
+  topic: Context-Free Languages
+  num-problems: 2
+  assigned-date: 2025-06-03
+  due-date: 2025-06-10
+  questions-link: 
+  solutions-link: 
 
 hw4: 
-  num: 4
-  topic: Reductions and Divide & Conquer
-  num-problems: 4
-  assigned-date: 2024-10-04
-  due-date: 2024-10-14
-  questions-link: /materials/homeworks/hw4.pdf
-  solutions-link: /materials/homeworks/hw4_sol.pdf
+  num: 2
+  topic: Recursion and Divide & Conquer
+  num-problems: 3
+  assigned-date: 2025-06-10
+  due-date: 2025-06-18
+  questions-link: 
+  solutions-link: 
 
 hw5: 
-  num: 5
-  topic: Backtracking and Dynamic Programming
+  num: 3
+  topic: Dynamic Programming
   num-problems: 4
-  assigned-date: 2024-10-11
-  due-date: 2024-10-21
-  questions-link: /materials/homeworks/hw5.pdf
-  solutions-link: /materials/homeworks/hw5_sol.pdf
+  assigned-date: 2025-06-24
+  due-date: 2025-06-30
+  questions-link: 
+  solutions-link: 
+
 hw6: 
   num: 6
-  num-problems: 4
-  topic: More Dynamic Programming and Problem-Graph Modeling
-  assigned-date: 2024-10-18
-  due-date: 2024-10-28
-  questions-link: /materials/homeworks/hw6.pdf
-  solutions-link: /materials/homeworks/hw6_sol.pdf
+  num-problems: 3
+  topic: Graphing Algorithms
+  assigned-date: 2025-07-01
+  due-date: 2025-07-07
+  questions-link: 
+  solutions-link: 
 
 hw7: 
   num: 7
-  topic: DAGs, Shortest Paths
-  num-problems: 4
-  assigned-date: 2024-10-25
-  due-date: 2024-11-04
-  questions-link: /materials/homeworks/hw7.pdf
-  solutions-link: /materials/homeworks/hw7_sol.pdf
+  topic: Shortest Paths
+  num-problems: 2
+  assigned-date: 2025-07-08
+  due-date: 2025-07-14
+  questions-link: 
+  solutions-link: 
 
 hw8: 
   num: 8
   topic: Reductions, NP-Completeness
-  num-problems: 4
-  assigned-date: 2024-11-08
-  due-date: 2024-11-18
-  questions-link: /materials/homeworks/hw8.pdf
-  solutions-link: /materials/homeworks/hw8_sol.pdf
+  num-problems: 3
+  assigned-date: 2025-07-22
+  due-date: 2025-07-28
+  questions-link: 
+  solutions-link: 
 
 hw9: 
   num: 9
   topic: NP-Completeness, Decidability
-  num-problems: 4
-  assigned-date: 2024-11-15
-  due-date: 2024-12-02
-  questions-link: /materials/homeworks/hw9.pdf
-  solutions-link: /materials/homeworks/hw9_sol.pdf
+  num-problems: 2
+  assigned-date: 2025-07-29
+  due-date: 2025-08-04
+  questions-link: 
+  solutions-link: 

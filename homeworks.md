@@ -54,15 +54,14 @@ title: Homeworks
 
 Couple things to note about homeworks:
 - Homeworks are to be completed **individually**. Yes, this is a change from previous seemsters but we have [good reason](/resources/No-group-assignments.html) to believe that the group homeworks hamper learning instead of facilitate it. 
-- Each homework is assigned when you have all (or at least most) of the required knowledge to complete it. In two cases, because of scheduling constraints, one or two problems may require knowledge from the lecture/discussion right after assignment. Either way you'll have the knowledge for those problems by Wednesday. This is a long-winded way of saying: **There is zero reason not to start the homework early**
-- The homework average consists 25% of your final course grade. We will use the highest 27 scores to calculate your homework average for your final course grade. Since there are expected to be 36 problems, this means that 8 problems will be dropped (>2 homeworks).
+- The homework average consists 25% of your final course grade. We will use the highest 16 scores to calculate your homework average for your final course grade. Since there are expected to be 22 problems, this means that 8 problems will be dropped (>2 homeworks).
 - It's a bad idea to skip homeworks. Homeworks and labs are where we get inspiration for exam problems. 
 - You can find a sample HW LaTeX template [here](/materials/homeworks/hwt_B.tex).
 
 ### Homework Logistics: How to submit
 
 - All homework solutions must be submitted electronically via Gradescope. Submit one PDF file for each numbered homework problem. Gradescope will not accept other file formats such as plain text, HTML, LaTeX source, or Microsoft Word (.doc or .docx).
-- **Homeworks are due by 6 AM** of their due date. 
+- **Homeworks are due by 11:59 PM** of their due date. 
 - You **should not** use Canvas to keep track of homeworks or any other course policies and logistics. **Canvas is a gradebook, that's all.**  
 - You will be registered with Gradescope using your university email address. If you can't access Gradescope let the course staff know. 
 - All homework assignments must be completed and submitted individually this semester. No group assignments. 
@@ -79,7 +78,7 @@ Couple things to note about homeworks:
 - Homework grades are **not** a proof of correctness and cannot be used to argue for correctness on a exam. 
 - Partial credit is given for work that is very close to being correct. 
 - **We will give zero points for long and tedious solutions** (i.e., solutions that are longer than the official solutions by a significant amount). We reserve the right of not even reading your solution if it exceedingly and unnecessarily long. If your solutions seems too long - rewrite it to be short and precise. 
-- This semester I am limiting solutions text to be **300 words long max** per problem. It is incredibly important to be able to convey complex idea as concisely as possible and I think this is good practice. I highly suggest using figures(flowcharts, graphics)/equations(useful for recurrences) to cut down on the word vomit. 
+- I am limiting solutions text to be **300 words long max** per problem. It is incredibly important to be able to convey complex idea as concisely as possible and I think this is good practice. I highly suggest using figures(flowcharts, graphics)/equations(useful for recurrences) to cut down on the word vomit. 
 >If I had more time, I would have written a shorter letter. 
 ><cite> - [Unknown](https://www.lb7.uscourts.gov/documents/314-cv-921.pdf) <cite>
 
