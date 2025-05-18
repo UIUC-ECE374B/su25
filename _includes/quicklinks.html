@@ -1,12 +1,12 @@
-{%- assign months = "08|09|10|11|12" | split: "|" %}
-{%- assign month_names = "August|September|October|November|December" | split: "|" %}
+{%- assign months = "05|06|07|08" | split: "|" %}
+{%- assign month_names = "May|June|July|August" | split: "|" %}
 <section class="people row justify-content-center">
 
-{%- for i in (0..4) %}
+{%- for i in (0..3) %}
 
 <div class="col-md-4">
 {% assign month = months[i] %}
-{% assign month_starts = "2024-" | append: month | append: "-01" %}
+{% assign month_starts = "2025-" | append: month | append: "-01" %}
 {% assign month_starts_ts = month_starts | date: "%s" %}
 
 {% assign fd = false %}
