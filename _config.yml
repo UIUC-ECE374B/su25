@@ -1,4 +1,4 @@
-name: ECE374-B Fall 2024
+name: ECE374-B Summer 2025
 url: https://ecealgo.com/su25/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -44,7 +44,7 @@ roles:
 front_page_news: 1
 
 # Base pathname for links.
-base: '/fa24'
+base: '/su25'
 
 # make pages for the colections
 collections:
