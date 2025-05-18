@@ -7,7 +7,7 @@ Obviously this course isn't active and there aren't any discussion sections or o
 {% endif %}
 
 
-#### Lectures
+#### Synchronous sessions
 
 <table id="customers">
   <tr>
@@ -17,70 +17,12 @@ Obviously this course isn't active and there aren't any discussion sections or o
     <th> Location </th>
   </tr>
   <tr>
-    <td> BL1 </td>
-    <td> 12:30PM - 1:45PM </td>
-    <td> Kani + Abraham </td>
-    <td> 0027/1025 CIF </td>
+    <td> AL1/OL1 </td>
+    <td> 10:00AM - 11:20AM </td>
+    <td> Kani </td>
+    <td> 2015 ECEB and <a href="https://illinois.zoom.us/j/5828330103?pwd=UkJLNjBpWXFnSytWTHJsVXU4dU1idz09">Zoom</a>
+  </td>
   </tr>
-</table>
-&nbsp;
-
-#### Lab Sections
-<table id="customers">
-  <tr>
-    <th> Section </th>
-    <th> Wednesdays and Fridays at </th>
-    <th> Who </th>
-    <th> Location </th>
-  </tr>
-  <tr>
-    <td> BYA </td>
-    <td> 09:00AM - 09:50AM </td>
-    <td> Suyuan Wang </td>
-    <td> 2017 ECEB </td>
-  </tr>
-  <tr>
-    <td> BYB </td>
-    <td> 10:00AM - 10:50AM </td>
-    <td> Ziheng (Jack) Chen </td>
-    <td> 4070 ECEB </td>
-  </tr>
-  <tr>
-    <td> BYC </td>
-    <td> 11:00AM - 11:50AM </td>
-    <td> Weiyang Wang </td>
-    <td> 4070 ECEB </td>
-  </tr>
-  <tr>
-    <td> BYD </td>
-    <td> 12:00PM - 12:50PM </td>
-    <td> Neeraj Gangwar </td>
-    <td> 4070 ECEB </td>
-  </tr>
-  <tr>
-    <td> BYE </td>
-    <td> 01:00PM - 01:50PM </td>
-    <td> Sumedh Vemuganti</td>
-    <td> 4070 ECEB </td>
-  </tr>
-  <tr>
-    <td> BYF </td>
-    <td> 02:00PM - 02:50PM </td>
-    <td> Sung Woo Jeon </td>
-    <td> 4070 ECEB </td>
-  </tr>
-  <tr>
-    <td> BYG </td>
-    <td> 03:00PM - 03:50PM </td>
-    <td> Jinyu (Owen) Xu  </td>
-    <td> 4070 ECEB </td>
-  </tr>  
-  <tr>
-    <td> BYH </td>
-    <td> 04:00PM - 04:50PM </td>
-    <td> Tue Ngoc Do </td>
-    <td> 2015 ECEB </td>
-  </tr>    
 </table>
 &nbsp;
 
