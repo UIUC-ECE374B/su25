@@ -8,7 +8,7 @@ description: Some quick problem involving recursive definitions and regular expr
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2024-08-30
+deliverydate: 2025-05-20
 link-questions: /materials/labs/lab01-reg_expr.pdf
 link-solutions: /materials/labs/lab01-reg_expr-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_1v956bbp

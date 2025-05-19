@@ -8,7 +8,7 @@ description: A second graph algorithms lab focusing on formulating problems as g
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2024-10-23
+deliverydate: 2025-07-03
 link-questions: /materials/labs/lab15.pdf
 link-solutions: /materials/labs/lab15-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_f8faja82/347892222
