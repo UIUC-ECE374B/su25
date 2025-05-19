@@ -1,5 +1,5 @@
 ---
-title: Lecture 9 (Kani) - Recursion and reductions
+title: Lecture 9 - Recursion and reductions
 placeholder: false
 back-color: fffffa
 card-link: LecLink09
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-01
 link-slides: /materials/lecture_slides/lec9.pdf
 link-scribbles: /materials/lecture_slides/lec9_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_g3dxntn0
+link-recording: https://mediaspace.illinois.edu/media/t/1_9t2dnipk
 pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr1WA3qnzZU7viSjYaoOR1Ro
 ---
 

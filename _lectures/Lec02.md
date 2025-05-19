@@ -1,5 +1,5 @@
 ---
-title: Lecture 2 (Kani) - Deterministic finite automata (DFAs)
+title: Lecture 2 - Deterministic finite automata (DFAs)
 placeholder: false
 back-color: faffff
 card-link: LecLink02
@@ -9,10 +9,10 @@ people:
   - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-03
+deliverydate: 2025-05-21
 link-slides: /materials/lecture_slides/lec2.pdf
 link-scribbles: /materials/lecture_slides/lec2_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_f20z8z5l/352822122
+link-recording: https://mediaspace.illinois.edu/media/t/1_1jncgpah
 pre-recording: 
 ---
 

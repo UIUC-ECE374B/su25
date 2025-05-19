@@ -1,5 +1,5 @@
 ---
-title: Lecture 23 (Abraham) - Decidability II
+title: Lecture 23 - Decidability II
 placeholder: false
 back-color: fffaff
 card-link: LecLink23
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-11-21
 link-slides: /materials/lecture_slides/lec23.pdf
 link-scribbles: /materials/lecture_slides/lec23_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_qdtkolva
+link-recording: https://mediaspace.illinois.edu/media/t/1_h9lyg6v5
 pre-recording: 
 ---
 

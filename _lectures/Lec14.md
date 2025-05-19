@@ -1,5 +1,5 @@
 ---
-title: Lecture 14 (Abraham) - Graphs and basic search
+title: Lecture 14 - Graphs and basic search
 placeholder: false
 back-color: fffffa
 card-link: LecLink14
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-17
 link-slides: /materials/lecture_slides/lec14.pdf
 link-scribbles: /materials/lecture_slides/lec14_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_cuoggqmi
+link-recording: https://mediaspace.illinois.edu/media/t/1_y13mhybh
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr10SgAKn_Dk_7rkyI4LxIcq&si=zrwD84N1DHpmJL1n
 ---
 

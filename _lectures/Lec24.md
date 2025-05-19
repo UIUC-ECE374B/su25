@@ -1,5 +1,5 @@
 ---
-title: Lecture 24 (Kani) - MT3 Review
+title: Lecture 24 - MT3 Review
 placeholder: false
 back-color: fffaff
 card-link: LecLink24
@@ -11,7 +11,7 @@ layout: lecture
 deliverydate: 2024-12-03
 link-slides: 
 link-scribbles: 
-link-recording: https://mediaspace.illinois.edu/media/t/1_4rj7uzqw/352822122
+link-recording: https://mediaspace.illinois.edu/media/t/1_w7pjbbxx
 pre-recording: 
 ---
 

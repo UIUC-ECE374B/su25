@@ -1,5 +1,5 @@
 ---
-title: Lecture 3 (Kani) - Non-deterministic finite automata (NFAs)
+title: Lecture 3 - Non-deterministic finite automata (NFAs)
 placeholder: false
 back-color: faffff
 card-link: LecLink03
@@ -9,10 +9,10 @@ people:
   - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-05
+deliverydate: 2025-05-26
 link-slides: /materials/lecture_slides/lec3.pdf
 link-scribbles: /materials/lecture_slides/lec3_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_ric7hu4s
+link-recording: https://mediaspace.illinois.edu/media/t/1_rimbtdrq
 pre-recording: 
 ---
 

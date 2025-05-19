@@ -1,5 +1,5 @@
 ---
-title: Lecture 7 (Abraham) - Turing machine
+title: (Optional) Lecture 7 - Turing machine
 placeholder: false
 back-color: faffff
 card-link: LecLink07
@@ -9,10 +9,10 @@ people:
   - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-19
+deliverydate: 2025-08-10
 link-slides: /materials/lecture_slides/lec7.pdf
 link-scribbles: /materials/lecture_slides/lec7_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_maqr0e6m
+link-recording: https://mediaspace.illinois.edu/media/t/1_a3mz4t66
 pre-recording: 
 ---
 

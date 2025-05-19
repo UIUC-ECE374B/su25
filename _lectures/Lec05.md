@@ -1,5 +1,5 @@
 ---
-title: Lecture 5 (Abraham) - Non-regularity and fooling sets
+title: Lecture 5 - Non-regularity and fooling sets
 placeholder: false
 back-color: faffff
 card-link: LecLink05
@@ -9,10 +9,10 @@ people:
   - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-12
+deliverydate: 2025-05-28
 link-slides: /materials/lecture_slides/lec5.pdf
 link-scribbles: /materials/lecture_slides/lec5_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_vjhbiivf
+link-recording: https://mediaspace.illinois.edu/media/t/1_mftaxcm1
 pre-recording: 
 ---
 

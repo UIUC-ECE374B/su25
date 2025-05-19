@@ -1,5 +1,5 @@
 ---
-title: Lecture 25 (Kani) - Final Review
+title: Lecture 25 - Final Review
 placeholder: false
 back-color: ffffff
 card-link: LecLink25
@@ -11,7 +11,7 @@ layout: lecture
 deliverydate: 2024-12-10
 link-slides: /materials/lecture_slides/lec25.pdf
 link-scribbles: 
-link-recording: 
+link-recording: https://mediaspace.illinois.edu/media/1_qik0qo0j
 pre-recording: 
 ---
 

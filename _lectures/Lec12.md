@@ -1,5 +1,5 @@
 ---
-title: Lecture 12 (Kani) - Dynamic programming I
+title: Lecture 12 - Dynamic programming I
 placeholder: false
 back-color: fffffa
 card-link: LecLink12
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-10
 link-slides: /materials/lecture_slides/lec12.pdf
 link-scribbles: /materials/lecture_slides/lec12_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_6y3lo989
+link-recording: https://mediaspace.illinois.edu/media/t/1_6m4qagtf
 pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr3nQBwFtHkguZwQooVHwppf
 ---
 

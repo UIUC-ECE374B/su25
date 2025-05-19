@@ -1,5 +1,5 @@
 ---
-title: Lecture 1 (Kani) - Languages and regular expression
+title: Lecture 1 - Languages and regular expression
 placeholder: false
 back-color: faffff
 card-link: LecLink01
@@ -9,10 +9,10 @@ people:
   - kani
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-08-29
+deliverydate: 2025-05-19
 link-slides: /materials/lecture_slides/lec1.pdf
 link-scribbles: /materials/lecture_slides/lec1_scribbles_fa24.pdf
-link-recording: "https://mediaspace.illinois.edu/media/t/1_8kb43bfg/352822122"
+link-recording: "https://mediaspace.illinois.edu/media/t/1_o7rruiy0"
 pre-recording: 
 ---
 

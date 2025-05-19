@@ -1,5 +1,5 @@
 ---
-title: Lecture 0 (Kani) - Course introduction and languages
+title: Lecture 0 - Course introduction and languages
 placeholder: false
 back-color: faffff
 card-link: LecLink00
@@ -9,10 +9,10 @@ people:
   - kani
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-08-27 #last updated date
+deliverydate: 2025-05-19 #last updated date
 link-slides: /materials/lecture_slides/lec0.pdf
 link-scribbles: /materials/lecture_slides/lec0_scribbles_fa24.pdf
-link-recording: "https://mediaspace.illinois.edu/media/t/1_6vzgdb6c/352822122"
+link-recording: "https://mediaspace.illinois.edu/media/t/1_eqr6mwfe"
 pre-recording: 
 ---
 

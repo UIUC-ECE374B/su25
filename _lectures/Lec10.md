@@ -1,5 +1,5 @@
 ---
-title: Lecture 10 (Kani) - Divide and conquer and selection algorithms
+title: Lecture 10 - Divide and conquer and selection algorithms
 placeholder: false
 back-color: fffffa
 card-link: LecLink10
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-03
 link-slides: /materials/lecture_slides/lec10.pdf
 link-scribbles: /materials/lecture_slides/lec10_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_joj7awnd
+link-recording: https://mediaspace.illinois.edu/media/t/1_n2pyjrx5
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr0qFYVK4UXCv_10ihFLlw2S&si=Otoh3s5nmzLsz_k5
 ---
 

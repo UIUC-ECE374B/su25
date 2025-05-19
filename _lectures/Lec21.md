@@ -1,5 +1,5 @@
 ---
-title: Lecture 21 (Abraham) - NP-complete problems and reductions II
+title: Lecture 21 - NP-complete problems and reductions II
 placeholder: false
 back-color: fffaff
 card-link: LecLink21
@@ -11,7 +11,7 @@ layout: lecture
 deliverydate: 2024-11-14
 link-slides: /materials/lecture_slides/lec21.pdf
 link-scribbles: /materials/lecture_slides/lec21_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_6xixey0i
+link-recording: https://mediaspace.illinois.edu/media/t/1_2iaj8d73
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr2JxxkGoKPOvw07jhp4nyle&si=tQLAb4UP5_Hu6bwb
 ---
 

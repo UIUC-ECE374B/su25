@@ -1,5 +1,5 @@
 ---
-title: Lecture 15 (Abraham) - Directed graphs, DFS, DAGs, TopSort
+title: Lecture 15 - Directed graphs, DFS, DAGs, TopSort
 placeholder: false
 back-color: fffffa
 card-link: LecLink15
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-22
 link-slides: /materials/lecture_slides/lec15.pdf
 link-scribbles: /materials/lecture_slides/lec15_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_48ljgjoy
+link-recording: https://mediaspace.illinois.edu/media/t/1_xqq3cq35
 pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr0_rD9mGiniyC1jcI3EqzZr
 ---
 

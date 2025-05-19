@@ -1,5 +1,5 @@
 ---
-title: Lecture 6 (Abraham) - Context-Free Languages and Push-down Automata
+title: Lecture 6 - Context-Free Languages and Push-down Automata
 placeholder: false
 back-color: faffff
 card-link: LecLink06
@@ -9,10 +9,10 @@ people:
   - gautham
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-17
+deliverydate: 2025-06-02
 link-slides: /materials/lecture_slides/lec6.pdf
 link-scribbles: /materials/lecture_slides/lec6_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_t3p5rfy2
+link-recording: https://mediaspace.illinois.edu/media/t/1_ivtlumuj
 pre-recording: 
 ---
 

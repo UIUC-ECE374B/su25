@@ -1,5 +1,5 @@
 ---
-title: Lecture 4 (Abraham) - DFA/NFA/RegEx equivalence and grammars
+title: Lecture 4 - DFA/NFA/RegEx equivalence and grammars
 placeholder: false
 back-color: faffff
 card-link: LecLink04
@@ -9,10 +9,10 @@ people:
   - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-10
+deliverydate: 2025-05-28
 link-slides: /materials/lecture_slides/lec4.pdf
 link-scribbles: /materials/lecture_slides/lec4_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_jd7vxc9a
+link-recording: https://mediaspace.illinois.edu/media/t/1_lpb396cl
 pre-recording: 
 ---
 

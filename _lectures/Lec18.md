@@ -1,5 +1,5 @@
 ---
-title: Lecture 18 (Abraham) - Minimum spanning trees (MSTs)
+title: Lecture 18 - Minimum spanning trees (MSTs)
 placeholder: false
 back-color: fffffa
 card-link: LecLink18
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-31
 link-slides: /materials/lecture_slides/lec18.pdf
 link-scribbles: /materials/lecture_slides/lec18_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_0rkheqc3
+link-recording: https://mediaspace.illinois.edu/media/t/1_vo9hpi9z
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr3UI-PwRfysIlkECgaCV5A_&si=qsBTQb0ibhJ8KlB4
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Lecture 13 (Kani) - Dynamic programming II
+title: Lecture 13 - Dynamic programming II
 placeholder: false
 back-color: fffffa
 card-link: LecLink13
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-15
 link-slides: /materials/lecture_slides/lec13.pdf
 link-scribbles: /materials/lecture_slides/lec13_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_mekvd454
+link-recording: https://mediaspace.illinois.edu/media/t/1_vbxpmhcw
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr0V_0fW_VuOyI-_cYTdJ3V4&si=e1ewU5YjmPZNhF8m
 ---
 

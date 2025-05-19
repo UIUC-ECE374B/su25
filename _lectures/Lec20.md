@@ -1,5 +1,5 @@
 ---
-title: Lecture 20 (Kani) - NP-complete problems and reductions I
+title: Lecture 20 - NP-complete problems and reductions I
 placeholder: false
 back-color: fffaff
 card-link: LecLink20
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-11-12
 link-slides: /materials/lecture_slides/lec20.pdf
 link-scribbles: /materials/lecture_slides/lec20_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_hccw72l5
+link-recording: https://mediaspace.illinois.edu/media/t/1_1bnz6ltr
 pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr2M11Vm4mHfmgc5LSFEp82y
 ---
 

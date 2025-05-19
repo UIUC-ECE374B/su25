@@ -1,5 +1,5 @@
 ---
-title: Lecture 19 (Kani) - Reductions
+title: Lecture 19 - Reductions
 placeholder: false
 back-color: fffaff
 card-link: LecLink19
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-11-07
 link-slides: /materials/lecture_slides/lec19.pdf
 link-scribbles: /materials/lecture_slides/lec19_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_u2i2q0ws/352822122
+link-recording: https://mediaspace.illinois.edu/media/t/1_k71q3tv0
 pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr3MeuxvSaTntFGSWWbxvf7_
 ---
 

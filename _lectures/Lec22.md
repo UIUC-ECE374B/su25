@@ -1,5 +1,5 @@
 ---
-title: Lecture 22 (Kani) - Decidability I
+title: Lecture 22 - Decidability I
 placeholder: false
 back-color: fffaff
 card-link: LecLink22
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-11-19
 link-slides: /materials/lecture_slides/lec22.pdf
 link-scribbles: /materials/lecture_slides/lec22_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_lq39vg9v
+link-recording: https://mediaspace.illinois.edu/media/t/1_4s9vft47
 pre-recording: 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Lecture 17 (Abraham) - Shortest paths II - Bellman-Ford and Floyd-Warshall
+title: Lecture 17 - Shortest paths II - Bellman-Ford and Floyd-Warshall
 placeholder: false
 back-color: fffffa
 card-link: LecLink17
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-29
 link-slides: /materials/lecture_slides/lec17.pdf
 link-scribbles: /materials/lecture_slides/lec17_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_13d76xpy
+link-recording: https://mediaspace.illinois.edu/media/t/1_veiu330i/
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr2jlNbHvUKtvnMh8AcOmlo7&si=-Lh-KiitAl9G0Ks5
 ---
 

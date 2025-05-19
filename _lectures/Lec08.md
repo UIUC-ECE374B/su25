@@ -1,5 +1,5 @@
 ---
-title: Lecture 8 (Abraham) - Universal turing machines
+title: (Optional) Lecture 8 - Universal turing machines
 placeholder: false
 back-color: faffff
 card-link: LecLink08
@@ -9,10 +9,10 @@ people:
   - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-24
+deliverydate: 2025-08-12
 link-slides: /materials/lecture_slides/lec8.pdf
 link-scribbles: /materials/lecture_slides/lec8_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_cb2zs981
+link-recording: https://mediaspace.illinois.edu/media/t/1_0eh2dic0
 pre-recording: 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Lecture 11 (Kani) - Backtracking
+title: Lecture 11 - Backtracking
 placeholder: false
 back-color: fffffa
 card-link: LecLink11
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-08
 link-slides: /materials/lecture_slides/lec11.pdf
 link-scribbles: /materials/lecture_slides/lec11_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_gcjzv5xn
+link-recording: https://mediaspace.illinois.edu/media/t/1_benw2x7d
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr362QershW-jkxmjwMXx422&si=epSvOzHX-mjD1V8N
 ---
 

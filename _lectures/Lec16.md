@@ -1,5 +1,5 @@
 ---
-title: Lecture 16 (Abraham) - Shortest paths I - BFS and Djikstra
+title: Lecture 16 - Shortest paths I - BFS and Djikstra
 placeholder: false
 back-color: fffffa
 card-link: LecLink16
@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2024-10-24
 link-slides: /materials/lecture_slides/lec16.pdf
 link-scribbles: /materials/lecture_slides/lec16_scribbles_fa24.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_tpx5kdt6/352822122
+link-recording: https://mediaspace.illinois.edu/media/t/1_t85q7ijk
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr1hKu0ou-YGK-qzLOR-ICvL&si=ozg0MZYdiPEF2QrF
 ---
 
