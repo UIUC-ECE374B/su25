@@ -9,7 +9,7 @@ people:
   - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-11-07
+deliverydate: 2025-07-16
 link-slides: /materials/lecture_slides/lec19.pdf
 link-scribbles: /materials/lecture_slides/lec19_scribbles_fa24.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_k71q3tv0

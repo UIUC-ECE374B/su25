@@ -9,7 +9,7 @@ people:
   - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-10-08
+deliverydate: 2025-06-16
 link-slides: /materials/lecture_slides/lec11.pdf
 link-scribbles: /materials/lecture_slides/lec11_scribbles_fa24.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_benw2x7d

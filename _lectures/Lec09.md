@@ -9,7 +9,7 @@ people:
   - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-10-01
+deliverydate: 2025-06-11
 link-slides: /materials/lecture_slides/lec9.pdf
 link-scribbles: /materials/lecture_slides/lec9_scribbles_fa24.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_9t2dnipk

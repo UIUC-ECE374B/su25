@@ -9,7 +9,7 @@ people:
   - gautham
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-11-19
+deliverydate: 2025-07-28
 link-slides: /materials/lecture_slides/lec22.pdf
 link-scribbles: /materials/lecture_slides/lec22_scribbles_fa24.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_4s9vft47

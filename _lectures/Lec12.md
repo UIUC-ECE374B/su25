@@ -9,7 +9,7 @@ people:
   - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-10-10
+deliverydate: 2025-06-23
 link-slides: /materials/lecture_slides/lec12.pdf
 link-scribbles: /materials/lecture_slides/lec12_scribbles_fa24.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_6m4qagtf
