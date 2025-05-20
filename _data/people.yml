@@ -102,14 +102,14 @@ kani:
 #     image: /img/people/sandhya.jpeg
 #     bio: Graduate Teaching Assistant
 
-# sumedh:
-#     display_name: "Sumedh Vemuganti"
-#     netid: sumedh2
-#     webpage: "https://www.linkedin.com/in/sumedh-vemu/"
-#     github: BitWhispererSumedh
-#     role: grad
-#     image: /img/people/sumedh.jpeg
-#     bio: Graduate Course Assistant
+sumedh:
+    display_name: "Sumedh Vemuganti"
+    netid: sumedh2
+    webpage: "https://www.linkedin.com/in/sumedh-vemu/"
+    github: BitWhispererSumedh
+    role: grad
+    image: /img/people/sumedh.jpeg
+    bio: Graduate Course Assistant
 #    OHs: 
 #      OH1:
 #        time-start: "14:00"

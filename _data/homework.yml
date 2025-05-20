@@ -10,7 +10,7 @@ hw1:
 hw2: 
   num: 2
   topic: Language Transforms and Fooling Sets
-  num-problems: 4
+  num-problems: 3
   assigned-date: 2025-05-27
   due-date: 2025-06-02
   questions-link: 
@@ -26,18 +26,18 @@ hw3:
   solutions-link: 
 
 hw4: 
-  num: 2
+  num: 4
   topic: Recursion and Divide & Conquer
-  num-problems: 3
+  num-problems: 2
   assigned-date: 2025-06-10
   due-date: 2025-06-18
   questions-link: 
   solutions-link: 
 
 hw5: 
-  num: 3
+  num: 5
   topic: Dynamic Programming
-  num-problems: 4
+  num-problems: 3
   assigned-date: 2025-06-24
   due-date: 2025-06-30
   questions-link: 
