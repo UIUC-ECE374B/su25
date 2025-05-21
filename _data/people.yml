@@ -8,10 +8,10 @@ kani:
     bio: Teaching Assistant Professor 
     OHs: 
       OH1:
-        time-start: "11:00"
-        time-end: "12:00"
-        day: Wednesday
-        location: 221 CSL
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Thursday
+        location: Zoom
 
 # ivan:
 #     display_name: "Ivan Abraham"
