@@ -125,6 +125,11 @@ Couple things to note about exams:
 
 Besides the obvious "don't cheat" exam policies outlined in the [policies page](/policies/cheating) you should know about the following exam procedures: 
 
+#### Summer exam testing procedure
+
+Since many of the summer students will be taking the course online, the xam policy need to be slightly modified. Hence exams will be still done synchronously on their assigned date at 10AM, but you have a choice of either (i) taking it in person in ECEB2015 or (ii) taking it online wherever you are. We will proctor those taking it online through Zoom and at the end of the session you can upload your exam to gradescope. So online students must make arangements to setup a Zoom enabled device monitoring a clear workspace. If you have the opportunity, I'd higly recommend coming to take it in person since you'll get a printed copy of the exam and won't have to worry about uploading it, but if that's not possible, we can make it work over Zoom same as we did during covid.  
+
+
 #### Exam redemption
 
 **Exam redemption replaces conflict exams.** As per the grading policy, we have included one more exam than normal so that students can miss or "retake" one exam grade each semester. If you miss any of the midterms, the final exam grade will replace the midterm grade you missed. If you complete all the midterms but feel that one (or more) of the midterm grades is not reflective of your mastery of the material, you may take the final and the final grade will replace your lowest midterm score. Note that this is a slight departure from prior years where the final itself could be dropped. After considerable data over the years, I realized that students the vast majority of students would yolo the final and make it difficult for the staff to accurately set a curve that equalized all the exam distributions. Hence, this new modification to the policy is simply to ensure that if you take an exam, you are serious about performing well and if you are already satisfied with your grade, you go and focus on other thigns without guilt.  
