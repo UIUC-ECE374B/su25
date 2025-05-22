@@ -112,10 +112,10 @@ sumedh:
     bio: Graduate Course Assistant
     OHs: 
         OH1:
-        time-start: "17:00"
-        time-end: "18:00"
-        day: Friday
-        location: Zoom
+            time-start: "17:00"
+            time-end: "18:00"
+            day: Friday
+            location: Zoom
 
 # weiyang:
 #     display_name: "Weiyang Wang"
